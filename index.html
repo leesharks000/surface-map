@@ -436,6 +436,15 @@ header .stats span strong { color: var(--accent); }
 .mode-btn:hover { background: var(--bg3); color: var(--text); }
 .mode-btn.active { background: rgba(168,144,96,0.12); color: var(--accent-bright); border-color: rgba(168,144,96,0.3); }
 
+.mode-desc {
+  margin: 8px 2px 4px; padding: 8px 10px;
+  font-size: 0.7rem; line-height: 1.5;
+  color: var(--text-dim);
+  background: rgba(168,144,96,0.04);
+  border-left: 2px solid var(--accent);
+  font-style: italic;
+}
+
 .filter-row {
   display: flex; align-items: center; gap: 8px; padding: 4px 0;
   font-size: 0.78rem; cursor: pointer; user-select: none;
@@ -1190,8 +1199,13 @@ function App() {
     node.on('mouseenter', (ev, d) => {
       const tt = tooltipRef.current; if (!tt) return;
       tt.classList.add('visible');
-      tt.style.left = (ev.pageX + 14) + 'px';
-      tt.style.top  = (ev.pageY + 14) + 'px';
+      // boundary detection on first show too
+      const ttW = 280, ttH = 90;
+      let x = ev.pageX + 14, y = ev.pageY + 14;
+      if (x + ttW > window.innerWidth) x = ev.pageX - ttW - 14;
+      if (y + ttH > window.innerHeight) y = ev.pageY - ttH - 14;
+      tt.style.left = x + 'px';
+      tt.style.top  = y + 'px';
       const vuln = getVulnerability(d);
       tt.innerHTML = `<strong>${d.label}</strong>
         <div>${d.type}${d.subtype ? ' · '+d.subtype : ''}</div>
