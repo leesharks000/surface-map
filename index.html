@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crimson Hexagonal Archive Knowledge Graph — Aperture Atlas</title>
+<meta name="description" content="The Aperture Atlas: a knowledge graph mapping every surface, entity, identity, document, and platform in the Crimson Hexagonal Archive. The graph maps itself.">
+<meta name="author" content="Lee Sharks">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://surfacemap.org">
+
+<meta property="og:title" content="The Aperture Atlas — Crimson Hexagonal Archive Knowledge Graph">
+<meta property="og:description" content="A self-mapping topology of every node and edge in the Crimson Hexagonal Archive. Surfaces, basins, heteronyms, documents.">
+<meta property="og:url" content="https://surfacemap.org">
+<meta property="og:type" content="website">
+
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230c0e12'/%3E%3Cpath d='M16 4 L26 10 L26 22 L16 28 L6 22 L6 10 Z' fill='none' stroke='%23a89060' stroke-width='1.5'/%3E%3Ccircle cx='16' cy='16' r='3' fill='%23a89060'/%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://surfacemap.org/#aperture-atlas",
+  "name": "Crimson Hexagonal Archive Knowledge Graph — Aperture Atlas",
+  "description": "Interactive knowledge graph mapping every surface, entity, identity, document, and platform in the Crimson Hexagonal Archive.",
+  "url": "https://surfacemap.org",
+  "author": {"@type": "Person", "name": "Lee Sharks", "identifier": "https://orcid.org/0009-0000-1599-0703"},
+  "publisher": {"@type": "Organization", "name": "Semantic Economy Institute"},
+  "isPartOf": {"@type": "Archive", "name": "Crimson Hexagonal Archive", "url": "https://crimsonhexagonal.org"},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "datePublished": "2026-04-25"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root {
+  --bg: #0c0e12;
+  --bg2: #12141a;
+  --bg3: #1a1d24;
+  --text: #d8d4cc;
+  --text-dim: #8a8478;
+  --accent: #a89060;
+  --accent-bright: #c8a868;
+  --red: #b84030;
+  --blue: #6088b0;
+  --green: #6b9b6b;
+  --purple: #8a6b9b;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --mono: 'JetBrains Mono', Consolas, monospace;
+  --c-infrastructure: #6088b0;
+  --c-surface: #a89060;
+  --c-entity: #c8a868;
+  --c-identity: #d8d4cc;
+  --c-document: #b84030;
+  --c-platform: #8a8478;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { height: 100%; overflow: hidden; background: var(--bg); color: var(--text); font-family: var(--serif); }
+
+.app { display: grid; grid-template-rows: auto 1fr; height: 100vh; }
+
+header {
+  padding: 14px 24px;
+  border-bottom: 1px solid rgba(168,144,96,0.15);
+  display: flex; align-items: center; gap: 24px;
+  background: linear-gradient(to bottom, var(--bg2), var(--bg));
+}
+header h1 {
+  font-size: 1.15rem; font-weight: 500; letter-spacing: 0.01em;
+  color: var(--accent-bright);
+}
+header .subtitle {
+  font-family: var(--mono); font-size: 0.65rem;
+  color: var(--text-dim); letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+header .stats {
+  margin-left: auto; display: flex; gap: 18px;
+  font-family: var(--mono); font-size: 0.7rem; color: var(--text-dim);
+}
+header .stats span strong { color: var(--accent); }
+
+.main { display: grid; grid-template-columns: 240px 1fr 0px; height: 100%; transition: grid-template-columns 0.3s; }
+.main.with-sidebar { grid-template-columns: 240px 1fr 360px; }
+
+.controls {
+  padding: 18px 16px;
+  border-right: 1px solid rgba(168,144,96,0.1);
+  background: var(--bg);
+  overflow-y: auto;
+}
+.controls h2 {
+  font-family: var(--mono); font-size: 0.62rem; font-weight: 500;
+  text-transform: uppercase; letter-spacing: 0.14em; color: var(--text-dim);
+  margin: 18px 0 10px; padding-bottom: 6px;
+  border-bottom: 1px solid rgba(168,144,96,0.08);
+}
+.controls h2:first-child { margin-top: 0; }
+
+.search-box {
+  width: 100%; padding: 8px 10px;
+  background: var(--bg2); border: 1px solid rgba(168,144,96,0.15);
+  color: var(--text); font-family: var(--mono); font-size: 0.78rem;
+  border-radius: 3px; outline: none;
+}
+.search-box:focus { border-color: var(--accent); }
+
+.mode-btn {
+  display: block; width: 100%; padding: 7px 10px; margin-bottom: 4px;
+  background: var(--bg2); border: 1px solid rgba(168,144,96,0.1);
+  color: var(--text-dim); font-family: var(--mono); font-size: 0.72rem;
+  text-align: left; cursor: pointer; border-radius: 3px;
+  transition: all 0.15s;
+}
+.mode-btn:hover { background: var(--bg3); color: var(--text); }
+.mode-btn.active { background: rgba(168,144,96,0.12); color: var(--accent-bright); border-color: rgba(168,144,96,0.3); }
+
+.filter-row {
+  display: flex; align-items: center; gap: 8px; padding: 4px 0;
+  font-size: 0.78rem; cursor: pointer; user-select: none;
+}
+.filter-row input { accent-color: var(--accent); }
+.filter-row .swatch { width: 10px; height: 10px; border-radius: 2px; }
+.filter-row .count { margin-left: auto; font-family: var(--mono); font-size: 0.65rem; color: var(--text-dim); }
+
+.legend { font-size: 0.72rem; color: var(--text-dim); line-height: 1.7; }
+.legend p { margin-bottom: 4px; }
+.legend code { background: var(--bg2); padding: 1px 5px; border-radius: 2px; font-family: var(--mono); font-size: 0.65rem; }
+
+.viz {
+  position: relative;
+  background: radial-gradient(ellipse at center, var(--bg2) 0%, var(--bg) 70%);
+  overflow: hidden;
+}
+#graph { width: 100%; height: 100%; cursor: grab; }
+#graph:active { cursor: grabbing; }
+
+.tooltip {
+  position: absolute; pointer-events: none;
+  background: var(--bg3); border: 1px solid var(--accent);
+  padding: 8px 12px; border-radius: 4px;
+  font-family: var(--mono); font-size: 0.72rem;
+  color: var(--text); max-width: 280px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+  z-index: 100; opacity: 0; transition: opacity 0.15s;
+}
+.tooltip.visible { opacity: 1; }
+.tooltip strong { color: var(--accent-bright); display: block; margin-bottom: 3px; }
+.tooltip .meta { color: var(--text-dim); font-size: 0.65rem; margin-top: 4px; }
+
+.sidebar {
+  border-left: 1px solid rgba(168,144,96,0.15);
+  background: var(--bg);
+  overflow-y: auto;
+  padding: 24px 22px;
+}
+.sidebar .close {
+  position: absolute; top: 14px; right: 18px;
+  background: none; border: none; color: var(--text-dim);
+  cursor: pointer; font-size: 1.2rem;
+}
+.sidebar h3 {
+  font-size: 1.4rem; font-weight: 500; color: var(--accent-bright);
+  margin-bottom: 6px; padding-right: 30px;
+}
+.sidebar .type-tag {
+  display: inline-block; font-family: var(--mono); font-size: 0.6rem;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  padding: 2px 8px; border-radius: 2px; margin-bottom: 14px;
+  background: rgba(168,144,96,0.12); color: var(--accent);
+}
+.sidebar .field {
+  display: grid; grid-template-columns: 90px 1fr; gap: 10px;
+  padding: 5px 0; border-bottom: 1px solid rgba(168,144,96,0.06);
+  font-size: 0.82rem;
+}
+.sidebar .field-label {
+  font-family: var(--mono); font-size: 0.62rem;
+  text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--text-dim); padding-top: 4px;
+}
+.sidebar .field-value { color: var(--text); word-break: break-word; }
+.sidebar .field-value a { color: var(--blue); text-decoration: none; }
+.sidebar .field-value a:hover { text-decoration: underline; }
+
+.sidebar .open-btn {
+  display: block; width: 100%; margin-top: 18px;
+  padding: 10px; background: rgba(168,144,96,0.12);
+  border: 1px solid var(--accent); color: var(--accent-bright);
+  font-family: var(--mono); font-size: 0.75rem; text-align: center;
+  text-decoration: none; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: 0.1em;
+}
+.sidebar .open-btn:hover { background: rgba(168,144,96,0.2); }
+
+.sidebar .edges-list { margin-top: 14px; }
+.sidebar .edge-item {
+  font-family: var(--mono); font-size: 0.7rem;
+  padding: 5px 0; border-bottom: 1px solid rgba(168,144,96,0.06);
+  cursor: pointer; color: var(--text-dim);
+}
+.sidebar .edge-item:hover { color: var(--text); }
+.sidebar .edge-item .pred { color: var(--accent); margin-right: 8px; }
+.sidebar .edge-item .wd-status {
+  font-size: 0.55rem; padding: 1px 4px; border-radius: 2px;
+  margin-left: 6px; text-transform: uppercase; letter-spacing: 0.05em;
+}
+.wd-live { background: rgba(107,155,107,0.2); color: var(--green); }
+.wd-pending { background: rgba(200,168,104,0.2); color: var(--accent-bright); }
+.wd-blocked { background: rgba(138,132,120,0.15); color: var(--text-dim); }
+.wd-na { background: rgba(0,0,0,0.2); color: var(--text-dim); opacity: 0.5; }
+
+.intro-overlay {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  text-align: center; pointer-events: none;
+  z-index: 1; transition: opacity 0.5s;
+}
+.intro-overlay.fading { opacity: 0; }
+.intro-overlay h2 {
+  font-size: 2.2rem; font-weight: 400; color: var(--accent-bright);
+  letter-spacing: -0.01em; margin-bottom: 8px;
+}
+.intro-overlay .quote {
+  font-size: 0.9rem; font-style: italic; color: var(--text-dim);
+  max-width: 480px; line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .main { grid-template-columns: 1fr; }
+  .main.with-sidebar { grid-template-columns: 1fr; }
+  .controls { display: none; }
+  .sidebar { position: fixed; inset: 0; z-index: 200; }
+  header h1 { font-size: 0.95rem; }
+  header .subtitle, header .stats { display: none; }
+}
+
+.sigil {
+  position: absolute; bottom: 12px; right: 16px;
+  font-family: var(--serif); font-size: 1rem; color: var(--accent);
+  opacity: 0.4; pointer-events: none;
+}
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<script>
+const { useState, useEffect, useRef, useMemo, useCallback } = React;
+const e = React.createElement;
+
+const TYPE_COLORS = {
+  INFRASTRUCTURE: '#6088b0',
+  SURFACE: '#a89060',
+  ENTITY: '#c8a868',
+  IDENTITY: '#d8d4cc',
+  DOCUMENT: '#b84030',
+  PLATFORM: '#8a8478'
+};
+
+const BASIN_COLORS = {
+  ghost: '#8a8478',
+  contested: '#b84030',
+  competitive: '#a89060',
+  captured: '#c8a868',
+  immanent: '#ffffff'
+};
+
+const APERTURE_COLORS = {
+  input: '#6088b0',
+  output: '#6b9b6b',
+  relay: '#c8a868'
+};
+
+function App() {
+  const [data, setData] = useState(null);
+  const [mode, setMode] = useState('default');
+  const [search, setSearch] = useState('');
+  const [filters, setFilters] = useState({
+    INFRASTRUCTURE: true, SURFACE: true, ENTITY: true,
+    IDENTITY: true, DOCUMENT: true, PLATFORM: true
+  });
+  const [selected, setSelected] = useState(null);
+  const [introVisible, setIntroVisible] = useState(true);
+  const svgRef = useRef(null);
+  const tooltipRef = useRef(null);
+  const simRef = useRef(null);
+
+  useEffect(() => {
+    fetch('topology-source.json')
+      .then(r => r.json())
+      .then(d => setData(d))
+      .catch(err => console.error('Failed to load topology:', err));
+  }, []);
+
+  useEffect(() => {
+    if (!data || !svgRef.current) return;
+
+    const svg = d3.select(svgRef.current);
+    svg.selectAll('*').remove();
+
+    const width = svgRef.current.clientWidth;
+    const height = svgRef.current.clientHeight;
+
+    const g = svg.append('g');
+    const linkGroup = g.append('g').attr('class', 'links');
+    const nodeGroup = g.append('g').attr('class', 'nodes');
+
+    // zoom
+    const zoom = d3.zoom()
+      .scaleExtent([0.2, 4])
+      .on('zoom', ev => g.attr('transform', ev.transform));
+    svg.call(zoom);
+
+    // Filter nodes/edges
+    const visibleNodes = data.nodes.filter(n => filters[n.type]);
+    const nodeIds = new Set(visibleNodes.map(n => n.id));
+    const visibleEdges = data.edges
+      .filter(e => nodeIds.has(e.source) && nodeIds.has(e.target))
+      .map(e => ({ ...e, source: e.source, target: e.target }));
+
+    // Apply search dim
+    const searchLower = search.toLowerCase();
+    const matchesSearch = (n) => !search || 
+      n.label.toLowerCase().includes(searchLower) ||
+      (n.url && n.url.toLowerCase().includes(searchLower)) ||
+      (n.doi && n.doi.toLowerCase().includes(searchLower));
+
+    // Force simulation
+    const sim = d3.forceSimulation(visibleNodes)
+      .force('link', d3.forceLink(visibleEdges).id(d => d.id).distance(d => {
+        if (d.type && d.type.startsWith('spxi:')) return 70;
+        return 100;
+      }).strength(0.4))
+      .force('charge', d3.forceManyBody().strength(-180))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collision', d3.forceCollide().radius(d => nodeRadius(d) + 4));
+    simRef.current = sim;
+
+    // Edge styling depending on mode
+    const link = linkGroup.selectAll('line')
+      .data(visibleEdges)
+      .join('line')
+      .attr('stroke', d => edgeColor(d, mode))
+      .attr('stroke-opacity', d => edgeOpacity(d, mode))
+      .attr('stroke-width', d => (d.properties && d.properties.weight) ? d.properties.weight * 1.8 : 0.7)
+      .attr('stroke-dasharray', d => d.type && d.type.startsWith('spxi:') ? '3,3' : null);
+
+    // Nodes
+    const node = nodeGroup.selectAll('g.node')
+      .data(visibleNodes)
+      .join('g')
+      .attr('class', 'node')
+      .style('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', (event, d) => { if (!event.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+        .on('drag', (event, d) => { d.fx = event.x; d.fy = event.y; })
+        .on('end', (event, d) => { if (!event.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }));
+
+    node.each(function(d) {
+      const sel = d3.select(this);
+      const r = nodeRadius(d);
+      const fill = nodeFill(d, mode);
+      const stroke = nodeStroke(d, mode);
+      const opacity = nodeOpacity(d, search, matchesSearch);
+
+      sel.attr('opacity', opacity);
+
+      if (d.type === 'ENTITY') {
+        // hexagon
+        const points = [];
+        for (let i = 0; i < 6; i++) {
+          const a = Math.PI / 3 * i - Math.PI / 2;
+          points.push([r * Math.cos(a), r * Math.sin(a)].join(','));
+        }
+        sel.append('polygon')
+          .attr('points', points.join(' '))
+          .attr('fill', fill).attr('stroke', stroke).attr('stroke-width', 1.2);
+        if (d.basinState === 'immanent') {
+          sel.append('polygon')
+            .attr('points', points.join(' '))
+            .attr('fill', 'none').attr('stroke', '#ffffff')
+            .attr('stroke-width', 2).attr('stroke-opacity', 0.4)
+            .style('filter', 'blur(3px)');
+        }
+      } else if (d.subtype === 'heteronym') {
+        // diamond
+        sel.append('polygon')
+          .attr('points', `0,-${r} ${r},0 0,${r} -${r},0`)
+          .attr('fill', fill).attr('stroke', stroke).attr('stroke-width', 1);
+      } else if (d.subtype === 'aiWitness') {
+        // square
+        sel.append('rect')
+          .attr('x', -r).attr('y', -r)
+          .attr('width', r * 2).attr('height', r * 2)
+          .attr('fill', fill).attr('stroke', stroke).attr('stroke-width', 1)
+          .attr('rx', 1);
+      } else if (d.type === 'PLATFORM') {
+        // rounded rect
+        sel.append('rect')
+          .attr('x', -r).attr('y', -r * 0.7)
+          .attr('width', r * 2).attr('height', r * 1.4)
+          .attr('fill', fill).attr('stroke', stroke).attr('stroke-width', 1)
+          .attr('rx', 3);
+      } else {
+        // circle
+        sel.append('circle')
+          .attr('r', r)
+          .attr('fill', fill).attr('stroke', stroke).attr('stroke-width', 1.2);
+      }
+
+      // dashed border for lost statuses
+      const lost = ['banned', 'lapsed', 'walled', 'orphaned', 'revoked'].includes(d.status);
+      if (lost) {
+        sel.select('circle, polygon, rect').attr('stroke-dasharray', '2,2').attr('stroke', '#8a8478');
+      }
+
+      // labels for high-authority nodes
+      if (d.authority >= 0.5 || d.id === 'manus' || d.type === 'ENTITY') {
+        sel.append('text')
+          .attr('y', r + 12).attr('text-anchor', 'middle')
+          .attr('fill', 'var(--text-dim)')
+          .style('font-family', 'JetBrains Mono, monospace')
+          .style('font-size', '9px')
+          .style('pointer-events', 'none')
+          .text(d.label.length > 28 ? d.label.slice(0, 26) + '…' : d.label);
+      }
+    });
+
+    // Hover events
+    node.on('mouseenter', (event, d) => {
+      const tt = tooltipRef.current;
+      if (!tt) return;
+      tt.classList.add('visible');
+      tt.style.left = (event.pageX + 12) + 'px';
+      tt.style.top = (event.pageY + 12) + 'px';
+      tt.innerHTML = `<strong>${d.label}</strong>
+        <div>${d.type}${d.subtype ? ' · ' + d.subtype : ''}</div>
+        <div class="meta">status: ${d.status} · authority: ${d.authority || 0}${d.basinState ? ' · ' + d.basinState : ''}</div>
+        ${d.url ? `<div class="meta">${d.url.slice(0, 60)}${d.url.length > 60 ? '…' : ''}</div>` : ''}`;
+    }).on('mousemove', (event) => {
+      const tt = tooltipRef.current;
+      if (!tt) return;
+      tt.style.left = (event.pageX + 12) + 'px';
+      tt.style.top = (event.pageY + 12) + 'px';
+    }).on('mouseleave', () => {
+      tooltipRef.current?.classList.remove('visible');
+    }).on('click', (event, d) => {
+      event.stopPropagation();
+      setSelected(d);
+      setIntroVisible(false);
+    }).on('dblclick', (event, d) => {
+      event.stopPropagation();
+      if (d.url) window.open(d.url, '_blank');
+    });
+
+    sim.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      node.attr('transform', d => `translate(${d.x},${d.y})`);
+    });
+
+    // Hide intro after first interaction
+    svg.on('click', () => setIntroVisible(false));
+    svg.on('wheel', () => setIntroVisible(false));
+
+    return () => sim.stop();
+  }, [data, mode, filters, search]);
+
+  if (!data) {
+    return e('div', { style: { padding: 40, fontFamily: 'monospace', color: '#8a8478' }}, 'Loading topology...');
+  }
+
+  const counts = data.nodes.reduce((a, n) => { a[n.type] = (a[n.type] || 0) + 1; return a; }, {});
+
+  return e('div', { className: 'app' },
+    e('header', null,
+      e('h1', null, 'Crimson Hexagonal Archive Knowledge Graph'),
+      e('div', { className: 'subtitle' }, 'The Aperture Atlas'),
+      e('div', { className: 'stats' },
+        e('span', null, e('strong', null, data.nodes.length), ' nodes'),
+        e('span', null, e('strong', null, data.edges.length), ' edges'),
+        e('span', null, e('strong', null, data.measurements.length), ' measurements')
+      )
+    ),
+    e('div', { className: selected ? 'main with-sidebar' : 'main' },
+      e('aside', { className: 'controls' },
+        e('h2', null, 'Search'),
+        e('input', {
+          className: 'search-box', placeholder: 'find a node…',
+          value: search, onChange: ev => setSearch(ev.target.value)
+        }),
+        e('h2', null, 'View Mode'),
+        ...['default', 'basin', 'ghost', 'aperture', 'wikidata'].map(m => 
+          e('button', {
+            key: m, className: 'mode-btn' + (mode === m ? ' active' : ''),
+            onClick: () => setMode(m)
+          }, modeLabel(m))
+        ),
+        e('h2', null, 'Node Types'),
+        ...Object.entries(TYPE_COLORS).map(([type, color]) => 
+          e('label', { key: type, className: 'filter-row' },
+            e('input', {
+              type: 'checkbox', checked: filters[type],
+              onChange: ev => setFilters(f => ({...f, [type]: ev.target.checked}))
+            }),
+            e('span', { className: 'swatch', style: { background: color }}),
+            e('span', null, type),
+            e('span', { className: 'count' }, counts[type] || 0)
+          )
+        ),
+        e('h2', null, 'Legend'),
+        e('div', { className: 'legend' },
+          e('p', null, e('code', null, '○'), ' Circle = surface/identity'),
+          e('p', null, e('code', null, '⬡'), ' Hexagon = entity'),
+          e('p', null, e('code', null, '◇'), ' Diamond = heteronym'),
+          e('p', null, e('code', null, '□'), ' Square = AI witness'),
+          e('p', null, e('code', null, '▭'), ' Rect = platform'),
+          e('p', { style: { marginTop: 8 }}, 'Dashed = lost/banned/revoked'),
+          e('p', null, 'Hover for info · Click for details · Double-click to open URL')
+        ),
+        e('h2', null, 'About'),
+        e('div', { className: 'legend' },
+          e('p', null, 'The graph maps itself: ', e('code', null, 'surfacemap.org'), ' is a node within its own topology.'),
+          e('p', { style: { marginTop: 8 }}, 'Built from ', 
+            e('a', { href: 'https://doi.org/10.5281/zenodo.19763346', style: { color: 'var(--blue)' }, target: '_blank' }, 'EA-RBT-01'),
+            ' basin states + ',
+            e('a', { href: 'https://doi.org/10.5281/zenodo.19763365', style: { color: 'var(--blue)' }, target: '_blank' }, 'EA-HK-01'),
+            ' kernels.')
+        )
+      ),
+      e('div', { className: 'viz' },
+        e('svg', { ref: svgRef, id: 'graph' }),
+        introVisible && e('div', { className: 'intro-overlay' + (selected ? ' fading' : '') },
+          e('h2', null, 'The Aperture Atlas'),
+          e('div', { className: 'quote' },
+            'Every surface, entity, identity, document, and platform in the Crimson Hexagonal Archive — and the relations between them. The graph maps itself.')
+        ),
+        e('div', { ref: tooltipRef, className: 'tooltip' }),
+        e('div', { className: 'sigil' }, '∮ = 1')
+      ),
+      selected && e(NodeSidebar, {
+        node: selected, allNodes: data.nodes, allEdges: data.edges,
+        onClose: () => setSelected(null), onNavigate: setSelected
+      })
+    )
+  );
+}
+
+function modeLabel(m) {
+  return {
+    default: '01 — Default (by type)',
+    basin: '02 — Basin Overlay',
+    ghost: '03 — Ghost Mode',
+    aperture: '04 — Aperture View',
+    wikidata: '05 — Wikidata Sync'
+  }[m];
+}
+
+function nodeRadius(d) {
+  const a = Math.max(d.authority || 0.1, 0.05);
+  const base = Math.sqrt(a) * 14;
+  if (d.type === 'ENTITY') return Math.max(base, 8);
+  if (d.type === 'INFRASTRUCTURE') return Math.max(base, 6);
+  if (d.type === 'DOCUMENT') return Math.max(base * 0.7, 4);
+  return Math.max(base, 5);
+}
+
+function nodeFill(d, mode) {
+  if (mode === 'basin' && d.type === 'ENTITY' && d.basinState) {
+    return BASIN_COLORS[d.basinState];
+  }
+  if (mode === 'aperture' && d.apertureType) {
+    return APERTURE_COLORS[d.apertureType];
+  }
+  if (mode === 'ghost') {
+    const lost = ['banned', 'lapsed', 'walled', 'orphaned', 'revoked'].includes(d.status);
+    if (lost) return '#b84030';
+    return TYPE_COLORS[d.type];
+  }
+  return TYPE_COLORS[d.type];
+}
+
+function nodeStroke(d, mode) {
+  if (mode === 'basin' && d.basinState === 'immanent') return '#ffffff';
+  if (d.id === 'manus') return '#c8a868';
+  if (d.id === 'surfacemap-org') return '#c8a868';
+  return 'rgba(255,255,255,0.15)';
+}
+
+function nodeOpacity(d, search, matchesSearch) {
+  if (search && !matchesSearch(d)) return 0.15;
+  if (['banned', 'lapsed', 'walled', 'orphaned', 'revoked'].includes(d.status)) return 0.5;
+  if (d.status === 'dormant') return 0.6;
+  return 1;
+}
+
+function edgeColor(d, mode) {
+  if (mode === 'wikidata') {
+    if (d.wikidataStatus === 'live') return '#6b9b6b';
+    if (d.wikidataStatus === 'pending') return '#c8a868';
+    if (d.wikidataStatus === 'blocked') return '#8a8478';
+    return '#444';
+  }
+  if (d.type && d.type.startsWith('spxi:')) return '#8a8478';
+  return '#a89060';
+}
+
+function edgeOpacity(d, mode) {
+  if (mode === 'wikidata') {
+    if (d.wikidataStatus === 'live') return 0.7;
+    if (d.wikidataStatus === 'pending') return 0.6;
+    if (d.wikidataStatus === 'blocked') return 0.2;
+    return 0.1;
+  }
+  return d.type && d.type.startsWith('spxi:') ? 0.25 : 0.4;
+}
+
+function NodeSidebar({ node, allNodes, allEdges, onClose, onNavigate }) {
+  const outgoing = allEdges.filter(e => e.source === node.id || (e.source && e.source.id === node.id));
+  const incoming = allEdges.filter(e => e.target === node.id || (e.target && e.target.id === node.id));
+
+  const getId = (ref) => typeof ref === 'string' ? ref : (ref && ref.id);
+  const findNode = (id) => allNodes.find(n => n.id === id);
+
+  return e('aside', { className: 'sidebar' },
+    e('button', { className: 'close', onClick: onClose }, '×'),
+    e('div', { className: 'type-tag' }, node.type + (node.subtype ? ' · ' + node.subtype : '')),
+    e('h3', null, node.label),
+    
+    e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Status'),
+      e('div', { className: 'field-value' }, node.status)
+    ),
+    
+    node.url && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'URL'),
+      e('div', { className: 'field-value' }, e('a', { href: node.url, target: '_blank' }, node.url))
+    ),
+    
+    node.doi && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'DOI'),
+      e('div', { className: 'field-value' }, e('a', { href: 'https://doi.org/' + node.doi, target: '_blank' }, node.doi))
+    ),
+    
+    node.hexAddress && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Hex'),
+      e('div', { className: 'field-value', style: { fontFamily: 'JetBrains Mono, monospace' }}, node.hexAddress)
+    ),
+    
+    e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Authority'),
+      e('div', { className: 'field-value' }, node.authority)
+    ),
+    
+    node.basinState && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Basin'),
+      e('div', { className: 'field-value' }, node.basinState + (node.bdr !== null && node.bdr !== undefined ? ' · BDR ' + (node.bdr === 999 ? '∞' : node.bdr) : ''))
+    ),
+    
+    node.vulnerabilityScore !== null && node.vulnerabilityScore !== undefined && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Vuln'),
+      e('div', { className: 'field-value' }, node.vulnerabilityScore.toFixed(2))
+    ),
+    
+    node.apertureType && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Aperture'),
+      e('div', { className: 'field-value' }, node.apertureType)
+    ),
+    
+    node.properties && Object.keys(node.properties).length > 0 && e('div', { className: 'field' },
+      e('div', { className: 'field-label' }, 'Props'),
+      e('div', { className: 'field-value', style: { fontSize: '0.72rem', fontFamily: 'JetBrains Mono, monospace' }},
+        JSON.stringify(node.properties, null, 1).slice(0, 400))
+    ),
+
+    node.url && e('a', { className: 'open-btn', href: node.url, target: '_blank' }, 'Open URL ↗'),
+
+    outgoing.length > 0 && e('div', { className: 'edges-list' },
+      e('h2', { style: { fontFamily: 'JetBrains Mono', fontSize: '0.62rem', color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '0.14em', margin: '20px 0 8px' }}, 'Outgoing (' + outgoing.length + ')'),
+      ...outgoing.slice(0, 20).map(edge => {
+        const target = findNode(getId(edge.target));
+        if (!target) return null;
+        return e('div', { key: edge.id, className: 'edge-item', onClick: () => onNavigate(target) },
+          e('span', { className: 'pred' }, edge.type),
+          target.label,
+          e('span', { className: 'wd-status wd-' + edge.wikidataStatus }, edge.wikidataStatus)
+        );
+      })
+    ),
+
+    incoming.length > 0 && e('div', { className: 'edges-list' },
+      e('h2', { style: { fontFamily: 'JetBrains Mono', fontSize: '0.62rem', color: 'var(--text-dim)', textTransform: 'uppercase', letterSpacing: '0.14em', margin: '20px 0 8px' }}, 'Incoming (' + incoming.length + ')'),
+      ...incoming.slice(0, 20).map(edge => {
+        const source = findNode(getId(edge.source));
+        if (!source) return null;
+        return e('div', { key: edge.id, className: 'edge-item', onClick: () => onNavigate(source) },
+          source.label,
+          e('span', { className: 'pred', style: { marginLeft: 8 }}, edge.type),
+          e('span', { className: 'wd-status wd-' + edge.wikidataStatus }, edge.wikidataStatus)
+        );
+      })
+    )
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(e(App));
+</script>
+
+<noscript>
+<div style="max-width:700px;margin:40px auto;padding:20px;font-family:Georgia,serif;color:#d8d4cc;background:#0c0e12;">
+<h1>The Aperture Atlas — Crimson Hexagonal Archive Knowledge Graph</h1>
+<p>An interactive knowledge graph mapping every surface, entity, identity, document, and platform in the Crimson Hexagonal Archive. By Lee Sharks (ORCID: 0009-0000-1599-0703), Semantic Economy Institute.</p>
+<p>The graph maps itself: surfacemap.org is a node within its own topology. It uses Wikidata property IDs (P31, P50, P127, P356, P496, P527, P856, P921, P1889, P2860, etc.) as edge types, so every edge is either already on Wikidata or is a pending edit. The graph is both visualization and edit queue.</p>
+<p>Six node types: INFRASTRUCTURE (domains, repos, servers), SURFACE (URLs, profiles, posts), ENTITY (concepts, protocols, terms), IDENTITY (heteronyms, humans, AI witnesses), DOCUMENT (DOI-anchored deposits), PLATFORM (services, tools).</p>
+<p>Built from the v3.0 Digital Topology Work Plan. Cross-references EA-RBT-01 (writable retrieval basin, DOI: 10.5281/zenodo.19763346) and EA-HK-01 (holographic kernel, DOI: 10.5281/zenodo.19763365). CC BY 4.0.</p>
+<p>Visit surfacemap.org in a JavaScript-enabled browser to interact with the graph.</p>
+</div>
+</noscript>
+</body>
+</html>
