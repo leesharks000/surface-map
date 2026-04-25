@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#1a1d24"/>
+      <stop offset="100%" stop-color="#0c0e12"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c8a868"/>
+      <stop offset="100%" stop-color="#a89060"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- decorative graph nodes scattered behind -->
+  <g opacity="0.18">
+    <circle cx="180" cy="120" r="6" fill="#6088b0"/>
+    <circle cx="320" cy="80" r="4" fill="#a89060"/>
+    <circle cx="480" cy="150" r="5" fill="#b84030"/>
+    <circle cx="900" cy="100" r="7" fill="#a89060"/>
+    <circle cx="1050" cy="200" r="5" fill="#6088b0"/>
+    <circle cx="120" cy="500" r="5" fill="#a89060"/>
+    <circle cx="280" cy="540" r="6" fill="#b84030"/>
+    <circle cx="950" cy="520" r="5" fill="#6088b0"/>
+    <circle cx="1080" cy="450" r="4" fill="#a89060"/>
+    <line x1="180" y1="120" x2="320" y2="80" stroke="#a89060" stroke-width="0.7"/>
+    <line x1="320" y1="80" x2="480" y2="150" stroke="#a89060" stroke-width="0.7"/>
+    <line x1="900" y1="100" x2="1050" y2="200" stroke="#a89060" stroke-width="0.7"/>
+    <line x1="120" y1="500" x2="280" y2="540" stroke="#a89060" stroke-width="0.7"/>
+    <line x1="950" y1="520" x2="1080" y2="450" stroke="#a89060" stroke-width="0.7"/>
+  </g>
+
+  <!-- central hexagon emblem -->
+  <g transform="translate(600,290)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50"
+             fill="none" stroke="url(#gold)" stroke-width="2.5"/>
+    <polygon points="0,-70 60.6,-35 60.6,35 0,70 -60.6,35 -60.6,-35"
+             fill="none" stroke="#a89060" stroke-width="1" opacity="0.55"/>
+    <circle cx="0" cy="0" r="14" fill="url(#gold)"/>
+    <text x="0" y="6" text-anchor="middle" fill="#0c0e12" font-family="Georgia, serif"
+          font-size="20" font-weight="700">∮</text>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="470" text-anchor="middle" fill="#c8a868"
+        font-family="Cormorant Garamond, Georgia, serif" font-size="56" font-weight="500">
+    The Aperture Atlas
+  </text>
+  <text x="600" y="510" text-anchor="middle" fill="#d8d4cc"
+        font-family="Cormorant Garamond, Georgia, serif" font-size="22" font-style="italic">
+    Crimson Hexagonal Archive Knowledge Graph
+  </text>
+  <text x="600" y="555" text-anchor="middle" fill="#8a8478"
+        font-family="JetBrains Mono, Consolas, monospace" font-size="13" letter-spacing="3">
+    THE GRAPH MAPS ITSELF · surfacemap.org
+  </text>
+</svg>
