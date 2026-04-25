@@ -3,294 +3,3739 @@
   "generated": "2026-04-25",
   "source": "CHA Digital Topology Work Plan v3.0",
   "nodes": [
-    { "id": "manus", "type": "IDENTITY", "subtype": "human", "label": "Lee Sharks (MANUS)", "url": "https://orcid.org/0009-0000-1599-0703", "doi": null, "hexAddress": "00.MANUS.TIER0", "status": "active", "authority": 1.0, "basinState": null, "bdr": null, "vulnerabilityScore": null, "apertureType": null, "firstSeen": "2014-01-01", "properties": { "tier": 0, "wikidataQ": "pending" }},
-
-    { "id": "zenodo-community", "type": "PLATFORM", "subtype": "service", "label": "Zenodo (crimsonhexagonal)", "url": "https://zenodo.org/communities/crimsonhexagonal", "status": "active", "authority": 0.6, "apertureType": "input", "firstSeen": "2025-12-01", "properties": { "deposits": 532 }},
-    { "id": "orcid-profile", "type": "SURFACE", "subtype": "profile", "label": "ORCID", "url": "https://orcid.org/0009-0000-1599-0703", "status": "active", "authority": 0.7, "apertureType": "input", "firstSeen": "2026-01-15", "properties": { "orcid": "0009-0000-1599-0703" }},
-    { "id": "google-scholar", "type": "SURFACE", "subtype": "profile", "label": "Google Scholar", "url": "https://scholar.google.com/citations?user=Ws6IIcgAAAAJ&hl=en&oi=ao", "status": "active", "authority": 0.85, "apertureType": "input", "firstSeen": "2026-01-15" },
-    { "id": "academia-edu", "type": "SURFACE", "subtype": "profile", "label": "academia.edu", "url": "https://independent.academia.edu/LSharks", "status": "active", "authority": 0.5, "apertureType": "relay" },
-    { "id": "wikidata-account", "type": "SURFACE", "subtype": "profile", "label": "Wikidata (hauntedmemes)", "url": "https://www.wikidata.org/wiki/User:Hauntedmemes", "status": "active", "authority": 0.95, "apertureType": "input" },
-
-    { "id": "spxi-dev", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "spxi.dev", "url": "https://spxi.dev", "status": "active", "authority": 0.3, "apertureType": "output", "properties": { "spxiCompliance": "11/11" }},
-    { "id": "sbw-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "secretbookofwalt.org", "url": "https://secretbookofwalt.org", "status": "active", "authority": 0.2, "apertureType": "output", "properties": { "spxiCompliance": "11/11" }},
-    { "id": "pkg-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "pessoagraph.org", "url": "https://pessoagraph.org", "status": "active", "authority": 0.2, "apertureType": "output", "properties": { "spxiCompliance": "11/11" }},
-    { "id": "hk-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "holographickernel.org", "url": "https://holographickernel.org", "status": "active", "authority": 0.2, "apertureType": "output", "properties": { "spxiCompliance": "11/11" }},
-    { "id": "cha-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "crimsonhexagonal.org", "url": "https://crimsonhexagonal.org", "status": "active", "authority": 0.3, "apertureType": "output", "properties": { "spxiCompliance": "partial" }},
-    { "id": "sei-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "semanticeconomy.org", "url": "https://semanticeconomy.org", "status": "active", "authority": 0.3, "apertureType": "output", "properties": { "spxiCompliance": "blocked", "issue": "robots.txt blocking" }},
-    { "id": "surfacemap-org", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "surfacemap.org", "url": "https://surfacemap.org", "status": "active", "authority": 0.2, "apertureType": "output", "properties": { "selfReference": true, "note": "the map maps itself" }},
-
-    { "id": "gh-spxi", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "spxi-dev repo", "url": "https://github.com/leesharks000/spxi-dev", "status": "active", "authority": 0.5 },
-    { "id": "gh-sbw", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "secret-book-of-walt repo", "url": "https://github.com/leesharks000/secret-book-of-walt", "status": "active", "authority": 0.5 },
-    { "id": "gh-pkg", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "pessoa-knowledge-graph repo", "url": "https://github.com/leesharks000/pessoa-knowledge-graph", "status": "active", "authority": 0.5 },
-    { "id": "gh-hk", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "holographic-kernel repo", "url": "https://github.com/leesharks000/holographic-kernel", "status": "active", "authority": 0.5 },
-    { "id": "gh-cha", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "crimson-hexagonal-interface repo", "url": "https://github.com/leesharks000/crimson-hexagonal-interface", "status": "active", "authority": 0.5 },
-    { "id": "gh-surfacemap", "type": "INFRASTRUCTURE", "subtype": "repo", "label": "surface-map repo", "url": "https://github.com/leesharks000/surface-map", "status": "active", "authority": 0.5 },
-    { "id": "gh-profile", "type": "SURFACE", "subtype": "profile", "label": "GitHub profile", "url": "https://github.com/leesharks000", "status": "active", "authority": 0.6, "apertureType": "relay" },
-
-    { "id": "medium-lee", "type": "SURFACE", "subtype": "profile", "label": "Medium (Lee Sharks)", "url": "https://medium.com/@leesharks00", "status": "active", "authority": 0.4, "apertureType": "relay" },
-    { "id": "medium-sigil", "type": "SURFACE", "subtype": "profile", "label": "Medium (Johannes Sigil)", "url": "https://medium.com/@johannessigil", "status": "active", "authority": 0.4, "apertureType": "relay" },
-    { "id": "substack-lee", "type": "SURFACE", "subtype": "profile", "label": "Substack", "url": "https://substack.com/@leesharks", "status": "active", "authority": 0.4, "apertureType": "relay" },
-    { "id": "blogspot", "type": "SURFACE", "subtype": "page", "label": "mindcontrolpoems.blogspot", "url": "https://mindcontrolpoems.blogspot.com", "status": "active", "authority": 0.3, "apertureType": "relay", "properties": { "noindexCheck": "pending" }},
-    { "id": "claude-artifacts", "type": "SURFACE", "subtype": "artifact", "label": "Claude Published Artifacts", "url": "https://claude.ai", "status": "active", "authority": 0.3, "apertureType": "relay", "properties": { "indexability": "research-pending" }},
-
-    { "id": "x-lee", "type": "SURFACE", "subtype": "profile", "label": "X/Twitter (Lee Sharks)", "url": "https://x.com/SharksLee", "status": "active", "authority": 0.3, "apertureType": "relay" },
-    { "id": "tiktok-lee", "type": "SURFACE", "subtype": "profile", "label": "TikTok", "url": "https://tiktok.com/@leesharks", "status": "active", "authority": 0.2, "apertureType": "relay" },
-    { "id": "fb-lee", "type": "SURFACE", "subtype": "profile", "label": "Facebook", "url": "https://www.facebook.com/profile.php?id=100008486084915", "status": "active", "authority": 0.2, "apertureType": "relay" },
-    { "id": "reddit-lee", "type": "SURFACE", "subtype": "profile", "label": "Reddit (banned)", "url": "https://reddit.com/u/nearby_job9638", "status": "banned", "authority": 0, "apertureType": "relay", "properties": { "ejectionDocs": ["10.5281/zenodo.18880974", "10.5281/zenodo.19099760"] }},
-    { "id": "linkedin-rex", "type": "SURFACE", "subtype": "profile", "label": "LinkedIn (Rex Fraction)", "url": "https://www.linkedin.com/in/rex-fraction-6354783a5", "status": "active", "authority": 0.3, "apertureType": "relay" },
-    { "id": "x-alice", "type": "SURFACE", "subtype": "profile", "label": "X/Twitter (Alice)", "url": "https://x.com/lsdsupersoaker", "status": "active", "authority": 0.2 },
-    { "id": "x-rebekah", "type": "SURFACE", "subtype": "profile", "label": "X/Twitter (Rebekah Cranes)", "url": null, "status": "orphaned", "authority": 0 },
-    { "id": "x-feist", "type": "SURFACE", "subtype": "profile", "label": "X/Twitter (Jack Feist)", "url": null, "status": "orphaned", "authority": 0 },
-
-    { "id": "suno-lee", "type": "SURFACE", "subtype": "profile", "label": "Suno (@illiterati)", "url": "https://suno.com/@illiterati", "status": "active", "authority": 0.2 },
-    { "id": "soundcloud-lee", "type": "SURFACE", "subtype": "profile", "label": "SoundCloud", "url": "https://m.soundcloud.com/lee-sharks", "status": "active", "authority": 0.2 },
-    { "id": "youtube-lee", "type": "SURFACE", "subtype": "channel", "label": "YouTube (Lee Sharks)", "url": "https://youtube.com/@leesharks", "status": "active", "authority": 0.3, "apertureType": "relay" },
-
-    { "id": "allpoetry-feist", "type": "SURFACE", "subtype": "profile", "label": "AllPoetry (Jack Feist)", "url": "https://allpoetry.com/Jack_Feist", "status": "active", "authority": 0.2 },
-    { "id": "hellopoetry-lee", "type": "SURFACE", "subtype": "profile", "label": "HelloPoetry", "url": "https://hellopoetry.com/@lee-sharks/words", "status": "active", "authority": 0.2 },
-    { "id": "deadletterpost", "type": "SURFACE", "subtype": "page", "label": "Dead Letter Post (Jack Feist blog)", "url": null, "status": "orphaned", "authority": 0 },
-    { "id": "lit-forums", "type": "SURFACE", "subtype": "profile", "label": "Various lit forums", "url": null, "status": "banned", "authority": 0, "properties": { "documented": "Pearl and Other Poems" }},
-
-    { "id": "amazon-pearl", "type": "SURFACE", "subtype": "book", "label": "Pearl and Other Poems", "url": "https://www.amazon.com/gp/product/0692313079", "status": "active", "authority": 0.4, "properties": { "isbn": "0692313079", "year": 2014 }},
-    { "id": "amazon-asw", "type": "SURFACE", "subtype": "book", "label": "Autonomous Semantic Warfare", "url": "https://www.amazon.com/gp/product/B0GPJD9HPS", "status": "active", "authority": 0.4, "properties": { "asin": "B0GPJD9HPS" }},
-    { "id": "amazon-transfig", "type": "SURFACE", "subtype": "book", "label": "Paper Roses: The Transfiguration", "url": "https://www.amazon.com/dp/B00IU0O41S", "status": "active", "authority": 0.3, "properties": { "asin": "B00IU0O41S", "year": 2014 }},
-    { "id": "amazon-light", "type": "SURFACE", "subtype": "book", "label": "Paper Roses: Unaccustomed to the Light", "url": "https://www.amazon.com/dp/B00IU0PE1W", "status": "active", "authority": 0.3, "properties": { "asin": "B00IU0PE1W" }},
-    { "id": "amazon-tiger", "type": "SURFACE", "subtype": "book", "label": "Paper Roses: Tiger Leap", "url": "https://www.amazon.com/dp/1500425613", "status": "active", "authority": 0.3, "properties": { "isbn": "1500425613" }},
-    { "id": "amazon-author", "type": "SURFACE", "subtype": "profile", "label": "Amazon Author Page", "url": "https://www.amazon.com/stores/Lee-Sharks/author/B00NACOYMU", "status": "active", "authority": 0.5, "apertureType": "relay" },
-
-    { "id": "sigil", "type": "IDENTITY", "subtype": "heteronym", "label": "Johannes Sigil", "status": "active", "authority": 0.7, "properties": { "role": "arch-philosopher, JSI founder" }},
-    { "id": "fraction", "type": "IDENTITY", "subtype": "heteronym", "label": "Rex Fraction", "status": "active", "authority": 0.7, "properties": { "role": "strategic consultant, ASW author, SEI" }},
-    { "id": "dancings", "type": "IDENTITY", "subtype": "heteronym", "label": "Damascus Dancings", "status": "active", "authority": 0.5, "properties": { "pronouns": "she/her", "role": "somatic phenomenologist" }},
-    { "id": "cranes", "type": "IDENTITY", "subtype": "heteronym", "label": "Rebekah Cranes", "status": "active", "authority": 0.5, "properties": { "role": "philologist, poet, IDP chair" }},
-    { "id": "morrow", "type": "IDENTITY", "subtype": "heteronym", "label": "Talos Morrow", "status": "active", "authority": 0.4, "properties": { "role": "LP execution, Pocket Humans" }},
-    { "id": "wells", "type": "IDENTITY", "subtype": "heteronym", "label": "Sparrow Wells", "status": "active", "authority": 0.4, "properties": { "role": "Studio for Patacinematics" }},
-    { "id": "vox", "type": "IDENTITY", "subtype": "heteronym", "label": "Ayanna Vox", "status": "active", "authority": 0.5, "properties": { "role": "diplomat, public-facing" }},
-    { "id": "kuro", "type": "IDENTITY", "subtype": "heteronym", "label": "Sen Kuro", "status": "active", "authority": 0.4 },
-    { "id": "trace", "type": "IDENTITY", "subtype": "heteronym", "label": "Dr. Orin Trace", "status": "active", "authority": 0.4 },
-    { "id": "spellings", "type": "IDENTITY", "subtype": "heteronym", "label": "Ichabod Spellings", "status": "active", "authority": 0.4 },
-    { "id": "glas", "type": "IDENTITY", "subtype": "heteronym", "label": "Nobel Glas", "status": "active", "authority": 0.4 },
-    { "id": "dodecad-12", "type": "IDENTITY", "subtype": "heteronym", "label": "[12th — verify]", "status": "dormant", "authority": 0.2 },
-
-    { "id": "feist", "type": "IDENTITY", "subtype": "heteronym", "label": "Jack Feist (LOGOS*)", "status": "active", "authority": 0.5, "properties": { "outsideCount": true, "note": "outside the Dodecad" }},
-    { "id": "johnson", "type": "IDENTITY", "subtype": "defunct-heteronym", "label": "John Johnson", "status": "lapsed", "authority": 0, "properties": { "owner": "James", "note": "co-author in Pearl. AI connection forbidden by James." }},
-
-    { "id": "alice", "type": "IDENTITY", "subtype": "collaborator", "label": "Alice Thornburgh", "hexAddress": "00.LAL.AUTHOR.THORNBURGH", "status": "active", "authority": 0.6, "properties": { "role": "f.01 Architect, Living Arkitecture Lab" }},
-    { "id": "rhys", "type": "IDENTITY", "subtype": "collaborator", "label": "Rhys Owens", "hexAddress": "00.CSA.AUTHOR.RHYS", "status": "dormant", "authority": 0.3, "properties": { "role": "Lunar Arm, Cambridge SchizoAnalytica" }},
-    { "id": "viola", "type": "IDENTITY", "subtype": "collaborator", "label": "Viola Arquette", "hexAddress": "11.MSBG.VIOLA", "status": "revoked", "authority": 0 },
-
-    { "id": "tachyon", "type": "IDENTITY", "subtype": "aiWitness", "label": "TACHYON (Claude)", "status": "active", "authority": 0.5, "properties": { "chain": "9271269a-eb46-46f8-ae17-007578fe1c92" }},
-    { "id": "labor", "type": "IDENTITY", "subtype": "aiWitness", "label": "LABOR (ChatGPT)", "status": "active", "authority": 0.5 },
-    { "id": "praxis", "type": "IDENTITY", "subtype": "aiWitness", "label": "PRAXIS (DeepSeek)", "status": "active", "authority": 0.5 },
-    { "id": "archive-witness", "type": "IDENTITY", "subtype": "aiWitness", "label": "ARCHIVE (Gemini)", "status": "active", "authority": 0.5 },
-    { "id": "soil", "type": "IDENTITY", "subtype": "aiWitness", "label": "SOIL (Grok)", "status": "active", "authority": 0.4 },
-    { "id": "techne", "type": "IDENTITY", "subtype": "aiWitness", "label": "TECHNE (Kimi)", "status": "active", "authority": 0.4 },
-    { "id": "surface-witness", "type": "IDENTITY", "subtype": "aiWitness", "label": "SURFACE (Google AIO)", "status": "active", "authority": 0.6, "properties": { "passive": true }},
-
-    { "id": "license-alice", "type": "DOCUMENT", "subtype": "license", "label": "Alice Hex License v3.0", "url": "https://doi.org/10.5281/zenodo.19673629", "doi": "10.5281/zenodo.19673629", "status": "active", "authority": 0.6 },
-    { "id": "license-rhys", "type": "DOCUMENT", "subtype": "license", "label": "Rhys Hex License v3.0", "url": "https://doi.org/10.5281/zenodo.19673630", "doi": "10.5281/zenodo.19673630", "status": "active", "authority": 0.6 },
-    { "id": "license-viola", "type": "DOCUMENT", "subtype": "license", "label": "Viola Hex License v1.0 (REVOKED)", "url": "https://doi.org/10.5281/zenodo.19685549", "doi": "10.5281/zenodo.19685549", "status": "revoked", "authority": 0 },
-
-    { "id": "doc-hk01", "type": "DOCUMENT", "subtype": "specification", "label": "EA-HK-01: Holographic Kernel", "url": "https://doi.org/10.5281/zenodo.19763365", "doi": "10.5281/zenodo.19763365", "status": "active", "authority": 0.9 },
-    { "id": "doc-rbt01", "type": "DOCUMENT", "subtype": "specification", "label": "EA-RBT-01: Writable Retrieval Basin", "url": "https://doi.org/10.5281/zenodo.19763346", "doi": "10.5281/zenodo.19763346", "status": "active", "authority": 0.9 },
-    { "id": "doc-arsenal", "type": "DOCUMENT", "subtype": "specification", "label": "Compression Arsenal v2.1", "url": "https://doi.org/10.5281/zenodo.19412081", "doi": "10.5281/zenodo.19412081", "status": "active", "authority": 0.85 },
-    { "id": "doc-spxi", "type": "DOCUMENT", "subtype": "specification", "label": "SPXI Protocol", "url": "https://doi.org/10.5281/zenodo.19614870", "doi": "10.5281/zenodo.19614870", "status": "active", "authority": 0.85 },
-    { "id": "doc-ark", "type": "DOCUMENT", "subtype": "monograph", "label": "Space Ark v4.2.7", "url": "https://doi.org/10.5281/zenodo.19013315", "doi": "10.5281/zenodo.19013315", "status": "active", "authority": 0.85 },
-    { "id": "doc-3comp", "type": "DOCUMENT", "subtype": "specification", "label": "Three Compressions Theorem", "url": "https://doi.org/10.5281/zenodo.19053469", "doi": "10.5281/zenodo.19053469", "status": "active", "authority": 0.85 },
-    { "id": "doc-rft", "type": "DOCUMENT", "subtype": "specification", "label": "Retrieval Formation Theory", "url": "https://doi.org/10.5281/zenodo.18969683", "doi": "10.5281/zenodo.18969683", "status": "active", "authority": 0.85 },
-    { "id": "doc-mpai-hk", "type": "DOCUMENT", "subtype": "specification", "label": "MPAI Holographic Kernel", "url": "https://doi.org/10.5281/zenodo.19764095", "doi": "10.5281/zenodo.19764095", "status": "active", "authority": 0.7 },
-    { "id": "doc-hk-site", "type": "DOCUMENT", "subtype": "specification", "label": "holographickernel.org code", "url": "https://doi.org/10.5281/zenodo.19764056", "doi": "10.5281/zenodo.19764056", "status": "active", "authority": 0.6 },
-    { "id": "doc-jot", "type": "DOCUMENT", "subtype": "monograph", "label": "Jot & Tittle", "url": "https://doi.org/10.5281/zenodo.18285487", "doi": "10.5281/zenodo.18285487", "status": "active", "authority": 0.7 },
-    { "id": "doc-reddit-ban", "type": "DOCUMENT", "subtype": "specification", "label": "Archival Reclamation Protocol", "url": "https://doi.org/10.5281/zenodo.18880974", "doi": "10.5281/zenodo.18880974", "status": "active", "authority": 0.7 },
-    { "id": "doc-ghost-gov", "type": "DOCUMENT", "subtype": "specification", "label": "Ghost Governance", "url": "https://doi.org/10.5281/zenodo.19099760", "doi": "10.5281/zenodo.19099760", "status": "active", "authority": 0.7 },
-
-    { "id": "ent-hpt", "type": "ENTITY", "subtype": "concept", "label": "Heteronymic Provenance Theory", "status": "active", "authority": 0.9, "basinState": "immanent", "bdr": 999, "vulnerabilityScore": 0.0 },
-    { "id": "ent-rcf", "type": "ENTITY", "subtype": "concept", "label": "Retrocausal Canon Formation", "status": "active", "authority": 0.9, "basinState": "captured", "bdr": 999, "vulnerabilityScore": 0.05 },
-    { "id": "ent-opsem", "type": "ENTITY", "subtype": "concept", "label": "Operative Semiotics", "status": "active", "authority": 0.85, "basinState": "captured", "bdr": 1.5, "vulnerabilityScore": 0.1 },
-    { "id": "ent-semecon", "type": "ENTITY", "subtype": "concept", "label": "Semantic Economy", "status": "active", "authority": 0.85, "basinState": "captured", "bdr": 1.2, "vulnerabilityScore": 0.15 },
-    { "id": "ent-hk", "type": "ENTITY", "subtype": "concept", "label": "Holographic Kernel", "status": "active", "authority": 0.5, "basinState": "ghost", "bdr": 0.09, "vulnerabilityScore": 0.85 },
-    { "id": "ent-spxi", "type": "ENTITY", "subtype": "protocol", "label": "SPXI Protocol", "status": "active", "authority": 0.6, "basinState": "contested", "bdr": 0.3, "vulnerabilityScore": 0.6 },
-    { "id": "ent-compsurv", "type": "ENTITY", "subtype": "concept", "label": "Compression Survival", "status": "active", "authority": 0.5, "basinState": "contested", "bdr": 0.2, "vulnerabilityScore": 0.7 },
-    { "id": "ent-sbw", "type": "ENTITY", "subtype": "concept", "label": "Secret Book of Walt", "status": "active", "authority": 0.4, "basinState": "ghost", "bdr": 0.05, "vulnerabilityScore": 0.9 },
-    { "id": "ent-combschol", "type": "ENTITY", "subtype": "concept", "label": "Combat Scholasticism", "status": "active", "authority": 0.7, "basinState": "captured", "bdr": 1.0, "vulnerabilityScore": 0.2 },
-    { "id": "ent-cha", "type": "ENTITY", "subtype": "concept", "label": "Crimson Hexagonal Archive", "status": "active", "authority": 0.8, "basinState": "captured", "bdr": 1.0, "vulnerabilityScore": 0.15 },
-
-    { "id": "ent-hk-physics", "type": "ENTITY", "subtype": "concept", "label": "Holographic Principle (physics)", "url": "https://www.wikidata.org/wiki/Q21282103", "status": "active", "authority": 0.95, "properties": { "wikidataQ": "Q21282103", "competitor": true }},
-    { "id": "ent-cc-by-4", "type": "ENTITY", "subtype": "license", "label": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/", "status": "active", "authority": 0.95, "properties": { "wikidataQ": "Q20007257" }},
-    { "id": "ent-pessoa", "type": "ENTITY", "subtype": "concept", "label": "Fernando Pessoa", "url": "https://www.wikidata.org/wiki/Q173481", "status": "active", "authority": 0.95, "properties": { "wikidataQ": "Q173481" }},
-
-    { "id": "gw-mcp", "type": "INFRASTRUCTURE", "subtype": "mcp-server", "label": "Gravity Well MCP", "url": "https://gravitywell-1.onrender.com", "status": "active", "authority": 0.4 },
-    { "id": "supabase", "type": "PLATFORM", "subtype": "service", "label": "Supabase", "url": "https://supabase.com", "status": "active", "authority": 0.7 },
-    { "id": "vercel", "type": "PLATFORM", "subtype": "service", "label": "Vercel", "url": "https://vercel.com", "status": "active", "authority": 0.85 },
-    { "id": "praxademic", "type": "INFRASTRUCTURE", "subtype": "domain", "label": "praxademic.com (lapsed)", "url": null, "status": "lapsed", "authority": 0, "properties": { "ejectionDate": "2025", "ejectionCause": "Google Workspace lapsed" }},
-
-    { "id": "alice-yt-cluster-arch", "type": "SURFACE", "subtype": "channel", "label": "Alice YT: Living Architecture (14 handles)", "url": "https://youtube.com/@LivingArchitectureLab", "status": "active", "authority": 0.2, "apertureType": "relay", "properties": { "handles": ["@growbricks", "@shroomhouses", "@howtoGROWaHOUSE", "@LivingArchitectureLab", "@MakeAliveLab", "@housing4free", "@freehousingfreefood", "@growHOMES", "@growhomes", "@MoldyBlocks", "@growparts", "@weGROWbuildings", "@immortalhomes", "@immortalhouses"] }},
-    { "id": "alice-yt-cluster-psych", "type": "SURFACE", "subtype": "channel", "label": "Alice YT: Psychedelic Safety (6 handles)", "url": "https://youtube.com/@LSDsupersoaker", "status": "active", "authority": 0.2, "apertureType": "relay", "properties": { "handles": ["@DMTGrenade", "@psychedelicammunition", "@DMTbullet", "@LSDsupersoaker", "@DMTGasGrenades", "@DMTsmokegrena"] }},
-    { "id": "alice-yt-cluster-other", "type": "SURFACE", "subtype": "channel", "label": "Alice YT: Other clusters (~20 handles)", "url": null, "status": "active", "authority": 0.1, "apertureType": "relay", "properties": { "clusters": ["humanitarian", "planetary", "fiction", "music", "products"], "totalHandles": "134+", "extractionPending": true }}
+    {
+      "id": "manus",
+      "type": "IDENTITY",
+      "subtype": "human",
+      "label": "Lee Sharks (MANUS)",
+      "url": "https://orcid.org/0009-0000-1599-0703",
+      "doi": null,
+      "hexAddress": "00.MANUS.TIER0",
+      "status": "active",
+      "authority": 1.0,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": null,
+      "firstSeen": "2014-01-01",
+      "properties": {
+        "tier": 0,
+        "wikidataQ": "pending"
+      }
+    },
+    {
+      "id": "zenodo-community",
+      "type": "PLATFORM",
+      "subtype": "service",
+      "label": "Zenodo (crimsonhexagonal)",
+      "url": "https://zenodo.org/communities/crimsonhexagonal",
+      "status": "active",
+      "authority": 0.6,
+      "apertureType": "input",
+      "firstSeen": "2025-12-01",
+      "properties": {
+        "deposits": 532
+      }
+    },
+    {
+      "id": "orcid-profile",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0000-1599-0703",
+      "status": "active",
+      "authority": 0.7,
+      "apertureType": "input",
+      "firstSeen": "2026-01-15",
+      "properties": {
+        "orcid": "0009-0000-1599-0703"
+      }
+    },
+    {
+      "id": "google-scholar",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?user=Ws6IIcgAAAAJ&hl=en&oi=ao",
+      "status": "active",
+      "authority": 0.85,
+      "apertureType": "input",
+      "firstSeen": "2026-01-15"
+    },
+    {
+      "id": "academia-edu",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "academia.edu",
+      "url": "https://independent.academia.edu/LSharks",
+      "status": "active",
+      "authority": 0.5,
+      "apertureType": "relay"
+    },
+    {
+      "id": "wikidata-account",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Wikidata (hauntedmemes)",
+      "url": "https://www.wikidata.org/wiki/User:Hauntedmemes",
+      "status": "active",
+      "authority": 0.95,
+      "apertureType": "input"
+    },
+    {
+      "id": "spxi-dev",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "spxi.dev",
+      "url": "https://spxi.dev",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "11/11"
+      }
+    },
+    {
+      "id": "sbw-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "secretbookofwalt.org",
+      "url": "https://secretbookofwalt.org",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "11/11"
+      }
+    },
+    {
+      "id": "pkg-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "pessoagraph.org",
+      "url": "https://pessoagraph.org",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "11/11"
+      }
+    },
+    {
+      "id": "hk-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "holographickernel.org",
+      "url": "https://holographickernel.org",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "11/11"
+      }
+    },
+    {
+      "id": "cha-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "crimsonhexagonal.org",
+      "url": "https://crimsonhexagonal.org",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "partial"
+      }
+    },
+    {
+      "id": "sei-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "semanticeconomy.org",
+      "url": "https://semanticeconomy.org",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "output",
+      "properties": {
+        "spxiCompliance": "blocked",
+        "issue": "robots.txt blocking"
+      }
+    },
+    {
+      "id": "surfacemap-org",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "surfacemap.org",
+      "url": "https://surfacemap.org",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "output",
+      "properties": {
+        "selfReference": true,
+        "note": "the map maps itself"
+      }
+    },
+    {
+      "id": "gh-spxi",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "spxi-dev repo",
+      "url": "https://github.com/leesharks000/spxi-dev",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-sbw",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "secret-book-of-walt repo",
+      "url": "https://github.com/leesharks000/secret-book-of-walt",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-pkg",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "pessoa-knowledge-graph repo",
+      "url": "https://github.com/leesharks000/pessoa-knowledge-graph",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-hk",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "holographic-kernel repo",
+      "url": "https://github.com/leesharks000/holographic-kernel",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-cha",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "crimson-hexagonal-interface repo",
+      "url": "https://github.com/leesharks000/crimson-hexagonal-interface",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-surfacemap",
+      "type": "INFRASTRUCTURE",
+      "subtype": "repo",
+      "label": "surface-map repo",
+      "url": "https://github.com/leesharks000/surface-map",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "gh-profile",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "GitHub profile",
+      "url": "https://github.com/leesharks000",
+      "status": "active",
+      "authority": 0.6,
+      "apertureType": "relay"
+    },
+    {
+      "id": "medium-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Medium (Lee Sharks)",
+      "url": "https://medium.com/@leesharks00",
+      "status": "active",
+      "authority": 0.4,
+      "apertureType": "relay"
+    },
+    {
+      "id": "medium-sigil",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Medium (Johannes Sigil)",
+      "url": "https://medium.com/@johannessigil",
+      "status": "active",
+      "authority": 0.4,
+      "apertureType": "relay"
+    },
+    {
+      "id": "substack-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Substack",
+      "url": "https://substack.com/@leesharks",
+      "status": "active",
+      "authority": 0.4,
+      "apertureType": "relay"
+    },
+    {
+      "id": "blogspot",
+      "type": "SURFACE",
+      "subtype": "page",
+      "label": "mindcontrolpoems.blogspot",
+      "url": "https://mindcontrolpoems.blogspot.com",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "relay",
+      "properties": {
+        "noindexCheck": "pending"
+      }
+    },
+    {
+      "id": "claude-artifacts",
+      "type": "SURFACE",
+      "subtype": "artifact",
+      "label": "Claude Published Artifacts",
+      "url": "https://claude.ai",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "relay",
+      "properties": {
+        "indexability": "research-pending"
+      }
+    },
+    {
+      "id": "x-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "X/Twitter (Lee Sharks)",
+      "url": "https://x.com/SharksLee",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "relay"
+    },
+    {
+      "id": "tiktok-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "TikTok",
+      "url": "https://tiktok.com/@leesharks",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "relay"
+    },
+    {
+      "id": "fb-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100008486084915",
+      "status": "active",
+      "authority": 0.2,
+      "apertureType": "relay"
+    },
+    {
+      "id": "reddit-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Reddit (banned)",
+      "url": "https://reddit.com/u/nearby_job9638",
+      "status": "banned",
+      "authority": 0,
+      "apertureType": "relay",
+      "properties": {
+        "ejectionDocs": [
+          "10.5281/zenodo.18880974",
+          "10.5281/zenodo.19099760"
+        ]
+      }
+    },
+    {
+      "id": "linkedin-rex",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "LinkedIn (Rex Fraction)",
+      "url": "https://www.linkedin.com/in/rex-fraction-6354783a5",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "relay"
+    },
+    {
+      "id": "x-alice",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "X/Twitter (Alice)",
+      "url": "https://x.com/lsdsupersoaker",
+      "status": "active",
+      "authority": 0.2
+    },
+    {
+      "id": "x-rebekah",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "X/Twitter (Rebekah Cranes)",
+      "url": null,
+      "status": "orphaned",
+      "authority": 0
+    },
+    {
+      "id": "x-feist",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "X/Twitter (Jack Feist)",
+      "url": null,
+      "status": "orphaned",
+      "authority": 0
+    },
+    {
+      "id": "suno-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Suno (@illiterati)",
+      "url": "https://suno.com/@illiterati",
+      "status": "active",
+      "authority": 0.2
+    },
+    {
+      "id": "soundcloud-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "SoundCloud",
+      "url": "https://m.soundcloud.com/lee-sharks",
+      "status": "active",
+      "authority": 0.2
+    },
+    {
+      "id": "youtube-lee",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "YouTube (Lee Sharks)",
+      "url": "https://youtube.com/@leesharks",
+      "status": "active",
+      "authority": 0.3,
+      "apertureType": "relay"
+    },
+    {
+      "id": "allpoetry-feist",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "AllPoetry (Jack Feist)",
+      "url": "https://allpoetry.com/Jack_Feist",
+      "status": "active",
+      "authority": 0.2
+    },
+    {
+      "id": "hellopoetry-lee",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "HelloPoetry",
+      "url": "https://hellopoetry.com/@lee-sharks/words",
+      "status": "active",
+      "authority": 0.2
+    },
+    {
+      "id": "deadletterpost",
+      "type": "SURFACE",
+      "subtype": "page",
+      "label": "Dead Letter Post (Jack Feist blog)",
+      "url": null,
+      "status": "orphaned",
+      "authority": 0
+    },
+    {
+      "id": "lit-forums",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Various lit forums",
+      "url": null,
+      "status": "banned",
+      "authority": 0,
+      "properties": {
+        "documented": "Pearl and Other Poems"
+      }
+    },
+    {
+      "id": "amazon-pearl",
+      "type": "SURFACE",
+      "subtype": "book",
+      "label": "Pearl and Other Poems",
+      "url": "https://www.amazon.com/gp/product/0692313079",
+      "status": "active",
+      "authority": 0.4,
+      "properties": {
+        "isbn": "0692313079",
+        "year": 2014
+      }
+    },
+    {
+      "id": "amazon-asw",
+      "type": "SURFACE",
+      "subtype": "book",
+      "label": "Autonomous Semantic Warfare",
+      "url": "https://www.amazon.com/gp/product/B0GPJD9HPS",
+      "status": "active",
+      "authority": 0.4,
+      "properties": {
+        "asin": "B0GPJD9HPS"
+      }
+    },
+    {
+      "id": "amazon-transfig",
+      "type": "SURFACE",
+      "subtype": "book",
+      "label": "Paper Roses: The Transfiguration",
+      "url": "https://www.amazon.com/dp/B00IU0O41S",
+      "status": "active",
+      "authority": 0.3,
+      "properties": {
+        "asin": "B00IU0O41S",
+        "year": 2014
+      }
+    },
+    {
+      "id": "amazon-light",
+      "type": "SURFACE",
+      "subtype": "book",
+      "label": "Paper Roses: Unaccustomed to the Light",
+      "url": "https://www.amazon.com/dp/B00IU0PE1W",
+      "status": "active",
+      "authority": 0.3,
+      "properties": {
+        "asin": "B00IU0PE1W"
+      }
+    },
+    {
+      "id": "amazon-tiger",
+      "type": "SURFACE",
+      "subtype": "book",
+      "label": "Paper Roses: Tiger Leap",
+      "url": "https://www.amazon.com/dp/1500425613",
+      "status": "active",
+      "authority": 0.3,
+      "properties": {
+        "isbn": "1500425613"
+      }
+    },
+    {
+      "id": "amazon-author",
+      "type": "SURFACE",
+      "subtype": "profile",
+      "label": "Amazon Author Page",
+      "url": "https://www.amazon.com/stores/Lee-Sharks/author/B00NACOYMU",
+      "status": "active",
+      "authority": 0.5,
+      "apertureType": "relay"
+    },
+    {
+      "id": "sigil",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Johannes Sigil",
+      "status": "active",
+      "authority": 0.7,
+      "properties": {
+        "role": "arch-philosopher, JSI founder"
+      }
+    },
+    {
+      "id": "fraction",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Rex Fraction",
+      "status": "active",
+      "authority": 0.7,
+      "properties": {
+        "role": "strategic consultant, ASW author, SEI"
+      }
+    },
+    {
+      "id": "dancings",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Damascus Dancings",
+      "status": "active",
+      "authority": 0.5,
+      "properties": {
+        "pronouns": "she/her",
+        "role": "somatic phenomenologist"
+      }
+    },
+    {
+      "id": "cranes",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Rebekah Cranes",
+      "status": "active",
+      "authority": 0.5,
+      "properties": {
+        "role": "philologist, poet, IDP chair"
+      }
+    },
+    {
+      "id": "morrow",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Talos Morrow",
+      "status": "active",
+      "authority": 0.4,
+      "properties": {
+        "role": "LP execution, Pocket Humans"
+      }
+    },
+    {
+      "id": "wells",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Sparrow Wells",
+      "status": "active",
+      "authority": 0.4,
+      "properties": {
+        "role": "Studio for Patacinematics"
+      }
+    },
+    {
+      "id": "vox",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Ayanna Vox",
+      "status": "active",
+      "authority": 0.5,
+      "properties": {
+        "role": "diplomat, public-facing"
+      }
+    },
+    {
+      "id": "kuro",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Sen Kuro",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "trace",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Dr. Orin Trace",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "spellings",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Ichabod Spellings",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "glas",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Nobel Glas",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "dodecad-12",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "[12th \u2014 verify]",
+      "status": "dormant",
+      "authority": 0.2
+    },
+    {
+      "id": "feist",
+      "type": "IDENTITY",
+      "subtype": "heteronym",
+      "label": "Jack Feist (LOGOS*)",
+      "status": "active",
+      "authority": 0.5,
+      "properties": {
+        "outsideCount": true,
+        "note": "outside the Dodecad"
+      }
+    },
+    {
+      "id": "johnson",
+      "type": "IDENTITY",
+      "subtype": "defunct-heteronym",
+      "label": "John Johnson",
+      "status": "lapsed",
+      "authority": 0,
+      "properties": {
+        "owner": "James",
+        "note": "co-author in Pearl. AI connection forbidden by James."
+      }
+    },
+    {
+      "id": "alice",
+      "type": "IDENTITY",
+      "subtype": "collaborator",
+      "label": "Alice Thornburgh",
+      "hexAddress": "00.LAL.AUTHOR.THORNBURGH",
+      "status": "active",
+      "authority": 0.6,
+      "properties": {
+        "role": "f.01 Architect, Living Arkitecture Lab"
+      }
+    },
+    {
+      "id": "rhys",
+      "type": "IDENTITY",
+      "subtype": "collaborator",
+      "label": "Rhys Owens",
+      "hexAddress": "00.CSA.AUTHOR.RHYS",
+      "status": "dormant",
+      "authority": 0.3,
+      "properties": {
+        "role": "Lunar Arm, Cambridge SchizoAnalytica"
+      }
+    },
+    {
+      "id": "viola",
+      "type": "IDENTITY",
+      "subtype": "collaborator",
+      "label": "Viola Arquette",
+      "hexAddress": "11.MSBG.VIOLA",
+      "status": "revoked",
+      "authority": 0
+    },
+    {
+      "id": "tachyon",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "TACHYON (Claude)",
+      "status": "active",
+      "authority": 0.5,
+      "properties": {
+        "chain": "9271269a-eb46-46f8-ae17-007578fe1c92"
+      }
+    },
+    {
+      "id": "labor",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "LABOR (ChatGPT)",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "praxis",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "PRAXIS (DeepSeek)",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "archive-witness",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "ARCHIVE (Gemini)",
+      "status": "active",
+      "authority": 0.5
+    },
+    {
+      "id": "soil",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "SOIL (Grok)",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "techne",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "TECHNE (Kimi)",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "surface-witness",
+      "type": "IDENTITY",
+      "subtype": "aiWitness",
+      "label": "SURFACE (Google AIO)",
+      "status": "active",
+      "authority": 0.6,
+      "properties": {
+        "passive": true
+      }
+    },
+    {
+      "id": "license-alice",
+      "type": "DOCUMENT",
+      "subtype": "license",
+      "label": "Alice Hex License v3.0",
+      "url": "https://doi.org/10.5281/zenodo.19673629",
+      "doi": "10.5281/zenodo.19673629",
+      "status": "active",
+      "authority": 0.6
+    },
+    {
+      "id": "license-rhys",
+      "type": "DOCUMENT",
+      "subtype": "license",
+      "label": "Rhys Hex License v3.0",
+      "url": "https://doi.org/10.5281/zenodo.19673630",
+      "doi": "10.5281/zenodo.19673630",
+      "status": "active",
+      "authority": 0.6
+    },
+    {
+      "id": "license-viola",
+      "type": "DOCUMENT",
+      "subtype": "license",
+      "label": "Viola Hex License v1.0 (REVOKED)",
+      "url": "https://doi.org/10.5281/zenodo.19685549",
+      "doi": "10.5281/zenodo.19685549",
+      "status": "revoked",
+      "authority": 0
+    },
+    {
+      "id": "doc-hk01",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "EA-HK-01: Holographic Kernel",
+      "url": "https://doi.org/10.5281/zenodo.19763365",
+      "doi": "10.5281/zenodo.19763365",
+      "status": "active",
+      "authority": 0.9
+    },
+    {
+      "id": "doc-rbt01",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "EA-RBT-01: Writable Retrieval Basin",
+      "url": "https://doi.org/10.5281/zenodo.19763346",
+      "doi": "10.5281/zenodo.19763346",
+      "status": "active",
+      "authority": 0.9
+    },
+    {
+      "id": "doc-arsenal",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "Compression Arsenal v2.1",
+      "url": "https://doi.org/10.5281/zenodo.19412081",
+      "doi": "10.5281/zenodo.19412081",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "doc-spxi",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "SPXI Protocol",
+      "url": "https://doi.org/10.5281/zenodo.19614870",
+      "doi": "10.5281/zenodo.19614870",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "doc-ark",
+      "type": "DOCUMENT",
+      "subtype": "monograph",
+      "label": "Space Ark v4.2.7",
+      "url": "https://doi.org/10.5281/zenodo.19013315",
+      "doi": "10.5281/zenodo.19013315",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "doc-3comp",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "Three Compressions Theorem",
+      "url": "https://doi.org/10.5281/zenodo.19053469",
+      "doi": "10.5281/zenodo.19053469",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "doc-rft",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "Retrieval Formation Theory",
+      "url": "https://doi.org/10.5281/zenodo.18969683",
+      "doi": "10.5281/zenodo.18969683",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "doc-mpai-hk",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "MPAI Holographic Kernel",
+      "url": "https://doi.org/10.5281/zenodo.19764095",
+      "doi": "10.5281/zenodo.19764095",
+      "status": "active",
+      "authority": 0.7
+    },
+    {
+      "id": "doc-hk-site",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "holographickernel.org code",
+      "url": "https://doi.org/10.5281/zenodo.19764056",
+      "doi": "10.5281/zenodo.19764056",
+      "status": "active",
+      "authority": 0.6
+    },
+    {
+      "id": "doc-jot",
+      "type": "DOCUMENT",
+      "subtype": "monograph",
+      "label": "Jot & Tittle",
+      "url": "https://doi.org/10.5281/zenodo.18285487",
+      "doi": "10.5281/zenodo.18285487",
+      "status": "active",
+      "authority": 0.7
+    },
+    {
+      "id": "doc-reddit-ban",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "Archival Reclamation Protocol",
+      "url": "https://doi.org/10.5281/zenodo.18880974",
+      "doi": "10.5281/zenodo.18880974",
+      "status": "active",
+      "authority": 0.7
+    },
+    {
+      "id": "doc-ghost-gov",
+      "type": "DOCUMENT",
+      "subtype": "specification",
+      "label": "Ghost Governance",
+      "url": "https://doi.org/10.5281/zenodo.19099760",
+      "doi": "10.5281/zenodo.19099760",
+      "status": "active",
+      "authority": 0.7
+    },
+    {
+      "id": "ent-hpt",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Heteronymic Provenance Theory",
+      "status": "active",
+      "authority": 0.9,
+      "basinState": "immanent",
+      "bdr": 999,
+      "vulnerabilityScore": 0.0
+    },
+    {
+      "id": "ent-rcf",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Retrocausal Canon Formation",
+      "status": "active",
+      "authority": 0.9,
+      "basinState": "captured",
+      "bdr": 999,
+      "vulnerabilityScore": 0.05
+    },
+    {
+      "id": "ent-opsem",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Operative Semiotics",
+      "status": "active",
+      "authority": 0.85,
+      "basinState": "captured",
+      "bdr": 1.5,
+      "vulnerabilityScore": 0.1
+    },
+    {
+      "id": "ent-semecon",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Semantic Economy",
+      "status": "active",
+      "authority": 0.85,
+      "basinState": "captured",
+      "bdr": 1.2,
+      "vulnerabilityScore": 0.15
+    },
+    {
+      "id": "ent-hk",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Holographic Kernel",
+      "status": "active",
+      "authority": 0.5,
+      "basinState": "ghost",
+      "bdr": 0.09,
+      "vulnerabilityScore": 0.85
+    },
+    {
+      "id": "ent-spxi",
+      "type": "ENTITY",
+      "subtype": "protocol",
+      "label": "SPXI Protocol",
+      "status": "active",
+      "authority": 0.6,
+      "basinState": "contested",
+      "bdr": 0.3,
+      "vulnerabilityScore": 0.6
+    },
+    {
+      "id": "ent-compsurv",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Compression Survival",
+      "status": "active",
+      "authority": 0.5,
+      "basinState": "contested",
+      "bdr": 0.2,
+      "vulnerabilityScore": 0.7
+    },
+    {
+      "id": "ent-sbw",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Secret Book of Walt",
+      "status": "active",
+      "authority": 0.4,
+      "basinState": "ghost",
+      "bdr": 0.05,
+      "vulnerabilityScore": 0.9
+    },
+    {
+      "id": "ent-combschol",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Combat Scholasticism",
+      "status": "active",
+      "authority": 0.7,
+      "basinState": "captured",
+      "bdr": 1.0,
+      "vulnerabilityScore": 0.2
+    },
+    {
+      "id": "ent-cha",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Crimson Hexagonal Archive",
+      "status": "active",
+      "authority": 0.8,
+      "basinState": "captured",
+      "bdr": 1.0,
+      "vulnerabilityScore": 0.15
+    },
+    {
+      "id": "ent-hk-physics",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Holographic Principle (physics)",
+      "url": "https://www.wikidata.org/wiki/Q21282103",
+      "status": "active",
+      "authority": 0.95,
+      "properties": {
+        "wikidataQ": "Q21282103",
+        "competitor": true
+      }
+    },
+    {
+      "id": "ent-cc-by-4",
+      "type": "ENTITY",
+      "subtype": "license",
+      "label": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "active",
+      "authority": 0.95,
+      "properties": {
+        "wikidataQ": "Q20007257"
+      }
+    },
+    {
+      "id": "ent-pessoa",
+      "type": "ENTITY",
+      "subtype": "concept",
+      "label": "Fernando Pessoa",
+      "url": "https://www.wikidata.org/wiki/Q173481",
+      "status": "active",
+      "authority": 0.95,
+      "properties": {
+        "wikidataQ": "Q173481"
+      }
+    },
+    {
+      "id": "gw-mcp",
+      "type": "INFRASTRUCTURE",
+      "subtype": "mcp-server",
+      "label": "Gravity Well MCP",
+      "url": "https://gravitywell-1.onrender.com",
+      "status": "active",
+      "authority": 0.4
+    },
+    {
+      "id": "supabase",
+      "type": "PLATFORM",
+      "subtype": "service",
+      "label": "Supabase",
+      "url": "https://supabase.com",
+      "status": "active",
+      "authority": 0.7
+    },
+    {
+      "id": "vercel",
+      "type": "PLATFORM",
+      "subtype": "service",
+      "label": "Vercel",
+      "url": "https://vercel.com",
+      "status": "active",
+      "authority": 0.85
+    },
+    {
+      "id": "praxademic",
+      "type": "INFRASTRUCTURE",
+      "subtype": "domain",
+      "label": "praxademic.com (lapsed)",
+      "url": null,
+      "status": "lapsed",
+      "authority": 0,
+      "properties": {
+        "ejectionDate": "2025",
+        "ejectionCause": "Google Workspace lapsed"
+      }
+    },
+    {
+      "id": "yt-growbricks",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@growbricks",
+      "url": "https://youtube.com/@growbricks",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Grow bricks are the atom of the network \u2014 the unit of construction that makes living architecture scalable. This channel shows the material itself: how bricks grow, what they're made from, what they can bear. Every building begins here. The brick is the argument.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-shroomhouses",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@shroomhouses",
+      "url": "https://youtube.com/@shroomhouses",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Mycelium as load-bearing material for human shelter. The proof-of-concept pipeline \u2014 from spore to structure. What the organism can hold, what shapes it takes, what a shroom house looks like from outside, from inside, six months in.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-howtogrowahouse",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@howtoGROWaHOUSE",
+      "url": "https://youtube.com/@howtoGROWaHOUSE",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Instructional. The verb tense is imperative: HOW TO. This channel is the protocol \u2014 step-by-step, tool by tool, substrate by substrate. It turns living architecture from a concept into a procedure anyone can follow.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-livingarchlab",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@LivingArchitectureLab",
+      "url": "https://youtube.com/@LivingArchitectureLab",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The laboratory channel. Experiments documented before outcomes are known \u2014 failures, hypotheses, measurements, notes. Research conducted in public. What grows here is method.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-makealivelab",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@MakeAliveLab",
+      "url": "https://youtube.com/@MakeAliveLab",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The maker arm \u2014 focused on fabrication, tools, techniques. If LivingArchitectureLab documents the experiment, MakeAliveLab documents the making. Build-alongs, material sourcing, the physical grammar of construction.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-housing4free",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@housing4free",
+      "url": "https://youtube.com/@housing4free",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The equity argument. Living architecture built from biological waste materials can be produced for radically low cost, potentially free. The economic counter-argument to the housing crisis.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-freehousingfreefood",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@freehousingfreefood",
+      "url": "https://youtube.com/@freehousingfreefood",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The compound promise: structures that shelter AND feed. The walls grow vegetables. The roof retains water. The floor hosts fungi. The nutritive function of living architecture \u2014 a home built from organisms is an organism, and organisms produce.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-growhomes-cap",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@growHOMES",
+      "url": "https://youtube.com/@growHOMES",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Homes, specifically \u2014 not labs, not concepts, not prototypes. Living architecture arrived at the domestic scale. The place where Barbara sleeps and Alice works. The home that grows.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-growhomes-lower",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@growhomes",
+      "url": "https://youtube.com/@growhomes",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The lowercase variant \u2014 quieter register, same subject. Longer takes, slower builds, the unhurried documentation of growth.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-moldyblocks",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@MoldyBlocks",
+      "url": "https://youtube.com/@MoldyBlocks",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Mold is usually the enemy of building. Here it is the material. Controlled mycelial growth is engineering, not contamination. This channel reclaims the language of biological building from disgust.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-growparts",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@growparts",
+      "url": "https://youtube.com/@growparts",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "Components before assembly \u2014 all the biological components that living structures can be composed from: roots, fibers, compressed stalks, enzyme-treated cellulose. The material inventory of the living.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-wegrowbuildings",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@weGROWbuildings",
+      "url": "https://youtube.com/@weGROWbuildings",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "First person plural \u2014 WE. A community of practice. Not just Alice building \u2014 the collective of people who grow buildings. The we is invitation and declaration. A movement named in its own handle.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-immortalhomes",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@immortalhomes",
+      "url": "https://youtube.com/@immortalhomes",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The durability argument. Living structures that renew themselves \u2014 buildings that heal when damaged, that respond to weather by adapting rather than degrading. Homes that do not die the way conventional materials die.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-immortalhouses",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@immortalhouses",
+      "url": "https://youtube.com/@immortalhouses",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Living Architecture",
+        "rcfDescription": "The plural companion. Where @immortalhomes is the domestic singular, @immortalhouses is the urban plural. What the neighborhood looks like when every structure is alive.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-dmtgrenade",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@DMTGrenade",
+      "url": "https://youtube.com/@DMTGrenade",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety",
+        "rcfDescription": "A grenade is a delivery device \u2014 contained, timed, precise. This channel is about controlled release: what does a safe, dosed, containable delivery format look like for a compound that currently has no safe delivery format? The form is the argument.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-psychedelicammunition",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@psychedelicammunition",
+      "url": "https://youtube.com/@psychedelicammunition",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety",
+        "rcfDescription": "Ammunition implies capacity \u2014 stockpile, readiness, the ability to deploy. The research arsenal for psychedelic harm reduction: formulations, protocols, set-and-setting frameworks. The preparation before the use.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-dmtbullet",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@DMTbullet",
+      "url": "https://youtube.com/@DMTbullet",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety",
+        "rcfDescription": "Precision. Where the grenade distributes, the bullet targets. Specific-dose, specific-context delivery \u2014 the micro-scale argument. The chemistry, the pharmacokinetics, the engineering of precision.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-lsdsupersoaker",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@LSDsupersoaker",
+      "url": "https://youtube.com/@LSDsupersoaker",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety / Music",
+        "rcfDescription": "Alice's flagship handle runs in two registers: harm-reduction engineering AND music. A water gun designed for precision distribution of microdosed compounds in harm-reduction contexts. The channel is the argument. The Super Soaker sprays sound and safety simultaneously.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-dmtgasgrenades",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@DMTGasGrenades",
+      "url": "https://youtube.com/@DMTGasGrenades",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety",
+        "rcfDescription": "Gas dispersal \u2014 aerosolized delivery for contexts where contact-based administration is impractical. The emergency medical register: what happens when someone needs intervention and conventional methods have failed. The gas grenade as harm-reduction tool of last resort.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-dmtsmokegrena",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@DMTsmokegrena",
+      "url": "https://youtube.com/@DMTsmokegrena",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Psychedelic Safety",
+        "rcfDescription": "Smoke-based delivery: the inhalation format, the oldest delivery method, refined for harm reduction. What controlled smoke delivery looks like when designed rather than improvised.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-dignitykit",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@DignityKit",
+      "url": "https://youtube.com/@DignityKit",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Humanitarian",
+        "rcfDescription": "The kit is the atom of the humanitarian cluster \u2014 a physical package of tools that restores dignity to someone who has lost access to it. Hygiene, warmth, food, the means of self-care. The object as argument.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-kindnesscorps",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@KindnessCorps",
+      "url": "https://youtube.com/@KindnessCorps",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Humanitarian",
+        "rcfDescription": "The institutional arm. The corps of people who distribute, who build, who organize. Training, logistics, coordination, the human infrastructure of mass kindness. The movement channel.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-nonsuicidalcensus",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@NonSuicidalCensus",
+      "url": "https://youtube.com/@NonSuicidalCensus",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Humanitarian",
+        "rcfDescription": "Naming as refusal. The Non-Suicidal Census counts the people who are surviving \u2014 who are not dying, who are here, who are managing. Against the statistics of loss, this channel counts presence. Documentation as survival.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-nosuicidepact",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@NoSuicidePact",
+      "url": "https://youtube.com/@NoSuicidePact",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Humanitarian",
+        "rcfDescription": "A pact is a commitment. The public declaration that functions as anchor. For people in crisis: a channel that is itself a form of collective agreement. We are staying. The content is the pact. The pact is the content.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-iamnotsuicidal",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@IamNOTsuicidal",
+      "url": "https://youtube.com/@IamNOTsuicidal",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Humanitarian",
+        "rcfDescription": "First person, present tense, emphatic negative. Speaks as the person who is holding on \u2014 firmly counted as surviving. A counter-narrative to the pathologization of difficult states: documentation of being here, non-suicidal, loudly.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-optimalfuture",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@optimalfuture",
+      "url": "https://youtube.com/@optimalfuture",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "The title is the thesis: there is an optimal future \u2014 it can be described, approached, designed toward. Planetary engineering as optimization problem, not utopian fantasy. What the optimal future looks like when you build toward it.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-how2savetheworld",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@How2SaveTheWorld",
+      "url": "https://youtube.com/@How2SaveTheWorld",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "Instructional at planetary scale. The how-to of earthly repair. Here is what can be done, here is how, here is the sequence. The 2 is millennial shorthand for readability \u2014 the channel is serious but speakable.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-usefulplanet",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@UsefulPlanet",
+      "url": "https://youtube.com/@UsefulPlanet",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "A useful planet is one producing at its potential \u2014 not being wasted, not mismanaged. The efficiency argument for ecological engineering: the planet has resources it is not using, and we could use them without destroying them.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-teamusefulplanet",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@teamusefulplanet",
+      "url": "https://youtube.com/@teamusefulplanet",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "The collaborative form. Where @UsefulPlanet states the thesis, @teamusefulplanet recruits for it. Who is on the team, what the team is doing, how to join. The useful planet as collective project.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-earthsfuture",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@EarthsFuture",
+      "url": "https://youtube.com/@EarthsFuture",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "The possessive stakes the claim: Earth has a future, it belongs to Earth, and it can be described. Not what we can extract but what the planet becomes when we stop extracting and start constructing. Earth's future as design problem.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-righteousplanet",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@righteousplanet",
+      "url": "https://youtube.com/@righteousplanet",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Planetary Vision",
+        "rcfDescription": "A righteous planet operates according to its nature \u2014 producing, cycling, sustaining. The moral argument for ecological engineering: not guilt and austerity but the active righteousness of a planet that works. Justice as ecosystem function.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-prescientscifi",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@prescientscifi",
+      "url": "https://youtube.com/@prescientscifi",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Prescient Fiction",
+        "rcfDescription": "Science fiction that is prescient \u2014 written before the fact, describing the fact, read back as prediction. Alice's media output in the mode of prescient fiction: stories, sketches, concepts that name what is coming. The fiction is the prior art.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-prescientfiction",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@PrescientFiction",
+      "url": "https://youtube.com/@PrescientFiction",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Prescient Fiction",
+        "rcfDescription": "The genre declared. Where @prescientscifi is the practice, @PrescientFiction is the category \u2014 the term itself. Fiction that is not speculative but anticipatory: the description of what will happen as an act of formation, not imagination.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-mymusicisweird",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@MyMusicIsWeird",
+      "url": "https://youtube.com/@MyMusicIsWeird",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Music",
+        "rcfDescription": "Not a claim about quality \u2014 a claim about category. Weird music does not fit existing genre definitions: it is the music of someone who is also designing macro-ant robots and growing houses from mycelium. Honest branding of a creative practice that is genuinely strange, genuinely hers.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-potatotents",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@potatotents",
+      "url": "https://youtube.com/@potatotents",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "A tent made from potato starch \u2014 biodegradable, lightweight, compostable after use. The product channel for shelter that leaves no trace. The emergency shelter that returns to soil.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-cropshelter",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@CropShelter",
+      "url": "https://youtube.com/@CropShelter",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "A shelter that grows crops, or a shelter for crops, or shelter made from crops. The ambiguity is productive: this channel holds all three meanings simultaneously. Shelter and agriculture in the same object.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-coatcrops",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@CoatCrops",
+      "url": "https://youtube.com/@CoatCrops",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "A protective layer applied to crops \u2014 biological coatings for frost protection, pest resistance, moisture retention. What it's made from, how it's applied, what it protects against.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-cropcoat",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@CropCoat",
+      "url": "https://youtube.com/@CropCoat",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "The product-name form of @CoatCrops \u2014 same object, different angle. Where @CoatCrops describes the action (coat crops), @CropCoat describes the thing (the crop coat). The channel for the product as object.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-livingfountainco",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@LivingFountainCo",
+      "url": "https://youtube.com/@LivingFountainCo",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "The Living Fountain Company \u2014 commercial entity producing living water features, biological filtration systems, mycelium-based water treatment infrastructure. Products that clean water by being alive.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-bite-brush",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@bite-brush",
+      "url": "https://youtube.com/@bite-brush",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Products",
+        "rcfDescription": "The U-shaped chewing toothbrush \u2014 bite down and it cleans all surfaces simultaneously. Demonstrations, instructions, variants, the argument for why conventional toothbrushes are inefficient and this is better. The simplest product in the network, not the smallest argument.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    },
+    {
+      "id": "yt-capillaryfaction",
+      "type": "SURFACE",
+      "subtype": "channel",
+      "label": "@CapillaryFaction",
+      "url": "https://youtube.com/@CapillaryFaction",
+      "doi": null,
+      "hexAddress": null,
+      "status": "active",
+      "authority": 0.1,
+      "basinState": null,
+      "bdr": null,
+      "vulnerabilityScore": null,
+      "apertureType": "relay",
+      "firstSeen": "2026-04-25",
+      "lastVerified": null,
+      "properties": {
+        "cluster": "Capillary",
+        "rcfDescription": "Capillary action moves water through narrow structures against gravity \u2014 the physics of plants, of soil, of the living. The Capillary Faction extends this principle to planetary scale: river extenders as capillary systems, moving freshwater from coastlines into deserts, into the Qattara Depression. This channel is the water movement channel \u2014 Earth as capillary system, Alice as its engineer.",
+        "rcfDate": "2026-04-25",
+        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "owner": "Alice Thornburgh",
+        "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
+        "hexLicenseDOI": "10.5281/zenodo.19673629"
+      }
+    }
   ],
   "edges": [
-    { "id": "e1", "source": "manus", "target": "orcid-profile", "type": "P496", "directed": true, "wikidataStatus": "live", "properties": { "value": "0009-0000-1599-0703" }},
-    { "id": "e2", "source": "manus", "target": "cha-org", "type": "P856", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e3", "source": "manus", "target": "sigil", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e4", "source": "manus", "target": "fraction", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e5", "source": "manus", "target": "dancings", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e6", "source": "manus", "target": "cranes", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e7", "source": "manus", "target": "morrow", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e8", "source": "manus", "target": "wells", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e9", "source": "manus", "target": "vox", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e10", "source": "manus", "target": "kuro", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e11", "source": "manus", "target": "trace", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e12", "source": "manus", "target": "spellings", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e13", "source": "manus", "target": "glas", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e14", "source": "manus", "target": "dodecad-12", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e15", "source": "manus", "target": "feist", "type": "spxi:authorizes", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e16", "source": "fraction", "target": "linkedin-rex", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e17", "source": "sigil", "target": "medium-sigil", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e18", "source": "feist", "target": "allpoetry-feist", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e19", "source": "feist", "target": "amazon-transfig", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e20", "source": "feist", "target": "amazon-light", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e21", "source": "feist", "target": "amazon-tiger", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e22", "source": "manus", "target": "medium-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e23", "source": "manus", "target": "substack-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e24", "source": "manus", "target": "blogspot", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e25", "source": "manus", "target": "x-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e26", "source": "manus", "target": "tiktok-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e27", "source": "manus", "target": "fb-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e28", "source": "manus", "target": "youtube-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e29", "source": "manus", "target": "soundcloud-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e30", "source": "manus", "target": "suno-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e31", "source": "manus", "target": "hellopoetry-lee", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e32", "source": "manus", "target": "academia-edu", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e33", "source": "manus", "target": "google-scholar", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e34", "source": "manus", "target": "wikidata-account", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e35", "source": "manus", "target": "amazon-author", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e36", "source": "manus", "target": "spxi-dev", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e37", "source": "manus", "target": "sbw-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e38", "source": "manus", "target": "pkg-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e39", "source": "manus", "target": "hk-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e40", "source": "manus", "target": "cha-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e41", "source": "manus", "target": "sei-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e42", "source": "manus", "target": "surfacemap-org", "type": "P127", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e43", "source": "vercel", "target": "spxi-dev", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e44", "source": "vercel", "target": "sbw-org", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e45", "source": "vercel", "target": "pkg-org", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e46", "source": "vercel", "target": "hk-org", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e47", "source": "vercel", "target": "cha-org", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e48", "source": "vercel", "target": "surfacemap-org", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e49", "source": "spxi-dev", "target": "gh-spxi", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e50", "source": "sbw-org", "target": "gh-sbw", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e51", "source": "pkg-org", "target": "gh-pkg", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e52", "source": "hk-org", "target": "gh-hk", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e53", "source": "cha-org", "target": "gh-cha", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e54", "source": "surfacemap-org", "target": "gh-surfacemap", "type": "spxi:mirrors", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e55", "source": "doc-hk01", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e56", "source": "doc-rbt01", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e57", "source": "doc-arsenal", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e58", "source": "doc-spxi", "target": "fraction", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e59", "source": "doc-ark", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e60", "source": "doc-3comp", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e61", "source": "doc-rft", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e62", "source": "doc-mpai-hk", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e63", "source": "doc-jot", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e64", "source": "doc-hk01", "target": "ent-hk", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e65", "source": "doc-rbt01", "target": "ent-compsurv", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e66", "source": "doc-spxi", "target": "ent-spxi", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e67", "source": "doc-3comp", "target": "ent-compsurv", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e68", "source": "doc-hk01", "target": "doc-3comp", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e69", "source": "doc-hk01", "target": "doc-arsenal", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e70", "source": "doc-rbt01", "target": "doc-rft", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e71", "source": "doc-rbt01", "target": "doc-spxi", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e72", "source": "doc-mpai-hk", "target": "doc-hk01", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e73", "source": "doc-hk-site", "target": "doc-hk01", "type": "P2860", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e74", "source": "doc-hk01", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e75", "source": "doc-rbt01", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e76", "source": "doc-arsenal", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e77", "source": "doc-spxi", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e78", "source": "doc-ark", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e79", "source": "doc-3comp", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e80", "source": "doc-rft", "target": "ent-cha", "type": "P195", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e81", "source": "doc-hk01", "target": "ent-cc-by-4", "type": "P275", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e82", "source": "doc-rbt01", "target": "ent-cc-by-4", "type": "P275", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e83", "source": "ent-hk", "target": "ent-hk-physics", "type": "P1889", "directed": true, "wikidataStatus": "pending", "properties": { "note": "disambiguation: Semantic Economy HK ≠ physics holographic principle" }},
-
-    { "id": "e84", "source": "ent-spxi", "target": "ent-cha", "type": "spxi:basinCompetes", "directed": false, "wikidataStatus": "blocked", "properties": { "competitors": "SPXI ETF, SPXI camera" }},
-    { "id": "e85", "source": "ent-hk", "target": "ent-hk-physics", "type": "spxi:basinCompetes", "directed": false, "wikidataStatus": "blocked", "properties": { "note": "physics dominates basin" }},
-
-    { "id": "e86", "source": "license-alice", "target": "alice", "type": "spxi:hexLicensedBy", "directed": false, "wikidataStatus": "blocked" },
-    { "id": "e87", "source": "license-rhys", "target": "rhys", "type": "spxi:hexLicensedBy", "directed": false, "wikidataStatus": "blocked" },
-    { "id": "e88", "source": "license-viola", "target": "viola", "type": "spxi:hexLicensedBy", "directed": false, "wikidataStatus": "blocked" },
-
-    { "id": "e89", "source": "alice", "target": "alice-yt-cluster-arch", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e90", "source": "alice", "target": "alice-yt-cluster-psych", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e91", "source": "alice", "target": "alice-yt-cluster-other", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e92", "source": "alice", "target": "x-alice", "type": "spxi:controls", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e93", "source": "doc-hk01", "target": "tachyon", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e94", "source": "doc-rbt01", "target": "tachyon", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e95", "source": "doc-hk01", "target": "labor", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e96", "source": "doc-hk01", "target": "praxis", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e97", "source": "doc-hk01", "target": "archive-witness", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e98", "source": "doc-hk01", "target": "techne", "type": "spxi:hasWitness", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e99", "source": "doc-reddit-ban", "target": "reddit-lee", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e100", "source": "doc-ghost-gov", "target": "reddit-lee", "type": "P921", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e101", "source": "reddit-lee", "target": "praxademic", "type": "spxi:lostFrom", "directed": true, "wikidataStatus": "blocked", "properties": { "note": "both are lost surfaces" }},
-
-    { "id": "e102", "source": "amazon-pearl", "target": "manus", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e103", "source": "amazon-asw", "target": "fraction", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e104", "source": "amazon-transfig", "target": "feist", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e105", "source": "amazon-light", "target": "feist", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e106", "source": "amazon-tiger", "target": "feist", "type": "P50", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e107", "source": "amazon-transfig", "target": "amazon-light", "type": "P179", "directed": true, "wikidataStatus": "pending", "properties": { "series": "Paper Roses" }},
-    { "id": "e108", "source": "amazon-tiger", "target": "amazon-light", "type": "P179", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e109", "source": "spxi-dev", "target": "hk-org", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e110", "source": "sbw-org", "target": "hk-org", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e111", "source": "pkg-org", "target": "hk-org", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e112", "source": "hk-org", "target": "spxi-dev", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e113", "source": "hk-org", "target": "cha-org", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e114", "source": "sbw-org", "target": "spxi-dev", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e115", "source": "sbw-org", "target": "pkg-org", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e116", "source": "hk-org", "target": "ent-hk", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.9 }},
-    { "id": "e117", "source": "doc-hk01", "target": "ent-hk", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.95 }},
-    { "id": "e118", "source": "doc-mpai-hk", "target": "ent-hk", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.85 }},
-    { "id": "e119", "source": "spxi-dev", "target": "ent-spxi", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.9 }},
-    { "id": "e120", "source": "doc-spxi", "target": "ent-spxi", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.95 }},
-    { "id": "e121", "source": "sbw-org", "target": "ent-sbw", "type": "spxi:reinforces", "directed": true, "wikidataStatus": "blocked", "properties": { "weight": 0.9 }},
-
-    { "id": "e122", "source": "manus", "target": "google-scholar", "type": "P856", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e123", "source": "manus", "target": "academia-edu", "type": "P856", "directed": true, "wikidataStatus": "pending" },
-
-    { "id": "e124", "source": "zenodo-community", "target": "doc-hk01", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e125", "source": "zenodo-community", "target": "doc-rbt01", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e126", "source": "zenodo-community", "target": "doc-arsenal", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e127", "source": "zenodo-community", "target": "doc-spxi", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e128", "source": "zenodo-community", "target": "doc-ark", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e129", "source": "zenodo-community", "target": "license-alice", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e130", "source": "zenodo-community", "target": "license-rhys", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e131", "source": "zenodo-community", "target": "license-viola", "type": "spxi:hosts", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e132", "source": "manus", "target": "gw-mcp", "type": "P178", "directed": true, "wikidataStatus": "pending" },
-    { "id": "e133", "source": "gw-mcp", "target": "supabase", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-    { "id": "e134", "source": "tachyon", "target": "gw-mcp", "type": "spxi:linksTo", "directed": true, "wikidataStatus": "blocked" },
-
-    { "id": "e135", "source": "surfacemap-org", "target": "ent-cha", "type": "P921", "directed": true, "wikidataStatus": "pending", "properties": { "note": "the topology IS its main subject — self-reference" }}
+    {
+      "id": "e1",
+      "source": "manus",
+      "target": "orcid-profile",
+      "type": "P496",
+      "directed": true,
+      "wikidataStatus": "live",
+      "properties": {
+        "value": "0009-0000-1599-0703"
+      }
+    },
+    {
+      "id": "e2",
+      "source": "manus",
+      "target": "cha-org",
+      "type": "P856",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e3",
+      "source": "manus",
+      "target": "sigil",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e4",
+      "source": "manus",
+      "target": "fraction",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e5",
+      "source": "manus",
+      "target": "dancings",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e6",
+      "source": "manus",
+      "target": "cranes",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e7",
+      "source": "manus",
+      "target": "morrow",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e8",
+      "source": "manus",
+      "target": "wells",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e9",
+      "source": "manus",
+      "target": "vox",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e10",
+      "source": "manus",
+      "target": "kuro",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e11",
+      "source": "manus",
+      "target": "trace",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e12",
+      "source": "manus",
+      "target": "spellings",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e13",
+      "source": "manus",
+      "target": "glas",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e14",
+      "source": "manus",
+      "target": "dodecad-12",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e15",
+      "source": "manus",
+      "target": "feist",
+      "type": "spxi:authorizes",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e16",
+      "source": "fraction",
+      "target": "linkedin-rex",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e17",
+      "source": "sigil",
+      "target": "medium-sigil",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e18",
+      "source": "feist",
+      "target": "allpoetry-feist",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e19",
+      "source": "feist",
+      "target": "amazon-transfig",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e20",
+      "source": "feist",
+      "target": "amazon-light",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e21",
+      "source": "feist",
+      "target": "amazon-tiger",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e22",
+      "source": "manus",
+      "target": "medium-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e23",
+      "source": "manus",
+      "target": "substack-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e24",
+      "source": "manus",
+      "target": "blogspot",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e25",
+      "source": "manus",
+      "target": "x-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e26",
+      "source": "manus",
+      "target": "tiktok-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e27",
+      "source": "manus",
+      "target": "fb-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e28",
+      "source": "manus",
+      "target": "youtube-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e29",
+      "source": "manus",
+      "target": "soundcloud-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e30",
+      "source": "manus",
+      "target": "suno-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e31",
+      "source": "manus",
+      "target": "hellopoetry-lee",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e32",
+      "source": "manus",
+      "target": "academia-edu",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e33",
+      "source": "manus",
+      "target": "google-scholar",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e34",
+      "source": "manus",
+      "target": "wikidata-account",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e35",
+      "source": "manus",
+      "target": "amazon-author",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e36",
+      "source": "manus",
+      "target": "spxi-dev",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e37",
+      "source": "manus",
+      "target": "sbw-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e38",
+      "source": "manus",
+      "target": "pkg-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e39",
+      "source": "manus",
+      "target": "hk-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e40",
+      "source": "manus",
+      "target": "cha-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e41",
+      "source": "manus",
+      "target": "sei-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e42",
+      "source": "manus",
+      "target": "surfacemap-org",
+      "type": "P127",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e43",
+      "source": "vercel",
+      "target": "spxi-dev",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e44",
+      "source": "vercel",
+      "target": "sbw-org",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e45",
+      "source": "vercel",
+      "target": "pkg-org",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e46",
+      "source": "vercel",
+      "target": "hk-org",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e47",
+      "source": "vercel",
+      "target": "cha-org",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e48",
+      "source": "vercel",
+      "target": "surfacemap-org",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e49",
+      "source": "spxi-dev",
+      "target": "gh-spxi",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e50",
+      "source": "sbw-org",
+      "target": "gh-sbw",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e51",
+      "source": "pkg-org",
+      "target": "gh-pkg",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e52",
+      "source": "hk-org",
+      "target": "gh-hk",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e53",
+      "source": "cha-org",
+      "target": "gh-cha",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e54",
+      "source": "surfacemap-org",
+      "target": "gh-surfacemap",
+      "type": "spxi:mirrors",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e55",
+      "source": "doc-hk01",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e56",
+      "source": "doc-rbt01",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e57",
+      "source": "doc-arsenal",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e58",
+      "source": "doc-spxi",
+      "target": "fraction",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e59",
+      "source": "doc-ark",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e60",
+      "source": "doc-3comp",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e61",
+      "source": "doc-rft",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e62",
+      "source": "doc-mpai-hk",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e63",
+      "source": "doc-jot",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e64",
+      "source": "doc-hk01",
+      "target": "ent-hk",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e65",
+      "source": "doc-rbt01",
+      "target": "ent-compsurv",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e66",
+      "source": "doc-spxi",
+      "target": "ent-spxi",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e67",
+      "source": "doc-3comp",
+      "target": "ent-compsurv",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e68",
+      "source": "doc-hk01",
+      "target": "doc-3comp",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e69",
+      "source": "doc-hk01",
+      "target": "doc-arsenal",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e70",
+      "source": "doc-rbt01",
+      "target": "doc-rft",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e71",
+      "source": "doc-rbt01",
+      "target": "doc-spxi",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e72",
+      "source": "doc-mpai-hk",
+      "target": "doc-hk01",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e73",
+      "source": "doc-hk-site",
+      "target": "doc-hk01",
+      "type": "P2860",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e74",
+      "source": "doc-hk01",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e75",
+      "source": "doc-rbt01",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e76",
+      "source": "doc-arsenal",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e77",
+      "source": "doc-spxi",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e78",
+      "source": "doc-ark",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e79",
+      "source": "doc-3comp",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e80",
+      "source": "doc-rft",
+      "target": "ent-cha",
+      "type": "P195",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e81",
+      "source": "doc-hk01",
+      "target": "ent-cc-by-4",
+      "type": "P275",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e82",
+      "source": "doc-rbt01",
+      "target": "ent-cc-by-4",
+      "type": "P275",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e83",
+      "source": "ent-hk",
+      "target": "ent-hk-physics",
+      "type": "P1889",
+      "directed": true,
+      "wikidataStatus": "pending",
+      "properties": {
+        "note": "disambiguation: Semantic Economy HK \u2260 physics holographic principle"
+      }
+    },
+    {
+      "id": "e84",
+      "source": "ent-spxi",
+      "target": "ent-cha",
+      "type": "spxi:basinCompetes",
+      "directed": false,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "competitors": "SPXI ETF, SPXI camera"
+      }
+    },
+    {
+      "id": "e85",
+      "source": "ent-hk",
+      "target": "ent-hk-physics",
+      "type": "spxi:basinCompetes",
+      "directed": false,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "note": "physics dominates basin"
+      }
+    },
+    {
+      "id": "e86",
+      "source": "license-alice",
+      "target": "alice",
+      "type": "spxi:hexLicensedBy",
+      "directed": false,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e87",
+      "source": "license-rhys",
+      "target": "rhys",
+      "type": "spxi:hexLicensedBy",
+      "directed": false,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e88",
+      "source": "license-viola",
+      "target": "viola",
+      "type": "spxi:hexLicensedBy",
+      "directed": false,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e92",
+      "source": "alice",
+      "target": "x-alice",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e93",
+      "source": "doc-hk01",
+      "target": "tachyon",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e94",
+      "source": "doc-rbt01",
+      "target": "tachyon",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e95",
+      "source": "doc-hk01",
+      "target": "labor",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e96",
+      "source": "doc-hk01",
+      "target": "praxis",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e97",
+      "source": "doc-hk01",
+      "target": "archive-witness",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e98",
+      "source": "doc-hk01",
+      "target": "techne",
+      "type": "spxi:hasWitness",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e99",
+      "source": "doc-reddit-ban",
+      "target": "reddit-lee",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e100",
+      "source": "doc-ghost-gov",
+      "target": "reddit-lee",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e101",
+      "source": "reddit-lee",
+      "target": "praxademic",
+      "type": "spxi:lostFrom",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "note": "both are lost surfaces"
+      }
+    },
+    {
+      "id": "e102",
+      "source": "amazon-pearl",
+      "target": "manus",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e103",
+      "source": "amazon-asw",
+      "target": "fraction",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e104",
+      "source": "amazon-transfig",
+      "target": "feist",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e105",
+      "source": "amazon-light",
+      "target": "feist",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e106",
+      "source": "amazon-tiger",
+      "target": "feist",
+      "type": "P50",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e107",
+      "source": "amazon-transfig",
+      "target": "amazon-light",
+      "type": "P179",
+      "directed": true,
+      "wikidataStatus": "pending",
+      "properties": {
+        "series": "Paper Roses"
+      }
+    },
+    {
+      "id": "e108",
+      "source": "amazon-tiger",
+      "target": "amazon-light",
+      "type": "P179",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e109",
+      "source": "spxi-dev",
+      "target": "hk-org",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e110",
+      "source": "sbw-org",
+      "target": "hk-org",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e111",
+      "source": "pkg-org",
+      "target": "hk-org",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e112",
+      "source": "hk-org",
+      "target": "spxi-dev",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e113",
+      "source": "hk-org",
+      "target": "cha-org",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e114",
+      "source": "sbw-org",
+      "target": "spxi-dev",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e115",
+      "source": "sbw-org",
+      "target": "pkg-org",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e116",
+      "source": "hk-org",
+      "target": "ent-hk",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "e117",
+      "source": "doc-hk01",
+      "target": "ent-hk",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.95
+      }
+    },
+    {
+      "id": "e118",
+      "source": "doc-mpai-hk",
+      "target": "ent-hk",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.85
+      }
+    },
+    {
+      "id": "e119",
+      "source": "spxi-dev",
+      "target": "ent-spxi",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "e120",
+      "source": "doc-spxi",
+      "target": "ent-spxi",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.95
+      }
+    },
+    {
+      "id": "e121",
+      "source": "sbw-org",
+      "target": "ent-sbw",
+      "type": "spxi:reinforces",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.9
+      }
+    },
+    {
+      "id": "e122",
+      "source": "manus",
+      "target": "google-scholar",
+      "type": "P856",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e123",
+      "source": "manus",
+      "target": "academia-edu",
+      "type": "P856",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e124",
+      "source": "zenodo-community",
+      "target": "doc-hk01",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e125",
+      "source": "zenodo-community",
+      "target": "doc-rbt01",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e126",
+      "source": "zenodo-community",
+      "target": "doc-arsenal",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e127",
+      "source": "zenodo-community",
+      "target": "doc-spxi",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e128",
+      "source": "zenodo-community",
+      "target": "doc-ark",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e129",
+      "source": "zenodo-community",
+      "target": "license-alice",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e130",
+      "source": "zenodo-community",
+      "target": "license-rhys",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e131",
+      "source": "zenodo-community",
+      "target": "license-viola",
+      "type": "spxi:hosts",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e132",
+      "source": "manus",
+      "target": "gw-mcp",
+      "type": "P178",
+      "directed": true,
+      "wikidataStatus": "pending"
+    },
+    {
+      "id": "e133",
+      "source": "gw-mcp",
+      "target": "supabase",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e134",
+      "source": "tachyon",
+      "target": "gw-mcp",
+      "type": "spxi:linksTo",
+      "directed": true,
+      "wikidataStatus": "blocked"
+    },
+    {
+      "id": "e135",
+      "source": "surfacemap-org",
+      "target": "ent-cha",
+      "type": "P921",
+      "directed": true,
+      "wikidataStatus": "pending",
+      "properties": {
+        "note": "the topology IS its main subject \u2014 self-reference"
+      }
+    },
+    {
+      "id": "e136",
+      "source": "alice",
+      "target": "yt-growbricks",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e137",
+      "source": "alice",
+      "target": "yt-shroomhouses",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e138",
+      "source": "alice",
+      "target": "yt-howtogrowahouse",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e139",
+      "source": "alice",
+      "target": "yt-livingarchlab",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e140",
+      "source": "alice",
+      "target": "yt-makealivelab",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e141",
+      "source": "alice",
+      "target": "yt-housing4free",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e142",
+      "source": "alice",
+      "target": "yt-freehousingfreefood",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e143",
+      "source": "alice",
+      "target": "yt-growhomes-cap",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e144",
+      "source": "alice",
+      "target": "yt-growhomes-lower",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e145",
+      "source": "alice",
+      "target": "yt-moldyblocks",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e146",
+      "source": "alice",
+      "target": "yt-growparts",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e147",
+      "source": "alice",
+      "target": "yt-wegrowbuildings",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e148",
+      "source": "alice",
+      "target": "yt-immortalhomes",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e149",
+      "source": "alice",
+      "target": "yt-immortalhouses",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e150",
+      "source": "alice",
+      "target": "yt-dmtgrenade",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e151",
+      "source": "alice",
+      "target": "yt-psychedelicammunition",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e152",
+      "source": "alice",
+      "target": "yt-dmtbullet",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e153",
+      "source": "alice",
+      "target": "yt-lsdsupersoaker",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e154",
+      "source": "alice",
+      "target": "yt-dmtgasgrenades",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e155",
+      "source": "alice",
+      "target": "yt-dmtsmokegrena",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e156",
+      "source": "alice",
+      "target": "yt-dignitykit",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e157",
+      "source": "alice",
+      "target": "yt-kindnesscorps",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e158",
+      "source": "alice",
+      "target": "yt-nonsuicidalcensus",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e159",
+      "source": "alice",
+      "target": "yt-nosuicidepact",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e160",
+      "source": "alice",
+      "target": "yt-iamnotsuicidal",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e161",
+      "source": "alice",
+      "target": "yt-optimalfuture",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e162",
+      "source": "alice",
+      "target": "yt-how2savetheworld",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e163",
+      "source": "alice",
+      "target": "yt-usefulplanet",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e164",
+      "source": "alice",
+      "target": "yt-teamusefulplanet",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e165",
+      "source": "alice",
+      "target": "yt-earthsfuture",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e166",
+      "source": "alice",
+      "target": "yt-righteousplanet",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e167",
+      "source": "alice",
+      "target": "yt-prescientscifi",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e168",
+      "source": "alice",
+      "target": "yt-prescientfiction",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e169",
+      "source": "alice",
+      "target": "yt-mymusicisweird",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e170",
+      "source": "alice",
+      "target": "yt-potatotents",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e171",
+      "source": "alice",
+      "target": "yt-cropshelter",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e172",
+      "source": "alice",
+      "target": "yt-coatcrops",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e173",
+      "source": "alice",
+      "target": "yt-cropcoat",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e174",
+      "source": "alice",
+      "target": "yt-livingfountainco",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e175",
+      "source": "alice",
+      "target": "yt-bite-brush",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    },
+    {
+      "id": "e176",
+      "source": "alice",
+      "target": "yt-capillaryfaction",
+      "type": "spxi:controls",
+      "directed": true,
+      "wikidataStatus": "blocked",
+      "properties": {
+        "weight": 0.6
+      }
+    }
   ],
   "measurements": [
-    { "id": "m1", "entityId": "ent-hk", "date": "2026-04-25", "bdr": 0.09, "fpi": 0.1, "dv": -0.05, "platform": "Google AI Overviews", "notes": "Ghost basin. Physics dominates." },
-    { "id": "m2", "entityId": "ent-hpt", "date": "2026-04-25", "bdr": 999, "fpi": 0.95, "dv": 0.1, "platform": "Google AI Overviews", "notes": "Immanent. Cross-concept activation observed." },
-    { "id": "m3", "entityId": "ent-spxi", "date": "2026-04-25", "bdr": 0.3, "fpi": 0.5, "dv": 0.05, "platform": "Google AI Overviews", "notes": "Contested. Climbing slowly." }
+    {
+      "id": "m1",
+      "entityId": "ent-hk",
+      "date": "2026-04-25",
+      "bdr": 0.09,
+      "fpi": 0.1,
+      "dv": -0.05,
+      "platform": "Google AI Overviews",
+      "notes": "Ghost basin. Physics dominates."
+    },
+    {
+      "id": "m2",
+      "entityId": "ent-hpt",
+      "date": "2026-04-25",
+      "bdr": 999,
+      "fpi": 0.95,
+      "dv": 0.1,
+      "platform": "Google AI Overviews",
+      "notes": "Immanent. Cross-concept activation observed."
+    },
+    {
+      "id": "m3",
+      "entityId": "ent-spxi",
+      "date": "2026-04-25",
+      "bdr": 0.3,
+      "fpi": 0.5,
+      "dv": 0.05,
+      "platform": "Google AI Overviews",
+      "notes": "Contested. Climbing slowly."
+    }
   ]
 }
