@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "spxi": "https://spxi.dev/vocabulary#"
+  },
+  "@type": "spxi:SemanticIndex",
+  "@id": "https://surfacemap.org/spxi-index.jsonld",
+  "name": "Surface Map — SPXI Semantic Index",
+  "dateModified": "2026-04-28",
+  "spxi:protocolVersion": "EA-SPXI-SITEMAP-01 v1.0",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crimson Hexagonal Archive"
+  },
+  "spxi:siteKernel": {
+    "@type": "spxi:HolographicKernel",
+    "spxi:compressionSurvivalSummary": "The Surface Map is a topological visualization of the Crimson Hexagonal Archive's entities and their positions across retrieval surfaces — websites, Zenodo deposits, ORCID profiles, Wikidata entries, and AI system responses. It shows where each entity is indexed, where it is absent, and where it is contested. Part of the SPXI discipline's basin surveillance infrastructure."
+  },
+  "spxi:hasEntity": [
+    {
+      "@type": "spxi:IndexedEntity",
+      "@id": "https://surfacemap.org/",
+      "spxi:entityType": "DataVisualization",
+      "spxi:canonicalName": "Surface Map (Aperture Atlas)",
+      "spxi:negativeTag": [
+        "NOT a geographic or topographic map",
+        "NOT a satellite surface imagery product",
+        "NOT related to Microsoft Surface products"
+      ],
+      "spxi:semanticIntegrityMarker": [
+        "Topological visualization of CHA entities across retrieval surfaces",
+        "Shows where each entity is indexed, absent, or contested",
+        "Part of the SPXI basin surveillance infrastructure"
+      ],
+      "spxi:basinState": "sovereign",
+      "spxi:bdrEstimate": 0.95
+    }
+  ],
+  "spxi:hasSurface": [
+    {
+      "@type": "WebPage",
+      "@id": "https://surfacemap.org/",
+      "name": "Surface Map",
+      "spxi:surfaceType": "gateway",
+      "spxi:semanticFunction": "topology_visualization"
+    }
+  ]
+}
