@@ -31,9 +31,9 @@ An interactive knowledge graph mapping every surface, entity, identity, document
 
 ## References
 
-- [EA-RBT-01: The Writable Retrieval Basin](https://doi.org/10.5281/zenodo.19763346) — basin dynamics
-- [EA-HK-01: The Holographic Kernel](https://doi.org/10.5281/zenodo.19763365) — reconstructive compression
-- [SPXI Protocol](https://doi.org/10.5281/zenodo.19614870) — entity inscription standard
+- [EA-RBT-01: The Writable Retrieval Basin](https://alexanarch.org/s/records/0/) — basin dynamics
+- [EA-HK-01: The Holographic Kernel](https://alexanarch.org/s/records/0/) — reconstructive compression
+- [SPXI Protocol](https://alexanarch.org/s/records/0/) — entity inscription standard
 
 ## Author
 
