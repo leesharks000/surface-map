@@ -451,10 +451,16 @@
       "id": "deadletterpost",
       "type": "SURFACE",
       "subtype": "page",
-      "label": "Dead Letter Post (Jack Feist blog)",
-      "url": null,
-      "status": "orphaned",
-      "authority": 0
+      "label": "Dead Letter Office (Jack Feist blog)",
+      "url": "https://posthumousoffice.blogspot.com",
+      "status": "active-recovered",
+      "authority": 0.4,
+      "properties": {
+        "recovered_at": "2026-07-18",
+        "blog_id": "8483384561506989447",
+        "blogger_profile": "https://www.blogger.com/profile/08857610129263913045",
+        "recovery_note": "posthumousoffice.blogspot.com located 2026-07-18. 14 posts across 2015 (Mar:13, May:1) framed as posthumous archives of Jack Feist recovered \"in real time, as a recreation of the events leading to his untimely death in 2014.\" Documents the founding conception of the Crimson Hexagon meta-poem and heteronymic method."
+      }
     },
     {
       "id": "lit-forums",
@@ -3771,6 +3777,14 @@
           "blogspot-cranes (new node)"
         ],
         "note": "Previously listed irrecoverable; located via direct search."
+      },
+      {
+        "at": "2026-07-18",
+        "event": "Jack Feist blog recovered",
+        "changed_nodes": [
+          "Dead Letter Post → Dead Letter Office (status orphaned → active-recovered; url added; blog_id + blogger_profile properties added)"
+        ],
+        "note": "posthumousoffice.blogspot.com. 14 posts. Previously listed irrecoverable."
       }
     ]
   }
