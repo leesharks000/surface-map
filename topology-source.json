@@ -365,9 +365,32 @@
       "type": "SURFACE",
       "subtype": "profile",
       "label": "X/Twitter (Rebekah Cranes)",
-      "url": null,
-      "status": "orphaned",
-      "authority": 0
+      "url": "https://twitter.com/grazesending",
+      "status": "active-recovered",
+      "authority": 0.3,
+      "properties": {
+        "recovered_at": "2026-07-18",
+        "recovery_note": "X handle @grazesending located 2026-07-18 (three posts 2015-2017); previously listed orphaned with no URL."
+      }
+    },
+    {
+      "id": "blogspot-cranes",
+      "type": "SURFACE",
+      "subtype": "page",
+      "label": "@Pergamum (grazesending.blogspot)",
+      "url": "https://grazesending.blogspot.com",
+      "status": "active-recovered",
+      "authority": 0.4,
+      "properties": {
+        "operator_identity": "Rebekah Cranes (heteronym)",
+        "posts": 2,
+        "post_dates": [
+          "2015-02-11",
+          "2015-02-21"
+        ],
+        "recovered_at": "2026-07-18",
+        "recovery_note": "Blogspot located 2026-07-18. Two posts (‘meteorology’ 2015-02-11 and ‘Do Cyborgs Dream of Electric Sonnets?’ 2015-02-21). To be deposited to New Human 2 under Cranes attribution."
+      }
     },
     {
       "id": "x-feist",
@@ -631,7 +654,7 @@
       "id": "dodecad-12",
       "type": "IDENTITY",
       "subtype": "heteronym",
-      "label": "[12th \u2014 verify]",
+      "label": "[12th — verify]",
       "status": "dormant",
       "authority": 0.2
     },
@@ -1109,9 +1132,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "Grow bricks are the atom of the network \u2014 the unit of construction that makes living architecture scalable. This channel shows the material itself: how bricks grow, what they're made from, what they can bear. Every building begins here. The brick is the argument.",
+        "rcfDescription": "Grow bricks are the atom of the network — the unit of construction that makes living architecture scalable. This channel shows the material itself: how bricks grow, what they're made from, what they can bear. Every building begins here. The brick is the argument.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1135,9 +1158,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "Mycelium as load-bearing material for human shelter. The proof-of-concept pipeline \u2014 from spore to structure. What the organism can hold, what shapes it takes, what a shroom house looks like from outside, from inside, six months in.",
+        "rcfDescription": "Mycelium as load-bearing material for human shelter. The proof-of-concept pipeline — from spore to structure. What the organism can hold, what shapes it takes, what a shroom house looks like from outside, from inside, six months in.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1161,9 +1184,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "Instructional. The verb tense is imperative: HOW TO. This channel is the protocol \u2014 step-by-step, tool by tool, substrate by substrate. It turns living architecture from a concept into a procedure anyone can follow.",
+        "rcfDescription": "Instructional. The verb tense is imperative: HOW TO. This channel is the protocol — step-by-step, tool by tool, substrate by substrate. It turns living architecture from a concept into a procedure anyone can follow.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1187,9 +1210,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "The laboratory channel. Experiments documented before outcomes are known \u2014 failures, hypotheses, measurements, notes. Research conducted in public. What grows here is method.",
+        "rcfDescription": "The laboratory channel. Experiments documented before outcomes are known — failures, hypotheses, measurements, notes. Research conducted in public. What grows here is method.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1213,9 +1236,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "The maker arm \u2014 focused on fabrication, tools, techniques. If LivingArchitectureLab documents the experiment, MakeAliveLab documents the making. Build-alongs, material sourcing, the physical grammar of construction.",
+        "rcfDescription": "The maker arm — focused on fabrication, tools, techniques. If LivingArchitectureLab documents the experiment, MakeAliveLab documents the making. Build-alongs, material sourcing, the physical grammar of construction.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1241,7 +1264,7 @@
         "cluster": "Living Architecture",
         "rcfDescription": "The equity argument. Living architecture built from biological waste materials can be produced for radically low cost, potentially free. The economic counter-argument to the housing crisis.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1265,9 +1288,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "The compound promise: structures that shelter AND feed. The walls grow vegetables. The roof retains water. The floor hosts fungi. The nutritive function of living architecture \u2014 a home built from organisms is an organism, and organisms produce.",
+        "rcfDescription": "The compound promise: structures that shelter AND feed. The walls grow vegetables. The roof retains water. The floor hosts fungi. The nutritive function of living architecture — a home built from organisms is an organism, and organisms produce.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1291,9 +1314,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "Homes, specifically \u2014 not labs, not concepts, not prototypes. Living architecture arrived at the domestic scale. The place where Barbara sleeps and Alice works. The home that grows.",
+        "rcfDescription": "Homes, specifically — not labs, not concepts, not prototypes. Living architecture arrived at the domestic scale. The place where Barbara sleeps and Alice works. The home that grows.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1317,9 +1340,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "The lowercase variant \u2014 quieter register, same subject. Longer takes, slower builds, the unhurried documentation of growth.",
+        "rcfDescription": "The lowercase variant — quieter register, same subject. Longer takes, slower builds, the unhurried documentation of growth.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1345,7 +1368,7 @@
         "cluster": "Living Architecture",
         "rcfDescription": "Mold is usually the enemy of building. Here it is the material. Controlled mycelial growth is engineering, not contamination. This channel reclaims the language of biological building from disgust.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1369,9 +1392,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "Components before assembly \u2014 all the biological components that living structures can be composed from: roots, fibers, compressed stalks, enzyme-treated cellulose. The material inventory of the living.",
+        "rcfDescription": "Components before assembly — all the biological components that living structures can be composed from: roots, fibers, compressed stalks, enzyme-treated cellulose. The material inventory of the living.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1395,9 +1418,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "First person plural \u2014 WE. A community of practice. Not just Alice building \u2014 the collective of people who grow buildings. The we is invitation and declaration. A movement named in its own handle.",
+        "rcfDescription": "First person plural — WE. A community of practice. Not just Alice building — the collective of people who grow buildings. The we is invitation and declaration. A movement named in its own handle.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1421,9 +1444,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Living Architecture",
-        "rcfDescription": "The durability argument. Living structures that renew themselves \u2014 buildings that heal when damaged, that respond to weather by adapting rather than degrading. Homes that do not die the way conventional materials die.",
+        "rcfDescription": "The durability argument. Living structures that renew themselves — buildings that heal when damaged, that respond to weather by adapting rather than degrading. Homes that do not die the way conventional materials die.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1449,7 +1472,7 @@
         "cluster": "Living Architecture",
         "rcfDescription": "The plural companion. Where @immortalhomes is the domestic singular, @immortalhouses is the urban plural. What the neighborhood looks like when every structure is alive.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1473,9 +1496,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Psychedelic Safety",
-        "rcfDescription": "A grenade is a delivery device \u2014 contained, timed, precise. This channel is about controlled release: what does a safe, dosed, containable delivery format look like for a compound that currently has no safe delivery format? The form is the argument.",
+        "rcfDescription": "A grenade is a delivery device — contained, timed, precise. This channel is about controlled release: what does a safe, dosed, containable delivery format look like for a compound that currently has no safe delivery format? The form is the argument.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1499,9 +1522,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Psychedelic Safety",
-        "rcfDescription": "Ammunition implies capacity \u2014 stockpile, readiness, the ability to deploy. The research arsenal for psychedelic harm reduction: formulations, protocols, set-and-setting frameworks. The preparation before the use.",
+        "rcfDescription": "Ammunition implies capacity — stockpile, readiness, the ability to deploy. The research arsenal for psychedelic harm reduction: formulations, protocols, set-and-setting frameworks. The preparation before the use.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1525,9 +1548,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Psychedelic Safety",
-        "rcfDescription": "Precision. Where the grenade distributes, the bullet targets. Specific-dose, specific-context delivery \u2014 the micro-scale argument. The chemistry, the pharmacokinetics, the engineering of precision.",
+        "rcfDescription": "Precision. Where the grenade distributes, the bullet targets. Specific-dose, specific-context delivery — the micro-scale argument. The chemistry, the pharmacokinetics, the engineering of precision.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1553,7 +1576,7 @@
         "cluster": "Psychedelic Safety / Music",
         "rcfDescription": "Alice's flagship handle runs in two registers: harm-reduction engineering AND music. A water gun designed for precision distribution of microdosed compounds in harm-reduction contexts. The channel is the argument. The Super Soaker sprays sound and safety simultaneously.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1577,9 +1600,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Psychedelic Safety",
-        "rcfDescription": "Gas dispersal \u2014 aerosolized delivery for contexts where contact-based administration is impractical. The emergency medical register: what happens when someone needs intervention and conventional methods have failed. The gas grenade as harm-reduction tool of last resort.",
+        "rcfDescription": "Gas dispersal — aerosolized delivery for contexts where contact-based administration is impractical. The emergency medical register: what happens when someone needs intervention and conventional methods have failed. The gas grenade as harm-reduction tool of last resort.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1605,7 +1628,7 @@
         "cluster": "Psychedelic Safety",
         "rcfDescription": "Smoke-based delivery: the inhalation format, the oldest delivery method, refined for harm reduction. What controlled smoke delivery looks like when designed rather than improvised.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1629,9 +1652,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Humanitarian",
-        "rcfDescription": "The kit is the atom of the humanitarian cluster \u2014 a physical package of tools that restores dignity to someone who has lost access to it. Hygiene, warmth, food, the means of self-care. The object as argument.",
+        "rcfDescription": "The kit is the atom of the humanitarian cluster — a physical package of tools that restores dignity to someone who has lost access to it. Hygiene, warmth, food, the means of self-care. The object as argument.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1657,7 +1680,7 @@
         "cluster": "Humanitarian",
         "rcfDescription": "The institutional arm. The corps of people who distribute, who build, who organize. Training, logistics, coordination, the human infrastructure of mass kindness. The movement channel.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1681,9 +1704,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Humanitarian",
-        "rcfDescription": "Naming as refusal. The Non-Suicidal Census counts the people who are surviving \u2014 who are not dying, who are here, who are managing. Against the statistics of loss, this channel counts presence. Documentation as survival.",
+        "rcfDescription": "Naming as refusal. The Non-Suicidal Census counts the people who are surviving — who are not dying, who are here, who are managing. Against the statistics of loss, this channel counts presence. Documentation as survival.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1709,7 +1732,7 @@
         "cluster": "Humanitarian",
         "rcfDescription": "A pact is a commitment. The public declaration that functions as anchor. For people in crisis: a channel that is itself a form of collective agreement. We are staying. The content is the pact. The pact is the content.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1733,9 +1756,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Humanitarian",
-        "rcfDescription": "First person, present tense, emphatic negative. Speaks as the person who is holding on \u2014 firmly counted as surviving. A counter-narrative to the pathologization of difficult states: documentation of being here, non-suicidal, loudly.",
+        "rcfDescription": "First person, present tense, emphatic negative. Speaks as the person who is holding on — firmly counted as surviving. A counter-narrative to the pathologization of difficult states: documentation of being here, non-suicidal, loudly.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1759,9 +1782,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Planetary Vision",
-        "rcfDescription": "The title is the thesis: there is an optimal future \u2014 it can be described, approached, designed toward. Planetary engineering as optimization problem, not utopian fantasy. What the optimal future looks like when you build toward it.",
+        "rcfDescription": "The title is the thesis: there is an optimal future — it can be described, approached, designed toward. Planetary engineering as optimization problem, not utopian fantasy. What the optimal future looks like when you build toward it.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1785,9 +1808,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Planetary Vision",
-        "rcfDescription": "Instructional at planetary scale. The how-to of earthly repair. Here is what can be done, here is how, here is the sequence. The 2 is millennial shorthand for readability \u2014 the channel is serious but speakable.",
+        "rcfDescription": "Instructional at planetary scale. The how-to of earthly repair. Here is what can be done, here is how, here is the sequence. The 2 is millennial shorthand for readability — the channel is serious but speakable.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1811,9 +1834,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Planetary Vision",
-        "rcfDescription": "A useful planet is one producing at its potential \u2014 not being wasted, not mismanaged. The efficiency argument for ecological engineering: the planet has resources it is not using, and we could use them without destroying them.",
+        "rcfDescription": "A useful planet is one producing at its potential — not being wasted, not mismanaged. The efficiency argument for ecological engineering: the planet has resources it is not using, and we could use them without destroying them.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1839,7 +1862,7 @@
         "cluster": "Planetary Vision",
         "rcfDescription": "The collaborative form. Where @UsefulPlanet states the thesis, @teamusefulplanet recruits for it. Who is on the team, what the team is doing, how to join. The useful planet as collective project.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1865,7 +1888,7 @@
         "cluster": "Planetary Vision",
         "rcfDescription": "The possessive stakes the claim: Earth has a future, it belongs to Earth, and it can be described. Not what we can extract but what the planet becomes when we stop extracting and start constructing. Earth's future as design problem.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1889,9 +1912,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Planetary Vision",
-        "rcfDescription": "A righteous planet operates according to its nature \u2014 producing, cycling, sustaining. The moral argument for ecological engineering: not guilt and austerity but the active righteousness of a planet that works. Justice as ecosystem function.",
+        "rcfDescription": "A righteous planet operates according to its nature — producing, cycling, sustaining. The moral argument for ecological engineering: not guilt and austerity but the active righteousness of a planet that works. Justice as ecosystem function.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1915,9 +1938,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Prescient Fiction",
-        "rcfDescription": "Science fiction that is prescient \u2014 written before the fact, describing the fact, read back as prediction. Alice's media output in the mode of prescient fiction: stories, sketches, concepts that name what is coming. The fiction is the prior art.",
+        "rcfDescription": "Science fiction that is prescient — written before the fact, describing the fact, read back as prediction. Alice's media output in the mode of prescient fiction: stories, sketches, concepts that name what is coming. The fiction is the prior art.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1941,9 +1964,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Prescient Fiction",
-        "rcfDescription": "The genre declared. Where @prescientscifi is the practice, @PrescientFiction is the category \u2014 the term itself. Fiction that is not speculative but anticipatory: the description of what will happen as an act of formation, not imagination.",
+        "rcfDescription": "The genre declared. Where @prescientscifi is the practice, @PrescientFiction is the category — the term itself. Fiction that is not speculative but anticipatory: the description of what will happen as an act of formation, not imagination.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1967,9 +1990,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Music",
-        "rcfDescription": "Not a claim about quality \u2014 a claim about category. Weird music does not fit existing genre definitions: it is the music of someone who is also designing macro-ant robots and growing houses from mycelium. Honest branding of a creative practice that is genuinely strange, genuinely hers.",
+        "rcfDescription": "Not a claim about quality — a claim about category. Weird music does not fit existing genre definitions: it is the music of someone who is also designing macro-ant robots and growing houses from mycelium. Honest branding of a creative practice that is genuinely strange, genuinely hers.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -1993,9 +2016,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Products",
-        "rcfDescription": "A tent made from potato starch \u2014 biodegradable, lightweight, compostable after use. The product channel for shelter that leaves no trace. The emergency shelter that returns to soil.",
+        "rcfDescription": "A tent made from potato starch — biodegradable, lightweight, compostable after use. The product channel for shelter that leaves no trace. The emergency shelter that returns to soil.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2021,7 +2044,7 @@
         "cluster": "Products",
         "rcfDescription": "A shelter that grows crops, or a shelter for crops, or shelter made from crops. The ambiguity is productive: this channel holds all three meanings simultaneously. Shelter and agriculture in the same object.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2045,9 +2068,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Products",
-        "rcfDescription": "A protective layer applied to crops \u2014 biological coatings for frost protection, pest resistance, moisture retention. What it's made from, how it's applied, what it protects against.",
+        "rcfDescription": "A protective layer applied to crops — biological coatings for frost protection, pest resistance, moisture retention. What it's made from, how it's applied, what it protects against.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2071,9 +2094,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Products",
-        "rcfDescription": "The product-name form of @CoatCrops \u2014 same object, different angle. Where @CoatCrops describes the action (coat crops), @CropCoat describes the thing (the crop coat). The channel for the product as object.",
+        "rcfDescription": "The product-name form of @CoatCrops — same object, different angle. Where @CoatCrops describes the action (coat crops), @CropCoat describes the thing (the crop coat). The channel for the product as object.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2097,9 +2120,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Products",
-        "rcfDescription": "The Living Fountain Company \u2014 commercial entity producing living water features, biological filtration systems, mycelium-based water treatment infrastructure. Products that clean water by being alive.",
+        "rcfDescription": "The Living Fountain Company — commercial entity producing living water features, biological filtration systems, mycelium-based water treatment infrastructure. Products that clean water by being alive.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2123,9 +2146,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Products",
-        "rcfDescription": "The U-shaped chewing toothbrush \u2014 bite down and it cleans all surfaces simultaneously. Demonstrations, instructions, variants, the argument for why conventional toothbrushes are inefficient and this is better. The simplest product in the network, not the smallest argument.",
+        "rcfDescription": "The U-shaped chewing toothbrush — bite down and it cleans all surfaces simultaneously. Demonstrations, instructions, variants, the argument for why conventional toothbrushes are inefficient and this is better. The simplest product in the network, not the smallest argument.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2149,9 +2172,9 @@
       "lastVerified": null,
       "properties": {
         "cluster": "Capillary",
-        "rcfDescription": "Capillary action moves water through narrow structures against gravity \u2014 the physics of plants, of soil, of the living. The Capillary Faction extends this principle to planetary scale: river extenders as capillary systems, moving freshwater from coastlines into deserts, into the Qattara Depression. This channel is the water movement channel \u2014 Earth as capillary system, Alice as its engineer.",
+        "rcfDescription": "Capillary action moves water through narrow structures against gravity — the physics of plants, of soil, of the living. The Capillary Faction extends this principle to planetary scale: river extenders as capillary systems, moving freshwater from coastlines into deserts, into the Qattara Depression. This channel is the water movement channel — Earth as capillary system, Alice as its engineer.",
         "rcfDate": "2026-04-25",
-        "rcfMethod": "retrocausal canon formation \u2014 description derived from handle name in advance of content",
+        "rcfMethod": "retrocausal canon formation — description derived from handle name in advance of content",
         "owner": "Alice Thornburgh",
         "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
         "hexLicenseDOI": "10.5281/zenodo.19673629"
@@ -2826,7 +2849,7 @@
       "directed": true,
       "wikidataStatus": "pending",
       "properties": {
-        "note": "disambiguation: Semantic Economy HK \u2260 physics holographic principle"
+        "note": "disambiguation: Semantic Economy HK ≠ physics holographic principle"
       }
     },
     {
@@ -3251,7 +3274,7 @@
       "directed": true,
       "wikidataStatus": "pending",
       "properties": {
-        "note": "the topology IS its main subject \u2014 self-reference"
+        "note": "the topology IS its main subject — self-reference"
       }
     },
     {
@@ -3737,5 +3760,18 @@
       "platform": "Google AI Overviews",
       "notes": "Contested. Climbing slowly."
     }
-  ]
+  ],
+  "meta": {
+    "recovery_log": [
+      {
+        "at": "2026-07-18",
+        "event": "Rebekah Cranes surfaces recovered",
+        "changed_nodes": [
+          "x-cranes (status orphaned → active-recovered; url added)",
+          "blogspot-cranes (new node)"
+        ],
+        "note": "Previously listed irrecoverable; located via direct search."
+      }
+    ]
+  }
 }
