@@ -1,0 +1,11 @@
+/* survivethedeletion.org — type layer. Faces only; the paper ground is the site's own.
+   Fifth fleet site declaring families with no @font-face. */
+@font-face{font-family:'IBM Plex Mono';src:url('/assets/fonts/IBMPlexMono-400.woff2')format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Mono';src:url('/assets/fonts/IBMPlexMono-600.woff2')format('woff2');font-weight:600;font-display:swap}
+@font-face{font-family:'IBM Plex Serif';src:url('/assets/fonts/IBMPlexSerif-400.woff2')format('woff2');font-weight:400;font-display:swap}
+@font-face{font-family:'IBM Plex Serif';src:url('/assets/fonts/IBMPlexSerif-400i.woff2')format('woff2');font-weight:400;font-style:italic;font-display:swap}
+:root{--serif:'IBM Plex Serif',Georgia,serif;--mono:'IBM Plex Mono',ui-monospace,monospace;
+--msp-mono:var(--mono);--fs-micro:10px;--fs-small:13px;--fs-body:17px;--fs-lead:19px;
+--fs-h3:21px;--tr-wide:.16em}
+body{font-family:var(--serif);font-size:var(--fs-body);line-height:1.62;-webkit-font-smoothing:antialiased}
+code,kbd,samp,pre{font-family:var(--mono)}

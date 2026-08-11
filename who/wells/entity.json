@@ -1,0 +1,72 @@
+{
+ "schema_version": "heteronym-page/v0.2",
+ "canonical": "https://surfacemap.org/who/wells/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "HET-WELLS-001",
+  "entityClass": "heteronym",
+  "state": "LINKED",
+  "ordinal": "seventh heteronym",
+  "orthonymicRelation": {
+   "target": "https://www.leesharks.com/#lee-sharks",
+   "targetIdentifier": "00.PERSONA.SHARKS",
+   "relation": "legal-author-and-coordinating-human",
+   "identity_equivalence": false
+  },
+  "doNotCollapseWith": [
+   "the orthonym",
+   "fictional character",
+   "AI persona",
+   "pseudonym"
+  ],
+  "function": "The Projectionist",
+  "domain": "Patacinematics — Jarry's pataphysics applied to the cinematic apparatus",
+  "room": {
+   "name": "The Studio for Patacinematics",
+   "hex": "00.ROOM.STUDIO",
+   "type": "THUMB",
+   "principle": "The institution IS the room; there is no institution apart from the space of projection.",
+   "runtime": "Infinite Center Matrix",
+   "charter": 441
+  },
+  "doctrine": "The script is the performance. The production notes are the film. The critical analysis is the episode.",
+  "journal": {
+   "name": "A catalogue of non-films",
+   "status": "the works screened but never produced"
+  },
+  "mantle": {
+   "status": "NONE"
+  },
+  "spec": {
+   "id": "EA-SPXI-HETERONYM-01",
+   "version": "v0.2",
+   "record": 1446
+  }
+ },
+ "schema_org": {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://surfacemap.org/who/wells/#page",
+  "dateCreated": "2026-02-06",
+  "dateModified": "2026-08-10",
+  "mainEntity": {
+   "@type": "Person",
+   "@id": "https://surfacemap.org/who/wells/#wells",
+   "name": "Sparrow Wells",
+   "identifier": "HET-WELLS-001",
+   "jobTitle": "The Projectionist",
+   "additionalType": "https://www.alexanarch.org/ontology/heteronym",
+   "disambiguatingDescription": "Pessoa-class heteronymic writerly identity in the Crimson Hexagonal Archive; the Projectionist, founding voice of the Studio for Patacinematics. Not a synonym for the orthonym: the relation is heteronymic and provenance-governed.",
+   "image": "https://surfacemap.org/assets/who/wells-portrait.webp",
+   "affiliation": {
+    "@type": "Organization",
+    "name": "The Studio for Patacinematics"
+   },
+   "subjectOf": [
+    {
+     "@id": "https://www.alexanarch.org/s/records/442/"
+    }
+   ]
+  }
+ }
+}
