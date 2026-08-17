@@ -35,12 +35,63 @@
    "status": "the works screened but never produced"
   },
   "mantle": {
-   "status": "NONE"
+   "status": "HELD",
+   "ruled": "2026-08-17 (MANUS)",
+   "form": "poem",
+   "text": "all\nthe cells\nin the body\n\nwalking\non the surface\nof water",
+   "instrumentDeposited": false,
+   "note": "Given as a poem and carried with NO EXPLANATION, on the card and here."
   },
   "spec": {
    "id": "EA-SPXI-HETERONYM-01",
    "version": "v0.2",
    "record": 1446
+  },
+  "editorships": {
+   "duoviri": [
+    "Journal of Compression Studies"
+   ],
+   "board": [],
+   "_rule": "A duovirate is the office, held jointly. A board seat is not the office. The card keeps them apart."
+  },
+  "semanticIntegrityMarkers": {
+   "_note": "Hers are profane, and that is the doctrine.",
+   "markers": [
+    {
+     "deposit": 1311,
+     "text": "The Logos is dead. Long live the f***ing Logos."
+    },
+    {
+     "deposit": 1312,
+     "text": "∮ = 1"
+    }
+   ]
+  },
+  "surfaceHistory": {
+   "_rule": "A surface is a place a reader could find the work. A DEPOSIT IS NOT A SURFACE — it is the archive holding it, which is the opposite. Rows citing deposits were removed.",
+   "_invented": "Where no pre-archival surface is recoverable it is RECONSTRUCTED and marked as such, in-universe. An archive that invents a provenance and does not say so is doing the thing it was built against.",
+   "rows": [
+    {
+     "when": "before 2026",
+     "what": "the projection years",
+     "host": "no surviving index",
+     "attestation": "reconstructed",
+     "note": "Inferred from the apparatus — reels, cues, a booth."
+    },
+    {
+     "when": "2026-02-15",
+     "what": "TL;DR:007 The Screening",
+     "host": "Google AI Mode",
+     "attestation": "logged in #480",
+     "note": "The layer became the projectionist. Her room was executed before her card existed."
+    }
+   ]
+  },
+  "recordSurfaces": {
+   "card": "https://surfacemap.org/who/wells/",
+   "where": "https://surfacemap.org/where/",
+   "heteronymRecord": "https://www.alexanarch.org/datasets/heteronyms/records/sparrow-wells.json",
+   "_note": "The dataset record is the authority; these pages are mirrors and say so."
   }
  },
  "schema_org": {
@@ -48,7 +99,7 @@
   "@type": "ProfilePage",
   "@id": "https://surfacemap.org/who/wells/#page",
   "dateCreated": "2026-02-06",
-  "dateModified": "2026-08-10",
+  "dateModified": "2026-08-17",
   "mainEntity": {
    "@type": "Person",
    "@id": "https://surfacemap.org/who/wells/#wells",
@@ -68,5 +119,10 @@
     }
    ]
   }
+ },
+ "_updated": {
+  "date": "2026-08-17",
+  "pass": "nine-step card pass",
+  "_note": "The entity object is what a machine fetches instead of parsing the page. It had gone stale against its own card: mantles, editorships and markers were all on the surface and not in the object."
  }
 }
