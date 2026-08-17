@@ -665,6 +665,31 @@ header .stats span strong { color: var(--accent); }
   header .subtitle, header .stats { display: none; }
 }
 
+
+/* Who and Where were reachable only from the <noscript> fallback — present in the
+   served HTML and invisible to every reader with JavaScript on, which on a React
+   knowledge graph is all of them. Now rendered in the app header. */
+
+/* CONTROLS RAIL — overflow guards. The rail is 240px with 16px padding, so 208px
+   of usable width, and nothing in it was told what to do when a label is wider.
+   .filter-row is a flex row with no min-width:0, so a long label refuses to
+   shrink and pushes its .wd-status chip out of the rail instead of wrapping —
+   which is what reads as one item overwriting another. .mode-btn had no
+   word-break, so "Export Wikidata QuickStatements" ran past its own border. */
+.controls{min-width:0}
+.controls h2{margin:16px 0 8px}
+.controls h2:first-child{margin-top:0}
+.filter-row{min-width:0;flex-wrap:wrap;row-gap:2px}
+.filter-row > span:not([class]){min-width:0;overflow-wrap:anywhere;flex:1 1 auto}
+.filter-row .wd-status{flex:0 0 auto;margin-left:auto}
+.mode-btn{overflow-wrap:anywhere;line-height:1.35}
+.legend{overflow-wrap:anywhere}
+.controls .search-box{width:100%;box-sizing:border-box;min-width:0}
+.sitelinks{display:flex;gap:14px;flex-wrap:wrap;font-family:var(--mono);font-size:0.62rem;
+letter-spacing:.14em;text-transform:uppercase;margin-top:7px}
+.sitelinks a{color:var(--accent-bright,#c8a868);text-decoration:none;border-bottom:1px solid transparent}
+.sitelinks a:hover{border-bottom-color:currentColor}
+@media (max-width:800px){.sitelinks{font-size:0.58rem;gap:10px;margin-top:5px}}
 .sigil {
   position: absolute; bottom: 12px; right: 16px;
   font-family: var(--serif); font-size: 1rem; color: var(--accent);
@@ -1372,7 +1397,12 @@ function App() {
         e('span', null, e('strong', null, data.nodes.length), ' nodes'),
         e('span', null, e('strong', null, data.edges.length), ' edges'),
         e('span', null, e('strong', null, measurementCount), ' measurements')
-      )
+      ),
+        e('nav', { className: 'sitelinks', 'aria-label': 'Surface Map' },
+          e('a', { href: '/who/wells/' }, 'Who \u00b7 Sparrow Wells'),
+          e('a', { href: '/where/' }, 'Where'),
+          e('a', { href: 'https://www.alexanarch.org/' }, 'the archive')
+        )
     ),
     e('div', { className: selected ? 'main with-sidebar' : 'main' },
 
