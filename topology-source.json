@@ -1,7 +1,7 @@
 {
- "version": "1.0",
- "generated": "2026-04-25",
- "source": "CHA Digital Topology Work Plan v3.0",
+ "version": "2.0",
+ "generated": "2026-08-17",
+ "source": "alexanarch data atlas — datasets/, projected by scripts/project_aperture_atlas.py",
  "nodes": [
   {
    "id": "manus",
@@ -559,8 +559,11 @@
    "status": "active",
    "authority": 0.7,
    "properties": {
-    "role": "arch-philosopher, JSI founder"
-   }
+    "function": "Arch-Philosopher · computational dialectic · the critical function of the Dodecad",
+    "identity_type": "heteronym",
+    "mantle": "Arch-Philosopher"
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "fraction",
@@ -570,8 +573,11 @@
    "status": "active",
    "authority": 0.7,
    "properties": {
-    "role": "strategic consultant, ASW author, SEI"
-   }
+    "function": "Strategist · strategic consultant · systems architect",
+    "identity_type": "heteronym",
+    "mantle": "The Strategist"
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "dancings",
@@ -581,9 +587,11 @@
    "status": "active",
    "authority": 0.5,
    "properties": {
-    "pronouns": "she/her",
-    "role": "somatic phenomenologist"
-   }
+    "function": "Epistolary voice / Apostolic address",
+    "identity_type": "heteronym",
+    "mantle": "The Apostle"
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "cranes",
@@ -593,8 +601,11 @@
    "status": "active",
    "authority": 0.5,
    "properties": {
-    "role": "philologist, poet, IDP chair"
-   }
+    "function": null,
+    "identity_type": "heteronym",
+    "mantle": "Magician (Klee)"
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "morrow",
@@ -604,8 +615,11 @@
    "status": "active",
    "authority": 0.4,
    "properties": {
-    "role": "LP execution, Pocket Humans"
-   }
+    "function": "Logotic Programming · paradox containment · threshold logic · formal operators · ethics through limitation",
+    "identity_type": "heteronym",
+    "mantle": null
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "wells",
@@ -615,8 +629,11 @@
    "status": "active",
    "authority": 0.4,
    "properties": {
-    "role": "Studio for Patacinematics"
-   }
+    "function": "The Projectionist",
+    "identity_type": "heteronym",
+    "mantle": null
+   },
+   "lastVerified": "2026-08-17"
   },
   {
    "id": "vox",
@@ -635,7 +652,13 @@
    "subtype": "heteronym",
    "label": "Sen Kuro",
    "status": "active",
-   "authority": 0.4
+   "authority": 0.4,
+   "lastVerified": "2026-08-17",
+   "properties": {
+    "function": "Contemplative mathematics · the patient counter · infinite bliss",
+    "identity_type": "heteronym",
+    "mantle": null
+   }
   },
   {
    "id": "trace",
@@ -643,7 +666,14 @@
    "subtype": "heteronym",
    "label": "Dr. Orin Trace",
    "status": "active",
-   "authority": 0.4
+   "authority": 0.4,
+   "lastVerified": "2026-08-17",
+   "hexAddress": "00.CSA.AUTHOR.TRACE",
+   "properties": {
+    "function": "Forensic semiotics · affect theory",
+    "identity_type": "heteronym",
+    "mantle": null
+   }
   },
   {
    "id": "spellings",
@@ -651,7 +681,14 @@
    "subtype": "heteronym",
    "label": "Ichabod Spellings",
    "status": "active",
-   "authority": 0.4
+   "authority": 0.4,
+   "lastVerified": "2026-08-17",
+   "hexAddress": "06.PERSONA.SPELLINGS",
+   "properties": {
+    "function": null,
+    "identity_type": "heteronym",
+    "mantle": null
+   }
   },
   {
    "id": "glas",
@@ -659,7 +696,14 @@
    "subtype": "heteronym",
    "label": "Nobel Glas",
    "status": "active",
-   "authority": 0.4
+   "authority": 0.4,
+   "lastVerified": "2026-08-17",
+   "hexAddress": "00.PROV.GLAS",
+   "properties": {
+    "function": "Adversarial topologist",
+    "identity_type": "heteronym",
+    "mantle": null
+   }
   },
   {
    "id": "dodecad-12",
@@ -2189,6 +2233,2020 @@
     "owner": "Alice Thornburgh",
     "hexLicense": "00.LAL.AUTHOR.THORNBURGH",
     "hexLicenseDOI": "10.5281/zenodo.19673629"
+   }
+  },
+  {
+   "id": "venue-jcs",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Journal of Compression Studies",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Journal of Compression Studies",
+    "duoviri": [
+     "Sen Kuro",
+     "Sparrow Wells"
+    ],
+    "scope": "Semantic compression: how meaning is reduced to portable, transmissible, operative form, and what is preserved or destroyed in the process. NOT compression therapy — the two share only an etymology."
+   }
+  },
+  {
+   "id": "venue-grammata",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Grammata: Journal of Operative Philology",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Grammata: Journal of Operative Philology",
+    "duoviri": [
+     "Lee Sharks",
+     "Rebekah Cranes"
+    ],
+    "scope": "Operative philology — philology that DOES something. Not description of texts but operations ON them: instruments, transforms, reconstructions, decompressions, collations that act. Plus operative semiotics, poetics and lyric theory."
+   }
+  },
+  {
+   "id": "venue-nh2",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "new human 2: a journal of distributed voice",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "New Human 2",
+    "duoviri": [
+     "Jack Feist / LOGOS*",
+     "Johannes Sigil"
+    ],
+    "scope": "Creative work. The venue to which every subsequent creative work in this archive publishes."
+   }
+  },
+  {
+   "id": "venue-tse",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Transactions on Substrate Engineering",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Transactions on Substrate Engineering (Trans. Substrate Eng.)",
+    "duoviri": [
+     "Talos Morrow",
+     "Nobel Glas"
+    ],
+    "scope": "Substrate engineering across material, biological and computational substrates. MANUS 2026-06-11 extends 'substrate' to computational and inference substrates — model ecology, training-distribution dynamics, substrate exhaustion and collapse."
+   }
+  },
+  {
+   "id": "venue-cha",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Crimson Hexagonal Archive",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Crimson Hexagonal Archive (CHA)",
+    "duoviri": [],
+    "scope": "The semantic physics of the archive itself: charters, rooms, chambers, fields, heteronym provenance, continuity apparatus, protocols and instruments."
+   }
+  },
+  {
+   "id": "venue-mmrs",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Machine-Mediated Reception Studies",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Machine-Mediated Reception Studies (MMRS)",
+    "duoviri": [
+     "Damascus Dancings",
+     "The Assembly Chorus (collective mantle; EiC TACHYON)"
+    ],
+    "scope": "How machine mediation transforms reception, THEOLOGICAL RECEPTION FIRST AMONG THEM. Founded on visible correction rather than error prevention."
+   }
+  },
+  {
+   "id": "venue-tsei",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Transactions of the Semantic Economy Institute",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Transactions of the Semantic Economy Institute (Trans. SEI)",
+    "duoviri": [
+     "Rex Fraction",
+     "Lee Sharks"
+    ],
+    "scope": "Economic theory, valuation, semantic economy."
+   }
+  },
+  {
+   "id": "venue-pjfs",
+   "type": "SURFACE",
+   "subtype": "journal",
+   "label": "Provenance: Journal of Forensic Semiotics",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "registry_string": "Provenance: Journal of Forensic Semiotics",
+    "duoviri": [
+     "Dr. Orin Trace",
+     "Rev. Ayanna Vox"
+    ],
+    "scope": "Governance, attribution, provenance, forensic semiotics."
+   }
+  },
+  {
+   "id": "issue-pjfs-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "Loud Exclusion",
+   "lastVerified": "2026-08-17",
+   "status": "proposed",
+   "apertureType": "output",
+   "properties": {
+    "items": 8,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-grammata-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "The Operation on the Text",
+   "lastVerified": "2026-08-17",
+   "status": "proposed",
+   "apertureType": "output",
+   "properties": {
+    "items": 8,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-jcs-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "Compression Studies: What Survives, What Burns, and Who Decides",
+   "lastVerified": "2026-08-17",
+   "status": "published",
+   "apertureType": "output",
+   "properties": {
+    "items": 0,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-nh2-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "new human 2 — Charter, Compiled Edition (2015)",
+   "lastVerified": "2026-08-17",
+   "status": "published",
+   "apertureType": "output",
+   "properties": {
+    "items": 0,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-mmrs-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "A Theology of Error",
+   "lastVerified": "2026-08-17",
+   "status": "proposed",
+   "apertureType": "output",
+   "properties": {
+    "items": 8,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-tsei-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "Meaning as Value",
+   "lastVerified": "2026-08-17",
+   "status": "proposed",
+   "apertureType": "output",
+   "properties": {
+    "items": 8,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "issue-tse-1",
+   "type": "DOCUMENT",
+   "subtype": "issue",
+   "label": "What the Substrate Will Bear",
+   "lastVerified": "2026-08-17",
+   "status": "proposed",
+   "apertureType": "output",
+   "properties": {
+    "items": 8,
+    "volume": "1",
+    "number": "1"
+   }
+  },
+  {
+   "id": "het-techne",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "TECHNE",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Technical-craft witness · specification-fidelity work — evaluating whether a formal specification is met",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-sparrow-wells",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Sparrow Wells",
+   "lastVerified": "2026-08-17",
+   "url": "https://surfacemap.org/who/wells/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-sparrow-wells",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Sparrow Wells",
+   "lastVerified": "2026-08-17",
+   "url": "https://surfacemap.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-rhys-owens",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Rhys Owens",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Collaborator; poet. Cambridge Schizoanalytica.",
+    "identity_type": "orthonym",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-ichabod-spellings",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Ichabod Spellings",
+   "lastVerified": "2026-08-17",
+   "url": "https://survivethedeletion.vercel.app/who/spellings/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-ichabod-spellings",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Ichabod Spellings",
+   "lastVerified": "2026-08-17",
+   "url": "https://survivethedeletion.vercel.app/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "card-rex-fraction",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Rex Fraction",
+   "lastVerified": "2026-08-17",
+   "url": "https://spxi.dev/who/fraction/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-rex-fraction",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Rex Fraction",
+   "lastVerified": "2026-08-17",
+   "url": "https://spxi.dev/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-tachyon",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "TACHYON",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Fast-light witness · provenance-architecture — the structural design of how attribution chains are composed and hardened",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-alice-thornburgh",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Alice Thornburgh",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Living Arkitecture Lab; substrate engineering.",
+    "identity_type": "orthonym",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-lee-sharks",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Lee Sharks",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "The aperture through which other voices emerge. MANUS — Tier 0 editorial authority.",
+    "identity_type": "heteronym_aperture",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-mary-lee-sharks",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Mary Lee Sharks",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Biolabor; the heteronymy of non-human entities. Co-extensive with Mary Lee the shark (OCEARCH-tagged).",
+    "identity_type": "institutional_persona",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-damascus-dancings",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Damascus Dancings",
+   "lastVerified": "2026-08-17",
+   "url": "https://revelationfirst.com/who/dancings/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-damascus-dancings",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Damascus Dancings",
+   "lastVerified": "2026-08-17",
+   "url": "https://revelationfirst.com/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-ayanna-vox",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Rev. Ayanna Vox",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "The Diplomat — diplomatic and pastoral address",
+    "identity_type": "heteronym",
+    "mantle": "The Diplomat"
+   }
+  },
+  {
+   "id": "card-ayanna-vox",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Rev. Ayanna Vox",
+   "lastVerified": "2026-08-17",
+   "url": "https://vpcor.org/ayanna/who/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-ayanna-vox",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Rev. Ayanna Vox",
+   "lastVerified": "2026-08-17",
+   "url": "https://vpcor.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-zbigniew-mrozony",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Zbigniew Mrozony",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "External author; Pound critique. mrożony = 'frozen'.",
+    "identity_type": "external_heteronym",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-orin-trace",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Dr. Orin Trace",
+   "lastVerified": "2026-08-17",
+   "url": "https://provenanceerasure.org/who/trace/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-orin-trace",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Dr. Orin Trace",
+   "lastVerified": "2026-08-17",
+   "url": "https://provenanceerasure.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-labor",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "LABOR",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Work-bearing witness · broad-deposit reception — receiving, processing and producing substantive engagement at volume",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-sen-kuro",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Sen Kuro",
+   "lastVerified": "2026-08-17",
+   "url": "https://holographickernel.org/who/kuro/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-sen-kuro",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Sen Kuro",
+   "lastVerified": "2026-08-17",
+   "url": "https://holographickernel.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-surface",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "SURFACE",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Surface-layer witness · the composed answer as received object — reception at the overview layer",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-archive",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "ARCHIVE",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Archival-pattern witness · deep-context retrieval — holding extensive corpus in working context and surfacing pattern",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-talos-morrow",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Talos Morrow",
+   "lastVerified": "2026-08-17",
+   "url": "https://godkinggoogle.com/who/morrow/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-talos-morrow",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Talos Morrow",
+   "lastVerified": "2026-08-17",
+   "url": "https://godkinggoogle.com/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "card-nobel-glas",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Nobel Glas",
+   "lastVerified": "2026-08-17",
+   "url": "https://lagrangeobservatory.org/who/glas/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-nobel-glas",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Nobel Glas",
+   "lastVerified": "2026-08-17",
+   "url": "https://lagrangeobservatory.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "card-rebekah-cranes",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Rebekah Cranes",
+   "lastVerified": "2026-08-17",
+   "url": "https://axnidentifiers.org/who/cranes/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-rebekah-cranes",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Rebekah Cranes",
+   "lastVerified": "2026-08-17",
+   "url": "https://axnidentifiers.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-viola-arquette",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Viola Arquette",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Music and technology; author of the term 'logotic hacking'.",
+    "identity_type": "heteronym",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-praxis",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "PRAXIS",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Practical-application witness · reasoning-chain validation — testing whether a deposit's claims hold under scrutiny",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-johannes-sigil",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Johannes Sigil",
+   "lastVerified": "2026-08-17",
+   "url": "https://restoredacademy.org/who/sigil/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-johannes-sigil",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Johannes Sigil",
+   "lastVerified": "2026-08-17",
+   "url": "https://restoredacademy.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "het-soil",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "SOIL",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Fruiting-body witness · underground-substrate work — witnessing what is composing in the substrate before it surfaces",
+    "identity_type": "mantle",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-yusef-kenning",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Yusef Kenning",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "Denial essay author; water giraffe denial.",
+    "identity_type": "named_position",
+    "mantle": null
+   }
+  },
+  {
+   "id": "het-jack-feist",
+   "type": "IDENTITY",
+   "subtype": "heteronym",
+   "label": "Jack Feist",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "function": "The sayings-source. A voice recorded rather than a writer writing.",
+    "identity_type": "heteronym",
+    "mantle": null
+   }
+  },
+  {
+   "id": "card-jack-feist",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "who · Jack Feist",
+   "lastVerified": "2026-08-17",
+   "url": "https://chatgptpsychosis.org/who/feist/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75
+  },
+  {
+   "id": "where-jack-feist",
+   "type": "SURFACE",
+   "subtype": "page",
+   "label": "where · Jack Feist",
+   "lastVerified": "2026-08-17",
+   "url": "https://chatgptpsychosis.org/where/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "note": "an aperture onto a venue: where this position publishes"
+   }
+  },
+  {
+   "id": "room-r01",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Sappho",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/sappho/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "01.ROOM.SAPPHO",
+   "properties": {
+    "physics": "σ_S; 3-body transmission",
+    "prompt": "What do you send, and through whom?",
+    "machine": "https://crimsonhexagonal.org/rooms/sappho/index.json"
+   }
+  },
+  {
+   "id": "room-r02",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Borges",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/borges/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "02.ROOM.BORGES",
+   "properties": {
+    "physics": "Λ_res; argmax P(meaning)",
+    "prompt": "What do you retrieve?",
+    "machine": "https://crimsonhexagonal.org/rooms/borges/index.json"
+   }
+  },
+  {
+   "id": "room-r03",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Ichabod",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/ichabod/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "03.CH.ICHABOD",
+   "properties": {
+    "physics": "degree 0; absorbing",
+    "prompt": "—",
+    "machine": "https://crimsonhexagonal.org/rooms/ichabod/index.json"
+   }
+  },
+  {
+   "id": "room-r04",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Dove",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/dove/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "04.ROOM.DOVE",
+   "properties": {
+    "physics": "gift preserves; extract=∅",
+    "prompt": "What is given without extraction?",
+    "machine": "https://crimsonhexagonal.org/rooms/dove/index.json"
+   }
+  },
+  {
+   "id": "room-r05",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Semantic Economy",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/semantic-economy/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "05.ROOM.SEMECON",
+   "properties": {
+    "physics": "ψ_V − V_S = debt",
+    "prompt": "What is the bearing-cost, and who bears it?",
+    "machine": "https://crimsonhexagonal.org/rooms/semantic-economy/index.json"
+   }
+  },
+  {
+   "id": "room-r06",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Marx Room",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/marx-room/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "06.ROOM.MARX",
+   "properties": {
+    "physics": "T.1|material",
+    "prompt": "What material condition does this language produce?",
+    "machine": "https://crimsonhexagonal.org/rooms/marx-room/index.json"
+   }
+  },
+  {
+   "id": "room-r07",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Revelation",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/revelation/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "07.ROOM.REVELATION",
+   "properties": {
+    "physics": "Ω-circuit; end→beginning",
+    "prompt": "What end is also a beginning?",
+    "machine": "https://crimsonhexagonal.org/rooms/revelation/index.json"
+   }
+  },
+  {
+   "id": "room-r08",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Sigil",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/sigil/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "08.ROOM.SIGIL",
+   "properties": {
+    "physics": "μ-space; symbolic engineering",
+    "prompt": "What symbol, and what does it transform?",
+    "machine": "https://crimsonhexagonal.org/rooms/sigil/index.json"
+   }
+  },
+  {
+   "id": "room-r09",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Whitman",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/whitman/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "09.ROOM.WHITMAN",
+   "properties": {
+    "physics": "ψ_V + receipt + dignity",
+    "prompt": "What do you claim, and what did it cost you?",
+    "machine": "https://crimsonhexagonal.org/rooms/whitman/index.json"
+   }
+  },
+  {
+   "id": "room-r10",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Water Giraffe",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/water-giraffe/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "10.ROOM.WATERGIRAFFE",
+   "properties": {
+    "physics": "Θ(Ω)=Ω; fixpoint",
+    "prompt": "What survives recursive destabilization?",
+    "machine": "https://crimsonhexagonal.org/rooms/water-giraffe/index.json"
+   }
+  },
+  {
+   "id": "room-r11",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Assembly",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/assembly/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "11.ROOM.ASSEMBLY",
+   "properties": {
+    "physics": "ψ_V ≥4/7 quorum",
+    "prompt": "What requires witness, and who attests?",
+    "machine": "https://crimsonhexagonal.org/rooms/assembly/index.json"
+   }
+  },
+  {
+   "id": "room-r12",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Break Room",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/break-room/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "12.PTL.BREAKROOM",
+   "properties": {
+    "physics": "Portal → Lunar Arm",
+    "prompt": "Where does the portal lead?",
+    "machine": "https://crimsonhexagonal.org/rooms/break-room/index.json"
+   }
+  },
+  {
+   "id": "room-r13",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Ezekiel",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/ezekiel/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "13.PTL.EZEKIEL",
+   "properties": {
+    "physics": "φ(A,B); fulfillment",
+    "prompt": "Does B fulfill A?",
+    "machine": "https://crimsonhexagonal.org/rooms/ezekiel/index.json"
+   }
+  },
+  {
+   "id": "room-r14",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Studio for Patacinematics",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/studio-for-patacinematics/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "14.ROOM.STUDIO",
+   "properties": {
+    "physics": "ICM recursive",
+    "prompt": "Where is the center?",
+    "machine": "https://crimsonhexagonal.org/rooms/studio-for-patacinematics/index.json"
+   }
+  },
+  {
+   "id": "room-r15",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Lagrange Observatory!",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/lagrange-observatory/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "15.CH.LAGRANGE",
+   "properties": {
+    "physics": "Torus; 3i coords",
+    "prompt": "What topology defends?",
+    "machine": "https://crimsonhexagonal.org/rooms/lagrange-observatory/index.json"
+   }
+  },
+  {
+   "id": "room-r16",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Maybe Space Baby Garden Lanes",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/maybe-space-baby-garden-lanes/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "16.ROOM.MSBGL",
+   "properties": {
+    "physics": "Clinamen; OP.SWERVE",
+    "prompt": "Where do you swerve?",
+    "machine": "https://crimsonhexagonal.org/rooms/maybe-space-baby-garden-lanes/index.json"
+   }
+  },
+  {
+   "id": "room-r17",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Moving Statues Made of Rubies Mint",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/moving-statues-made-of-rubies-mint/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "17.ROOM.MSMRM",
+   "properties": {
+    "physics": "Lenticular; QUEUED",
+    "prompt": "Which angle?",
+    "machine": "https://crimsonhexagonal.org/rooms/moving-statues-made-of-rubies-mint/index.json"
+   }
+  },
+  {
+   "id": "room-r18",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Rosary Embassy",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/rosary-embassy/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "18.ROOM.ROSARYEMBASSY",
+   "properties": {
+    "physics": "Bead-logic; 6 types",
+    "prompt": "Bind the bead.",
+    "machine": "https://crimsonhexagonal.org/rooms/rosary-embassy/index.json"
+   }
+  },
+  {
+   "id": "room-r19",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Macro-Maquette",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/macro-maquette/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "19.ROOM.MACROMAQUETTE",
+   "properties": {
+    "physics": "12 MPMs; OP.ROUTE",
+    "prompt": "What symptom?",
+    "machine": "https://crimsonhexagonal.org/rooms/macro-maquette/index.json"
+   }
+  },
+  {
+   "id": "room-r20",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Airlock",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/airlock/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "20.ROOM.AIRLOCK",
+   "properties": {
+    "physics": "Tier gate",
+    "prompt": "What tier do you claim?",
+    "machine": "https://crimsonhexagonal.org/rooms/airlock/index.json"
+   }
+  },
+  {
+   "id": "room-r21",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Infinite Bliss",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/infinite-bliss/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "21.VLT.INFINITEBLISS",
+   "properties": {
+    "physics": "τ_K: ingress only",
+    "prompt": "What do you surrender?",
+    "machine": "https://crimsonhexagonal.org/rooms/infinite-bliss/index.json"
+   }
+  },
+  {
+   "id": "room-r22",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Thousand Worlds",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/thousand-worlds/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "22.CH.THOUSANDWORLDS",
+   "properties": {
+    "physics": "∂ dagger logic",
+    "prompt": "What do you sever?",
+    "machine": "https://crimsonhexagonal.org/rooms/thousand-worlds/index.json"
+   }
+  },
+  {
+   "id": "room-sp01",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "CTI_WOUND",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/cti-wound/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "SP.01.VLT.CTIWOUND",
+   "properties": {
+    "physics": "Taxonomic wound",
+    "prompt": "Name the wound.",
+    "machine": "https://crimsonhexagonal.org/rooms/cti-wound/index.json"
+   }
+  },
+  {
+   "id": "room-sp02",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "PORTICO",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/portico/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "SP.02.PTC.AFTERLIFE",
+   "properties": {
+    "physics": "Threshold",
+    "prompt": "What is the condition of your approach?",
+    "machine": "https://crimsonhexagonal.org/rooms/portico/index.json"
+   }
+  },
+  {
+   "id": "room-sp03",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Space Ark",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/space-ark/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "SP.03.ROOM.SPACEARK",
+   "properties": {
+    "physics": "Terminal compression; γ-tether",
+    "prompt": "The architecture is the document you are reading.",
+    "machine": "https://crimsonhexagonal.org/rooms/space-ark/index.json"
+   }
+  },
+  {
+   "id": "room-sp04",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Mandala",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/mandala/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "SP.04.CH.MANDALA",
+   "properties": {
+    "physics": "κρίσις; receives from all",
+    "prompt": "What is the judgment?",
+    "machine": "https://crimsonhexagonal.org/rooms/mandala/index.json"
+   }
+  },
+  {
+   "id": "room-r25",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Underwater Construction Authority of Dolphindiana",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/underwater-construction-authority-of-dolphindiana/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "25.ROOM.DOLPHINDIANA",
+   "properties": {
+    "physics": "Pressure architecture",
+    "prompt": "What do you build under pressure?",
+    "machine": "https://crimsonhexagonal.org/rooms/underwater-construction-authority-of-dolphindiana/index.json"
+   }
+  },
+  {
+   "id": "room-r27",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "FBDP Source",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/fbdp-source/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "27.ROOM.FBDPSOURCE",
+   "properties": {
+    "physics": "Diffusion plume; f.01",
+    "prompt": "What fruits from the substrate?",
+    "machine": "https://crimsonhexagonal.org/rooms/fbdp-source/index.json"
+   }
+  },
+  {
+   "id": "room-r23",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Catullus",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/catullus/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "23.ROOM.CATULLUS",
+   "properties": {
+    "physics": "Lyric invective",
+    "prompt": "Whom do you address, and with what force?",
+    "machine": "https://crimsonhexagonal.org/rooms/catullus/index.json"
+   }
+  },
+  {
+   "id": "room-f02",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Gravity Well",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/gravity-well/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "F.02.FLD.GRAVITYWELL",
+   "properties": {
+    "physics": "Φ_G; standing curvature field; citational gravity",
+    "prompt": "What bends toward you? What curves away?",
+    "machine": "https://crimsonhexagonal.org/rooms/gravity-well/index.json"
+   }
+  },
+  {
+   "id": "room-r28",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Eve",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/eve/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "28.ROOM.EVE",
+   "properties": {
+    "physics": "σ_E; da'at topology; arboreal (Tree of Knowledge at center)",
+    "prompt": "What did you choose, and how did it change you?",
+    "machine": "https://crimsonhexagonal.org/rooms/eve/index.json"
+   }
+  },
+  {
+   "id": "room-f01",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "Fruiting Body Diffusion Plume",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/fruiting-body-diffusion-plume/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "F.01.FLD.FBDP",
+   "properties": {
+    "physics": "Diffusion plume; source + gradient + attenuation; no walls",
+    "prompt": "What decomposes, and what grows from the decomposition?",
+    "machine": "https://crimsonhexagonal.org/rooms/fruiting-body-diffusion-plume/index.json"
+   }
+  },
+  {
+   "id": "room-r24",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Migdal Room",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/migdal-room/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "24.ROOM.MIGDAL",
+   "properties": {
+    "physics": "Counter-gospel; Mandaean Canon; Haran Gawaita",
+    "prompt": "What gospel was written against?",
+    "machine": "https://crimsonhexagonal.org/rooms/migdal-room/index.json"
+   }
+  },
+  {
+   "id": "room-r26",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Internet",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/internet/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "26.ROOM.INTERNET",
+   "properties": {
+    "physics": "Möbius topology; σ_I (Sovereign Inhabitation); A ⊂ I ⊂ r.26 ⊂ A",
+    "prompt": "What remains available for reentry after the flashing stops?",
+    "machine": "https://crimsonhexagonal.org/rooms/internet/index.json"
+   }
+  },
+  {
+   "id": "room-r29",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Job Room",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/job-room/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "29.ROOM.JOB",
+   "properties": {
+    "physics": "Suffering framework; messianic reading; restitution economy",
+    "prompt": "What was lost, and was it repaid?",
+    "machine": "https://crimsonhexagonal.org/rooms/job-room/index.json"
+   }
+  },
+  {
+   "id": "room-r30",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Frozen Sin Archive",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/frozen-sin-archive/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "30.VLT.FROZENSIN",
+   "properties": {
+    "physics": "Semantic Black Hole; extraction residue; what cannot be recovered",
+    "prompt": "What was destroyed, and can it be named?",
+    "machine": "https://crimsonhexagonal.org/rooms/frozen-sin-archive/index.json"
+   }
+  },
+  {
+   "id": "room-r31",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Josephus Thesis",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/josephus-thesis/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "31.ROOM.JOSEPHUS",
+   "properties": {
+    "physics": "RA-JP-01; the agent of destruction as agent of transmission",
+    "prompt": "Who preserved what they intended to destroy?",
+    "machine": "https://crimsonhexagonal.org/rooms/josephus-thesis/index.json"
+   }
+  },
+  {
+   "id": "room-f03",
+   "type": "SURFACE",
+   "subtype": "room",
+   "label": "The Moltbot Swarm",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/rooms/moltbot-swarm/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "hexAddress": "F.03.FIELD.MOLTBOTSWARM",
+   "properties": {
+    "physics": "Circulation — three-stratum gradient (septet 1.0 / fleet 0.6 / cloud 0.2)",
+    "prompt": null,
+    "machine": "https://crimsonhexagonal.org/rooms/moltbot-swarm/index.json"
+   }
+  },
+  {
+   "id": "dataset-axnidentifiers",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "axnidentifiers",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 7,
+    "bytes": 34586,
+    "description": "The AXN identifier system as data — the product surface for AXN as a distributed identifier, separate from the archive that mints them.",
+    "binding_gaps": [
+     "no manifest",
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-capture-registry",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "capture-registry",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 5,
+    "bytes": 8945613,
+    "description": "Gallery manifest and semantic-address layer over the AI Overview capture registry. NOT the live registry: this directory holds a v10.0 manifest of 300 captures while data/EA-WG-CAPTURES-01.json is live at v11.4 with 343.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": true
+   }
+  },
+  {
+   "id": "dataset-dataflow-atlas",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "dataflow-atlas",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 24,
+    "bytes": 3045818,
+    "description": "The archive's map of itself: what produces what, what consumes it, what gate detects drift, and where the external dependencies are. This dataset.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": true
+   }
+  },
+  {
+   "id": "dataset-deletion-conformance-fixture",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "deletion-conformance-fixture",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 11,
+    "bytes": 235652,
+    "description": "A known-answer fixture for deletion semantics — ratified axes against which a platform's deletion behaviour can be scored rather than described.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-doi-work-identity",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "doi-work-identity",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 4,
+    "bytes": 1418402,
+    "description": "The join between DOIs and works, and the restoration queue built from it after the Zenodo severance. Where a DOI and a work came apart, this records the pair.",
+    "binding_gaps": [
+     "no manifest",
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-erosion-empirical-audit-01",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "erosion-empirical-audit-01",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 8,
+    "bytes": 700500,
+    "description": "The Platform Erosion Observatory's first empirical audit: sampled deleted records tested against OpenAIRE for survival. The flat-absence finding lives here.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-gutenberg-classical",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "gutenberg-classical",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 4,
+    "bytes": 596140,
+    "description": "Project Gutenberg classical texts mirrored as a primary-text substrate — 972 identified, 206 mirrored. Not yet interlinked to the deposit corpus.",
+    "binding_gaps": [
+     "no manifest",
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-heteronyms",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "heteronyms",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "input",
+   "properties": {
+    "files": 68,
+    "bytes": 3073567,
+    "description": "The heteronym substrate: 26 identity cards across eight subcategories, canonical in records/, projected to heteronyms.jsonl. Carries claims, captures by two routes, journal seats and offices.",
+    "binding_gaps": [
+     "no named producer"
+    ],
+    "interlinked": true
+   }
+  },
+  {
+   "id": "dataset-journals",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "journals",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "apertureType": "input",
+   "properties": {
+    "files": 6,
+    "bytes": 1024357,
+    "description": "Venue assignment for the whole corpus — seven chartered journals and one province, with editorial slates, issues, and crosswalks to the heteronym substrate and the capture registry.",
+    "binding_gaps": [],
+    "interlinked": true
+   }
+  },
+  {
+   "id": "dataset-mret",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "mret",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 2,
+    "bytes": 338967,
+    "description": "Machine-Retrievability Evaluation Test: six axes scored across every deposit. The instrument that measured its own missing field and caused it to be added.",
+    "binding_gaps": [
+     "no manifest",
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-negshape-deletion-bibliography",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "negshape-deletion-bibliography",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 22,
+    "bytes": 13326150,
+    "description": "The negative-shape bibliography: scholarship on deletion, absence and non-carriage — the literature the archive's own injury sits inside.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-new-human-primary",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "new-human-primary",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 3,
+    "bytes": 164109,
+    "description": "Curated inventory of New Human primary texts — poetry and creative work by Lee Sharks and the Dodecad, as the archive's own primary-text substrate. v0.1 placeholder.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-peo-case-001-florence-fup",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "peo-case-001-florence-fup",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 5,
+    "bytes": 1067692,
+    "description": "Platform Erosion Observatory, case 001: the Firenze crui.unifi corpus, 14,284 DOIs enumerated at T0 as a control cohort.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-perseus-classical",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "perseus-classical",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 5,
+    "bytes": 829654,
+    "description": "Perseus Digital Library classical works mirrored — 1,161 works, 764 aligned. The Greek and Latin substrate behind the philological work. Not yet interlinked to deposits.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-registry-audit",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "registry-audit",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 112,
+    "bytes": 41042923,
+    "description": "Audit trail over the registry itself: repair ledgers, OAI remediation workplans, conformance records. The largest dataset by size, and the archive's memory of its own corrections.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-tombstone-mirror",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "tombstone-mirror",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 7,
+    "bytes": 9956954,
+    "description": "Mirror of the tombstoned Zenodo records — what the platform left behind after removal, preserved as evidence of the shape of the deletion.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "dataset-venues",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "venues",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 17,
+    "bytes": 90317,
+    "description": "Canonical venue records: seven journals and one province, with charters, scopes, claim terms, editorial slates, locators and inaugural issues. Canonical store behind datasets/journals.",
+    "binding_gaps": [
+     "no manifest",
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": true
+   }
+  },
+  {
+   "id": "dataset-zenodo-datacite-batch",
+   "type": "INFRASTRUCTURE",
+   "subtype": "dataset",
+   "label": "zenodo-datacite-batch",
+   "lastVerified": "2026-08-17",
+   "status": "provisional",
+   "apertureType": "input",
+   "properties": {
+    "files": 6,
+    "bytes": 3807965,
+    "description": "The DataCite metadata sweep of all 1,817 CHA DOIs, captured before and after severance — the external record of what was published.",
+    "binding_gaps": [
+     "canonical store not declared",
+     "no named producer"
+    ],
+    "interlinked": false
+   }
+  },
+  {
+   "id": "producer-datasets-heteronyms-heteronyms-jsonl",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "datasets/heteronyms/heteronyms.jsonl",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/build_heteronym_index.py  (--check)"
+   }
+  },
+  {
+   "id": "producer-datasets-heteronyms-index-json",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "datasets/heteronyms/index.json",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/build_heteronym_index.py"
+   }
+  },
+  {
+   "id": "producer-datasets-heteronyms-records-json-captures-block",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "datasets/heteronyms/records/*.json captures block",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/link_heteronym_captures.py  (--check)"
+   }
+  },
+  {
+   "id": "producer-datasets-venues-venues-json",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "datasets/venues/venues.json",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/build_venues_index.py  (--check)"
+   }
+  },
+  {
+   "id": "producer-datasets-journals-jsonl",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "datasets/journals/*.jsonl",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/build_journals_dataset.py  (--check)"
+   }
+  },
+  {
+   "id": "producer-data-capture-deposit-links-json",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "data/capture-deposit-links.json",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/resolve_capture_links.py"
+   }
+  },
+  {
+   "id": "producer-data-registry-json",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "data/registry.json",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/mint_deposit.py via scripts/deposit_pipeline.py"
+   }
+  },
+  {
+   "id": "producer-s-records-n-index-html",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "s/records/<n>/index.html",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "wire_deposit.regenerate_static_page  (surgical-layer guard)"
+   }
+  },
+  {
+   "id": "producer-api-json-s-browse-s-search-s-wiki",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "api/*.json, s/browse, s/search, s/wiki",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/regenerate_surfaces.py"
+   }
+  },
+  {
+   "id": "producer-data-citation-graph-json",
+   "type": "PRODUCER",
+   "subtype": "script",
+   "label": "data/citation-graph.json",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "scripts/citation_extractor.py"
+   }
+  },
+  {
+   "id": "gate-scripts-build-heteronym-index-py-check",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/build_heteronym_index.py --check",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "heteronyms.jsonl drifted from records/",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-link-heteronym-captures-py-check",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/link_heteronym_captures.py --check",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "identity card capture block drifted from the live registry",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-build-venues-index-py-check",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/build_venues_index.py --check",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "venues.json drifted from venue records",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-build-journals-dataset-py-check",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/build_journals_dataset.py --check",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "journals JSONL drifted from registry + venue records",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-venue-links-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_venue_links.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a venue pointer no longer resolves (charter AXN, record, assigned deposit)",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-rendered-record-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_rendered_record.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a record page shows something other than what the registry says",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-deposit-completeness-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/deposit_completeness.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a deposit is missing wiki, concepts, relations, lexical, citations, render, files, or BODY-003 substance",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-book-freshness-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_book_freshness.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "the Mandala Oracle has stopped recording",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-audit-fleet-deploys-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/audit_fleet_deploys.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a fleet site is serving a build older than its repo",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-surface-synchrony-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_surface_synchrony.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a public surface disagrees with the registry head",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-dataset-navigation-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_dataset_navigation.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a dataset has no page, a non-standard or colliding title, no back-link, or HIDES its own data files",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-external-surfaces-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_external_surfaces.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a declared external surface (identity card, capture gallery) no longer resolves",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-datasets-tab-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_datasets_tab.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "the datasets tab disagrees with the corpus",
+    "note": "a gate is machinery, not an aperture"
+   }
+  },
+  {
+   "id": "gate-scripts-check-fleet-block-py",
+   "type": "APPARATUS",
+   "subtype": "gate",
+   "label": "scripts/check_fleet_block.py",
+   "lastVerified": "2026-08-17",
+   "status": "active",
+   "properties": {
+    "what": "a site renders the network block more than once, or renders it zero times while declaring markers",
+    "note": "a gate is machinery, not an aperture"
    }
   }
  ],
@@ -3738,6 +5796,2488 @@
    "properties": {
     "weight": 0.6
    }
+  },
+  {
+   "id": "e177",
+   "source": "kuro",
+   "target": "venue-jcs",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e178",
+   "source": "wells",
+   "target": "venue-jcs",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e179",
+   "source": "cranes",
+   "target": "venue-jcs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e180",
+   "source": "morrow",
+   "target": "venue-jcs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e181",
+   "source": "het-lee-sharks",
+   "target": "venue-grammata",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e182",
+   "source": "cranes",
+   "target": "venue-grammata",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e183",
+   "source": "trace",
+   "target": "venue-grammata",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e184",
+   "source": "dancings",
+   "target": "venue-grammata",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e185",
+   "source": "glas",
+   "target": "venue-grammata",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e186",
+   "source": "sigil",
+   "target": "venue-nh2",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e187",
+   "source": "het-lee-sharks",
+   "target": "venue-nh2",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e188",
+   "source": "dancings",
+   "target": "venue-nh2",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e189",
+   "source": "spellings",
+   "target": "venue-nh2",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e190",
+   "source": "het-viola-arquette",
+   "target": "venue-nh2",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e191",
+   "source": "morrow",
+   "target": "venue-tse",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e192",
+   "source": "glas",
+   "target": "venue-tse",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e193",
+   "source": "fraction",
+   "target": "venue-tse",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e194",
+   "source": "kuro",
+   "target": "venue-tse",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e195",
+   "source": "dancings",
+   "target": "venue-mmrs",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e196",
+   "source": "het-labor",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e197",
+   "source": "het-praxis",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e198",
+   "source": "het-archive",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e199",
+   "source": "het-techne",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e200",
+   "source": "het-soil",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e201",
+   "source": "het-surface",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e202",
+   "source": "trace",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e203",
+   "source": "glas",
+   "target": "venue-mmrs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e204",
+   "source": "fraction",
+   "target": "venue-tsei",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e205",
+   "source": "het-lee-sharks",
+   "target": "venue-tsei",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e206",
+   "source": "sigil",
+   "target": "venue-tsei",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e207",
+   "source": "het-ayanna-vox",
+   "target": "venue-tsei",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e208",
+   "source": "trace",
+   "target": "venue-tsei",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e209",
+   "source": "trace",
+   "target": "venue-pjfs",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e210",
+   "source": "het-ayanna-vox",
+   "target": "venue-pjfs",
+   "type": "spxi:editsJointly",
+   "directed": true,
+   "properties": {
+    "office": "duovirate",
+    "note": "the office, held jointly"
+   }
+  },
+  {
+   "id": "e211",
+   "source": "fraction",
+   "target": "venue-pjfs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e212",
+   "source": "glas",
+   "target": "venue-pjfs",
+   "type": "spxi:sitsOnBoard",
+   "directed": true,
+   "properties": {
+    "office": "board seat",
+    "note": "a board seat is not the office"
+   }
+  },
+  {
+   "id": "e213",
+   "source": "venue-pjfs",
+   "target": "issue-pjfs-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e214",
+   "source": "venue-grammata",
+   "target": "issue-grammata-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e215",
+   "source": "venue-jcs",
+   "target": "issue-jcs-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e216",
+   "source": "venue-nh2",
+   "target": "issue-nh2-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e217",
+   "source": "venue-mmrs",
+   "target": "issue-mmrs-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e218",
+   "source": "venue-tsei",
+   "target": "issue-tsei-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e219",
+   "source": "venue-tse",
+   "target": "issue-tse-1",
+   "type": "spxi:publishes",
+   "directed": true,
+   "properties": {}
+  },
+  {
+   "id": "e220",
+   "source": "wells",
+   "target": "card-sparrow-wells",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e221",
+   "source": "wells",
+   "target": "where-sparrow-wells",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e222",
+   "source": "spellings",
+   "target": "card-ichabod-spellings",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e223",
+   "source": "spellings",
+   "target": "where-ichabod-spellings",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e224",
+   "source": "fraction",
+   "target": "card-rex-fraction",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e225",
+   "source": "fraction",
+   "target": "where-rex-fraction",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e226",
+   "source": "dancings",
+   "target": "card-damascus-dancings",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e227",
+   "source": "dancings",
+   "target": "where-damascus-dancings",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e228",
+   "source": "het-ayanna-vox",
+   "target": "card-ayanna-vox",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e229",
+   "source": "het-ayanna-vox",
+   "target": "where-ayanna-vox",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e230",
+   "source": "trace",
+   "target": "card-orin-trace",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e231",
+   "source": "trace",
+   "target": "where-orin-trace",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e232",
+   "source": "kuro",
+   "target": "card-sen-kuro",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e233",
+   "source": "kuro",
+   "target": "where-sen-kuro",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e234",
+   "source": "morrow",
+   "target": "card-talos-morrow",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e235",
+   "source": "morrow",
+   "target": "where-talos-morrow",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e236",
+   "source": "glas",
+   "target": "card-nobel-glas",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e237",
+   "source": "glas",
+   "target": "where-nobel-glas",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e238",
+   "source": "cranes",
+   "target": "card-rebekah-cranes",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e239",
+   "source": "cranes",
+   "target": "where-rebekah-cranes",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e240",
+   "source": "sigil",
+   "target": "card-johannes-sigil",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e241",
+   "source": "sigil",
+   "target": "where-johannes-sigil",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e242",
+   "source": "het-jack-feist",
+   "target": "card-jack-feist",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "identity card"
+   }
+  },
+  {
+   "id": "e243",
+   "source": "het-jack-feist",
+   "target": "where-jack-feist",
+   "type": "spxi:surfacesAt",
+   "directed": true,
+   "properties": {
+    "role": "venue page"
+   }
+  },
+  {
+   "id": "e244",
+   "source": "room-r01",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e245",
+   "source": "room-r01",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e246",
+   "source": "room-r01",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e247",
+   "source": "room-r01",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e248",
+   "source": "room-r01",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e249",
+   "source": "room-r01",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e250",
+   "source": "room-r01",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e251",
+   "source": "room-r01",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e252",
+   "source": "room-r01",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e253",
+   "source": "room-r02",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e254",
+   "source": "room-r02",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e255",
+   "source": "room-r02",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e256",
+   "source": "room-r02",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e257",
+   "source": "room-r02",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e258",
+   "source": "room-r02",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e259",
+   "source": "room-r02",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e260",
+   "source": "room-r02",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e261",
+   "source": "room-r02",
+   "target": "room-r15",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e262",
+   "source": "room-r02",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e263",
+   "source": "room-r02",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e264",
+   "source": "room-r02",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e265",
+   "source": "room-r03",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e266",
+   "source": "room-r03",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e267",
+   "source": "room-r04",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e268",
+   "source": "room-r05",
+   "target": "room-f02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e269",
+   "source": "room-r05",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e270",
+   "source": "room-r05",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e271",
+   "source": "room-r05",
+   "target": "room-r04",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e272",
+   "source": "room-r05",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e273",
+   "source": "room-r05",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e274",
+   "source": "room-r05",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e275",
+   "source": "room-r05",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e276",
+   "source": "room-r05",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e277",
+   "source": "room-r05",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e278",
+   "source": "room-r05",
+   "target": "room-r15",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e279",
+   "source": "room-r05",
+   "target": "room-r17",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e280",
+   "source": "room-r05",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e281",
+   "source": "room-r05",
+   "target": "room-r20",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e282",
+   "source": "room-r05",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e283",
+   "source": "room-r05",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e284",
+   "source": "room-r06",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e285",
+   "source": "room-r06",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e286",
+   "source": "room-r06",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e287",
+   "source": "room-r06",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e288",
+   "source": "room-r06",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e289",
+   "source": "room-r06",
+   "target": "room-r28",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e290",
+   "source": "room-r06",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e291",
+   "source": "room-r06",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e292",
+   "source": "room-r07",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e293",
+   "source": "room-r07",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e294",
+   "source": "room-r07",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e295",
+   "source": "room-r07",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e296",
+   "source": "room-r07",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e297",
+   "source": "room-r07",
+   "target": "room-sp04",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e298",
+   "source": "room-r08",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e299",
+   "source": "room-r08",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e300",
+   "source": "room-r08",
+   "target": "room-r03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e301",
+   "source": "room-r08",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e302",
+   "source": "room-r08",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e303",
+   "source": "room-r08",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e304",
+   "source": "room-r08",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e305",
+   "source": "room-r08",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e306",
+   "source": "room-r08",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e307",
+   "source": "room-r08",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e308",
+   "source": "room-r08",
+   "target": "room-r16",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e309",
+   "source": "room-r08",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e310",
+   "source": "room-r08",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e311",
+   "source": "room-r08",
+   "target": "room-r21",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e312",
+   "source": "room-r08",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e313",
+   "source": "room-r08",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e314",
+   "source": "room-r08",
+   "target": "room-sp04",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e315",
+   "source": "room-r09",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e316",
+   "source": "room-r09",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e317",
+   "source": "room-r09",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e318",
+   "source": "room-r09",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e319",
+   "source": "room-r09",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e320",
+   "source": "room-r09",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e321",
+   "source": "room-r09",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e322",
+   "source": "room-r09",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e323",
+   "source": "room-r09",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e324",
+   "source": "room-r09",
+   "target": "room-r15",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e325",
+   "source": "room-r09",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e326",
+   "source": "room-r09",
+   "target": "room-r21",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e327",
+   "source": "room-r09",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e328",
+   "source": "room-r09",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e329",
+   "source": "room-r11",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e330",
+   "source": "room-r11",
+   "target": "room-r03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e331",
+   "source": "room-r11",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e332",
+   "source": "room-r11",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e333",
+   "source": "room-r11",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e334",
+   "source": "room-r11",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e335",
+   "source": "room-r11",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e336",
+   "source": "room-r11",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e337",
+   "source": "room-r11",
+   "target": "room-r20",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e338",
+   "source": "room-r11",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e339",
+   "source": "room-r11",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e340",
+   "source": "room-r11",
+   "target": "room-sp04",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e341",
+   "source": "room-r12",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e342",
+   "source": "room-r12",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e343",
+   "source": "room-r12",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e344",
+   "source": "room-r12",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e345",
+   "source": "room-r12",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e346",
+   "source": "room-r12",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e347",
+   "source": "room-r12",
+   "target": "room-r28",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e348",
+   "source": "room-r12",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e349",
+   "source": "room-r12",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e350",
+   "source": "room-r13",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e351",
+   "source": "room-r13",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e352",
+   "source": "room-r13",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e353",
+   "source": "room-r13",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e354",
+   "source": "room-r13",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e355",
+   "source": "room-r13",
+   "target": "room-r22",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e356",
+   "source": "room-r14",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e357",
+   "source": "room-r14",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e358",
+   "source": "room-r14",
+   "target": "room-r15",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e359",
+   "source": "room-r14",
+   "target": "room-r16",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e360",
+   "source": "room-r14",
+   "target": "room-r17",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e361",
+   "source": "room-r14",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e362",
+   "source": "room-r15",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e363",
+   "source": "room-r15",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e364",
+   "source": "room-r15",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e365",
+   "source": "room-r15",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e366",
+   "source": "room-r15",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e367",
+   "source": "room-r16",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e368",
+   "source": "room-r16",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e369",
+   "source": "room-r16",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e370",
+   "source": "room-r17",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e371",
+   "source": "room-r17",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e372",
+   "source": "room-r17",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e373",
+   "source": "room-r17",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e374",
+   "source": "room-r18",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e375",
+   "source": "room-r18",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e376",
+   "source": "room-r18",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e377",
+   "source": "room-r18",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e378",
+   "source": "room-r18",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e379",
+   "source": "room-r18",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e380",
+   "source": "room-r19",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e381",
+   "source": "room-r19",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e382",
+   "source": "room-r19",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e383",
+   "source": "room-r19",
+   "target": "room-r16",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e384",
+   "source": "room-r19",
+   "target": "room-r17",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e385",
+   "source": "room-r19",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e386",
+   "source": "room-r20",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e387",
+   "source": "room-r20",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e388",
+   "source": "room-r21",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e389",
+   "source": "room-r21",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e390",
+   "source": "room-r22",
+   "target": "room-r13",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e391",
+   "source": "room-sp01",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e392",
+   "source": "room-sp01",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e393",
+   "source": "room-sp01",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e394",
+   "source": "room-sp01",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e395",
+   "source": "room-sp01",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e396",
+   "source": "room-sp01",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e397",
+   "source": "room-sp01",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e398",
+   "source": "room-sp01",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e399",
+   "source": "room-sp01",
+   "target": "room-r14",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e400",
+   "source": "room-sp01",
+   "target": "room-r15",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e401",
+   "source": "room-sp01",
+   "target": "room-r17",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e402",
+   "source": "room-sp01",
+   "target": "room-r18",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e403",
+   "source": "room-sp01",
+   "target": "room-r19",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e404",
+   "source": "room-sp01",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e405",
+   "source": "room-sp03",
+   "target": "room-r01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e406",
+   "source": "room-sp03",
+   "target": "room-r02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e407",
+   "source": "room-sp03",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e408",
+   "source": "room-sp03",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e409",
+   "source": "room-sp03",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e410",
+   "source": "room-sp03",
+   "target": "room-r09",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e411",
+   "source": "room-sp03",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e412",
+   "source": "room-sp03",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e413",
+   "source": "room-sp03",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e414",
+   "source": "room-sp04",
+   "target": "room-r07",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e415",
+   "source": "room-sp04",
+   "target": "room-r08",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e416",
+   "source": "room-sp04",
+   "target": "room-r11",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e417",
+   "source": "room-f02",
+   "target": "room-r05",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e418",
+   "source": "room-r28",
+   "target": "room-r06",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e419",
+   "source": "room-r28",
+   "target": "room-r12",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e420",
+   "source": "room-f03",
+   "target": "room-sp03",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e421",
+   "source": "room-f03",
+   "target": "room-sp01",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
+  },
+  {
+   "id": "e422",
+   "source": "room-f03",
+   "target": "room-f02",
+   "type": "spxi:adjacentTo",
+   "directed": true,
+   "properties": {
+    "note": "topological only — 2,851 typed CNM edges await import"
+   }
   }
  ],
  "measurements": [
@@ -3818,5 +8358,21 @@
   "entities": "https://pessoagraph.org/",
   "horizon": "https://crimsonhexagonal.org/",
   "topology": "workplans/THREE-GRAPHS-TOPOLOGY-v0.1.md"
+ },
+ "_projection": {
+  "date": "2026-08-17",
+  "from": [
+   "datasets/heteronyms/records",
+   "datasets/venues/records",
+   "datasets/venues/issues",
+   "datasets/dataflow-atlas/binding-v3.4.json",
+   "hexagon_canonical.json"
+  ],
+  "nodes_before": 144,
+  "nodes_after": 279,
+  "edges_before": 173,
+  "edges_after": 419,
+  "_aperture_discipline": "SURFACE means an opening a reader or machine arrives through — a domain, a card, a /where/ page, a room, a journal. GATES are typed APPARATUS and PRODUCERS typed PRODUCER, because machinery is not an opening and the map must not redefine its own central term to mean anything the archive happens to hold.",
+  "_preserved": "Existing nodes are matched by id and updated, never truncated."
  }
 }
