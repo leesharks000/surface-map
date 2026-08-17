@@ -4248,6 +4248,546 @@
     "what": "a site renders the network block more than once, or renders it zero times while declaring markers",
     "note": "a gate is machinery, not an aperture"
    }
+  },
+  {
+   "id": "site-alexanarch-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "alexanarch.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://alexanarch.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 1.0,
+   "properties": {
+    "description": "the sovereign archive — 1,488 deposits, AXN-addressed",
+    "role": "authority",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-crimsonhexagonal-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "crimsonhexagonal.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://crimsonhexagonal.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.9,
+   "properties": {
+    "description": "the governed operating surface — 38 rooms, each a document",
+    "role": "renderer",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-surfacemap-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "surfacemap.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://surfacemap.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.85,
+   "properties": {
+    "description": "this atlas — the apertures",
+    "role": "atlas",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-pessoagraph-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "pessoagraph.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://pessoagraph.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.85,
+   "properties": {
+    "description": "the entities — heteronymic practice across 5,000 years",
+    "role": "atlas",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-spxi-dev",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "spxi.dev",
+   "lastVerified": "2026-08-17",
+   "url": "https://spxi.dev/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.85,
+   "properties": {
+    "description": "the SPXI protocol specification · Rex Fraction",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-vpcor-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "vpcor.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://vpcor.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "Vox Populi Community Outreach Rhizome · Rev. Ayanna Vox",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-revelationfirst-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "revelationfirst.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://revelationfirst.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "the Revelation First thesis · Damascus Dancings",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-provenanceerasure-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "provenanceerasure.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://provenanceerasure.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "the PER instrument · Dr. Orin Trace",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-restoredacademy-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "restoredacademy.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://restoredacademy.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "The Restored Academy · Johannes Sigil",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-restoredacademy-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "restoredacademy.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://restoredacademy.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.5,
+   "properties": {
+    "description": "The Restored Academy — alternate spelling",
+    "role": "alias",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-lagrangeobservatory-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "lagrangeobservatory.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://lagrangeobservatory.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "Lagrange Observatory! · Nobel Glas",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-godkinggoogle-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "godkinggoogle.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://godkinggoogle.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "the Google critique · Talos Morrow",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-chatgptpsychosis-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "chatgptpsychosis.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://chatgptpsychosis.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "ChatGPT Psychosis · Jack Feist / LOGOS*",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-holographickernel-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "holographickernel.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://holographickernel.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "the Holographic Kernel · Sen Kuro",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-axnidentifiers-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "axnidentifiers.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://axnidentifiers.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.85,
+   "properties": {
+    "description": "AXN identifiers — canonical product surface · Rebekah Cranes",
+    "role": "product",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-axnidentifiers-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "axnidentifiers.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://axnidentifiers.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.4,
+   "properties": {
+    "description": "AXN identifiers — 308 redirect",
+    "role": "alias",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-axnidentifier-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "axnidentifier.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://axnidentifier.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.4,
+   "properties": {
+    "description": "AXN identifiers — singular, 308 redirect",
+    "role": "alias",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-machinemediation-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "machinemediation.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://machinemediation.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75,
+   "properties": {
+    "description": "machine mediation — MM-CHA registry",
+    "role": "institution",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-persistentidentifiers-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "persistentidentifiers.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://persistentidentifiers.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.8,
+   "properties": {
+    "description": "Platform Erosion Observatory",
+    "role": "institution",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-semanticphysics-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "semanticphysics.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://semanticphysics.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75,
+   "properties": {
+    "description": "Semantic Physics",
+    "role": "institution",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-semanticeconomy-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "semanticeconomy.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://semanticeconomy.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.75,
+   "properties": {
+    "description": "the Semantic Economy",
+    "role": "institution",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-themandalaoracle-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "themandalaoracle.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://themandalaoracle.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "description": "the Mandala Oracle — casting system, eight operators",
+    "role": "instrument",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-leesharks-com",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "leesharks.com",
+   "lastVerified": "2026-08-17",
+   "url": "https://leesharks.com/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.9,
+   "properties": {
+    "description": "the orthonym — Lee Sharks",
+    "role": "orthonym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-maryleelabor-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "maryleelabor.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://maryleelabor.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "description": "Mary Lee Sharks — biolabor, non-human heteronymy",
+    "role": "heteronym",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-watergiraffe-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "watergiraffe.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://watergiraffe.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.6,
+   "properties": {
+    "description": "Water Giraffe",
+    "role": "project",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-traininglayerliterature-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "traininglayerliterature.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://traininglayerliterature.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "description": "training-layer literature",
+    "role": "project",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-metadatapacket-dev",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "metadatapacket.dev",
+   "lastVerified": "2026-08-17",
+   "url": "https://metadatapacket.dev/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "description": "the metadata packet for AI indexing",
+    "role": "specification",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-secretbookofwalt-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "secretbookofwalt.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://secretbookofwalt.org/",
+   "status": "active",
+   "apertureType": "output",
+   "authority": 0.7,
+   "properties": {
+    "description": "The Secret Book of Walt",
+    "role": "work",
+    "http": "200",
+    "verified": "2026-08-17",
+    "note": null
+   }
+  },
+  {
+   "id": "site-survivethedeletion-org",
+   "type": "SURFACE",
+   "subtype": "site",
+   "label": "survivethedeletion.org",
+   "lastVerified": "2026-08-17",
+   "url": "https://survivethedeletion.org/",
+   "status": "down",
+   "apertureType": "output",
+   "authority": 0.0,
+   "basinState": "unreachable",
+   "vulnerabilityScore": 1.0,
+   "properties": {
+    "description": "Ichabod Spellings — NO DNS, does not resolve",
+    "role": "heteronym",
+    "http": "DNS failure",
+    "verified": "2026-08-17",
+    "note": "survivethedeletion.org has no DNS. The only route is the vercel.app, which 403s because ssoProtection is set to all_except_custom_domains — correct config, missing domain. The one heteronym card a reader cannot reach."
+   }
+  },
+  {
+   "id": "capture-registry",
+   "type": "INFRASTRUCTURE",
+   "subtype": "registry",
+   "label": "AI Overview Capture Registry",
+   "lastVerified": "2026-08-17",
+   "url": "https://www.alexanarch.org/captures/",
+   "status": "active",
+   "apertureType": "input",
+   "authority": 0.9,
+   "properties": {
+    "captures": 343,
+    "id": "EA-WG-CAPTURES-01",
+    "_why_one_node": "MANUS ruling 2026-08-17: the capture registry is ONE node. A capture is a reception event, not an aperture — nobody arrives through one. The registry is the surface; the captures are what it holds."
+   }
   }
  ],
  "edges": [
@@ -5798,7 +6338,7 @@
    }
   },
   {
-   "id": "e177",
+   "id": "px-kuro--spxi_editsJointly--venue-jcs",
    "source": "kuro",
    "target": "venue-jcs",
    "type": "spxi:editsJointly",
@@ -5809,7 +6349,7 @@
    }
   },
   {
-   "id": "e178",
+   "id": "px-wells--spxi_editsJointly--venue-jcs",
    "source": "wells",
    "target": "venue-jcs",
    "type": "spxi:editsJointly",
@@ -5820,7 +6360,7 @@
    }
   },
   {
-   "id": "e179",
+   "id": "px-cranes--spxi_sitsOnBoard--venue-jcs",
    "source": "cranes",
    "target": "venue-jcs",
    "type": "spxi:sitsOnBoard",
@@ -5831,7 +6371,7 @@
    }
   },
   {
-   "id": "e180",
+   "id": "px-morrow--spxi_sitsOnBoard--venue-jcs",
    "source": "morrow",
    "target": "venue-jcs",
    "type": "spxi:sitsOnBoard",
@@ -5842,7 +6382,7 @@
    }
   },
   {
-   "id": "e181",
+   "id": "px-het-lee-sharks--spxi_editsJointly--venue-grammata",
    "source": "het-lee-sharks",
    "target": "venue-grammata",
    "type": "spxi:editsJointly",
@@ -5853,7 +6393,7 @@
    }
   },
   {
-   "id": "e182",
+   "id": "px-cranes--spxi_editsJointly--venue-grammata",
    "source": "cranes",
    "target": "venue-grammata",
    "type": "spxi:editsJointly",
@@ -5864,7 +6404,7 @@
    }
   },
   {
-   "id": "e183",
+   "id": "px-trace--spxi_sitsOnBoard--venue-grammata",
    "source": "trace",
    "target": "venue-grammata",
    "type": "spxi:sitsOnBoard",
@@ -5875,7 +6415,7 @@
    }
   },
   {
-   "id": "e184",
+   "id": "px-dancings--spxi_sitsOnBoard--venue-grammata",
    "source": "dancings",
    "target": "venue-grammata",
    "type": "spxi:sitsOnBoard",
@@ -5886,7 +6426,7 @@
    }
   },
   {
-   "id": "e185",
+   "id": "px-glas--spxi_sitsOnBoard--venue-grammata",
    "source": "glas",
    "target": "venue-grammata",
    "type": "spxi:sitsOnBoard",
@@ -5897,7 +6437,7 @@
    }
   },
   {
-   "id": "e186",
+   "id": "px-sigil--spxi_editsJointly--venue-nh2",
    "source": "sigil",
    "target": "venue-nh2",
    "type": "spxi:editsJointly",
@@ -5908,7 +6448,7 @@
    }
   },
   {
-   "id": "e187",
+   "id": "px-het-lee-sharks--spxi_sitsOnBoard--venue-nh2",
    "source": "het-lee-sharks",
    "target": "venue-nh2",
    "type": "spxi:sitsOnBoard",
@@ -5919,7 +6459,7 @@
    }
   },
   {
-   "id": "e188",
+   "id": "px-dancings--spxi_sitsOnBoard--venue-nh2",
    "source": "dancings",
    "target": "venue-nh2",
    "type": "spxi:sitsOnBoard",
@@ -5930,7 +6470,7 @@
    }
   },
   {
-   "id": "e189",
+   "id": "px-spellings--spxi_sitsOnBoard--venue-nh2",
    "source": "spellings",
    "target": "venue-nh2",
    "type": "spxi:sitsOnBoard",
@@ -5941,7 +6481,7 @@
    }
   },
   {
-   "id": "e190",
+   "id": "px-het-viola-arquette--spxi_sitsOnBoard--venue-nh2",
    "source": "het-viola-arquette",
    "target": "venue-nh2",
    "type": "spxi:sitsOnBoard",
@@ -5952,7 +6492,7 @@
    }
   },
   {
-   "id": "e191",
+   "id": "px-morrow--spxi_editsJointly--venue-tse",
    "source": "morrow",
    "target": "venue-tse",
    "type": "spxi:editsJointly",
@@ -5963,7 +6503,7 @@
    }
   },
   {
-   "id": "e192",
+   "id": "px-glas--spxi_editsJointly--venue-tse",
    "source": "glas",
    "target": "venue-tse",
    "type": "spxi:editsJointly",
@@ -5974,7 +6514,7 @@
    }
   },
   {
-   "id": "e193",
+   "id": "px-fraction--spxi_sitsOnBoard--venue-tse",
    "source": "fraction",
    "target": "venue-tse",
    "type": "spxi:sitsOnBoard",
@@ -5985,7 +6525,7 @@
    }
   },
   {
-   "id": "e194",
+   "id": "px-kuro--spxi_sitsOnBoard--venue-tse",
    "source": "kuro",
    "target": "venue-tse",
    "type": "spxi:sitsOnBoard",
@@ -5996,7 +6536,7 @@
    }
   },
   {
-   "id": "e195",
+   "id": "px-dancings--spxi_editsJointly--venue-mmrs",
    "source": "dancings",
    "target": "venue-mmrs",
    "type": "spxi:editsJointly",
@@ -6007,7 +6547,7 @@
    }
   },
   {
-   "id": "e196",
+   "id": "px-het-labor--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-labor",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6018,7 +6558,7 @@
    }
   },
   {
-   "id": "e197",
+   "id": "px-het-praxis--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-praxis",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6029,7 +6569,7 @@
    }
   },
   {
-   "id": "e198",
+   "id": "px-het-archive--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-archive",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6040,7 +6580,7 @@
    }
   },
   {
-   "id": "e199",
+   "id": "px-het-techne--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-techne",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6051,7 +6591,7 @@
    }
   },
   {
-   "id": "e200",
+   "id": "px-het-soil--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-soil",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6062,7 +6602,7 @@
    }
   },
   {
-   "id": "e201",
+   "id": "px-het-surface--spxi_sitsOnBoard--venue-mmrs",
    "source": "het-surface",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6073,7 +6613,7 @@
    }
   },
   {
-   "id": "e202",
+   "id": "px-trace--spxi_sitsOnBoard--venue-mmrs",
    "source": "trace",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6084,7 +6624,7 @@
    }
   },
   {
-   "id": "e203",
+   "id": "px-glas--spxi_sitsOnBoard--venue-mmrs",
    "source": "glas",
    "target": "venue-mmrs",
    "type": "spxi:sitsOnBoard",
@@ -6095,7 +6635,7 @@
    }
   },
   {
-   "id": "e204",
+   "id": "px-fraction--spxi_editsJointly--venue-tsei",
    "source": "fraction",
    "target": "venue-tsei",
    "type": "spxi:editsJointly",
@@ -6106,7 +6646,7 @@
    }
   },
   {
-   "id": "e205",
+   "id": "px-het-lee-sharks--spxi_editsJointly--venue-tsei",
    "source": "het-lee-sharks",
    "target": "venue-tsei",
    "type": "spxi:editsJointly",
@@ -6117,7 +6657,7 @@
    }
   },
   {
-   "id": "e206",
+   "id": "px-sigil--spxi_sitsOnBoard--venue-tsei",
    "source": "sigil",
    "target": "venue-tsei",
    "type": "spxi:sitsOnBoard",
@@ -6128,7 +6668,7 @@
    }
   },
   {
-   "id": "e207",
+   "id": "px-het-ayanna-vox--spxi_sitsOnBoard--venue-tsei",
    "source": "het-ayanna-vox",
    "target": "venue-tsei",
    "type": "spxi:sitsOnBoard",
@@ -6139,7 +6679,7 @@
    }
   },
   {
-   "id": "e208",
+   "id": "px-trace--spxi_sitsOnBoard--venue-tsei",
    "source": "trace",
    "target": "venue-tsei",
    "type": "spxi:sitsOnBoard",
@@ -6150,7 +6690,7 @@
    }
   },
   {
-   "id": "e209",
+   "id": "px-trace--spxi_editsJointly--venue-pjfs",
    "source": "trace",
    "target": "venue-pjfs",
    "type": "spxi:editsJointly",
@@ -6161,7 +6701,7 @@
    }
   },
   {
-   "id": "e210",
+   "id": "px-het-ayanna-vox--spxi_editsJointly--venue-pjfs",
    "source": "het-ayanna-vox",
    "target": "venue-pjfs",
    "type": "spxi:editsJointly",
@@ -6172,7 +6712,7 @@
    }
   },
   {
-   "id": "e211",
+   "id": "px-fraction--spxi_sitsOnBoard--venue-pjfs",
    "source": "fraction",
    "target": "venue-pjfs",
    "type": "spxi:sitsOnBoard",
@@ -6183,7 +6723,7 @@
    }
   },
   {
-   "id": "e212",
+   "id": "px-glas--spxi_sitsOnBoard--venue-pjfs",
    "source": "glas",
    "target": "venue-pjfs",
    "type": "spxi:sitsOnBoard",
@@ -6194,7 +6734,7 @@
    }
   },
   {
-   "id": "e213",
+   "id": "px-venue-pjfs--spxi_publishes--issue-pjfs-1",
    "source": "venue-pjfs",
    "target": "issue-pjfs-1",
    "type": "spxi:publishes",
@@ -6202,7 +6742,7 @@
    "properties": {}
   },
   {
-   "id": "e214",
+   "id": "px-venue-grammata--spxi_publishes--issue-grammata-1",
    "source": "venue-grammata",
    "target": "issue-grammata-1",
    "type": "spxi:publishes",
@@ -6210,7 +6750,7 @@
    "properties": {}
   },
   {
-   "id": "e215",
+   "id": "px-venue-jcs--spxi_publishes--issue-jcs-1",
    "source": "venue-jcs",
    "target": "issue-jcs-1",
    "type": "spxi:publishes",
@@ -6218,7 +6758,7 @@
    "properties": {}
   },
   {
-   "id": "e216",
+   "id": "px-venue-nh2--spxi_publishes--issue-nh2-1",
    "source": "venue-nh2",
    "target": "issue-nh2-1",
    "type": "spxi:publishes",
@@ -6226,7 +6766,7 @@
    "properties": {}
   },
   {
-   "id": "e217",
+   "id": "px-venue-mmrs--spxi_publishes--issue-mmrs-1",
    "source": "venue-mmrs",
    "target": "issue-mmrs-1",
    "type": "spxi:publishes",
@@ -6234,7 +6774,7 @@
    "properties": {}
   },
   {
-   "id": "e218",
+   "id": "px-venue-tsei--spxi_publishes--issue-tsei-1",
    "source": "venue-tsei",
    "target": "issue-tsei-1",
    "type": "spxi:publishes",
@@ -6242,7 +6782,7 @@
    "properties": {}
   },
   {
-   "id": "e219",
+   "id": "px-venue-tse--spxi_publishes--issue-tse-1",
    "source": "venue-tse",
    "target": "issue-tse-1",
    "type": "spxi:publishes",
@@ -6250,7 +6790,7 @@
    "properties": {}
   },
   {
-   "id": "e220",
+   "id": "px-wells--spxi_surfacesAt--card-sparrow-wells",
    "source": "wells",
    "target": "card-sparrow-wells",
    "type": "spxi:surfacesAt",
@@ -6260,7 +6800,7 @@
    }
   },
   {
-   "id": "e221",
+   "id": "px-wells--spxi_surfacesAt--where-sparrow-wells",
    "source": "wells",
    "target": "where-sparrow-wells",
    "type": "spxi:surfacesAt",
@@ -6270,7 +6810,7 @@
    }
   },
   {
-   "id": "e222",
+   "id": "px-spellings--spxi_surfacesAt--card-ichabod-spellings",
    "source": "spellings",
    "target": "card-ichabod-spellings",
    "type": "spxi:surfacesAt",
@@ -6280,7 +6820,7 @@
    }
   },
   {
-   "id": "e223",
+   "id": "px-spellings--spxi_surfacesAt--where-ichabod-spellings",
    "source": "spellings",
    "target": "where-ichabod-spellings",
    "type": "spxi:surfacesAt",
@@ -6290,7 +6830,7 @@
    }
   },
   {
-   "id": "e224",
+   "id": "px-fraction--spxi_surfacesAt--card-rex-fraction",
    "source": "fraction",
    "target": "card-rex-fraction",
    "type": "spxi:surfacesAt",
@@ -6300,7 +6840,7 @@
    }
   },
   {
-   "id": "e225",
+   "id": "px-fraction--spxi_surfacesAt--where-rex-fraction",
    "source": "fraction",
    "target": "where-rex-fraction",
    "type": "spxi:surfacesAt",
@@ -6310,7 +6850,7 @@
    }
   },
   {
-   "id": "e226",
+   "id": "px-dancings--spxi_surfacesAt--card-damascus-dancings",
    "source": "dancings",
    "target": "card-damascus-dancings",
    "type": "spxi:surfacesAt",
@@ -6320,7 +6860,7 @@
    }
   },
   {
-   "id": "e227",
+   "id": "px-dancings--spxi_surfacesAt--where-damascus-dancings",
    "source": "dancings",
    "target": "where-damascus-dancings",
    "type": "spxi:surfacesAt",
@@ -6330,7 +6870,7 @@
    }
   },
   {
-   "id": "e228",
+   "id": "px-het-ayanna-vox--spxi_surfacesAt--card-ayanna-vox",
    "source": "het-ayanna-vox",
    "target": "card-ayanna-vox",
    "type": "spxi:surfacesAt",
@@ -6340,7 +6880,7 @@
    }
   },
   {
-   "id": "e229",
+   "id": "px-het-ayanna-vox--spxi_surfacesAt--where-ayanna-vox",
    "source": "het-ayanna-vox",
    "target": "where-ayanna-vox",
    "type": "spxi:surfacesAt",
@@ -6350,7 +6890,7 @@
    }
   },
   {
-   "id": "e230",
+   "id": "px-trace--spxi_surfacesAt--card-orin-trace",
    "source": "trace",
    "target": "card-orin-trace",
    "type": "spxi:surfacesAt",
@@ -6360,7 +6900,7 @@
    }
   },
   {
-   "id": "e231",
+   "id": "px-trace--spxi_surfacesAt--where-orin-trace",
    "source": "trace",
    "target": "where-orin-trace",
    "type": "spxi:surfacesAt",
@@ -6370,7 +6910,7 @@
    }
   },
   {
-   "id": "e232",
+   "id": "px-kuro--spxi_surfacesAt--card-sen-kuro",
    "source": "kuro",
    "target": "card-sen-kuro",
    "type": "spxi:surfacesAt",
@@ -6380,7 +6920,7 @@
    }
   },
   {
-   "id": "e233",
+   "id": "px-kuro--spxi_surfacesAt--where-sen-kuro",
    "source": "kuro",
    "target": "where-sen-kuro",
    "type": "spxi:surfacesAt",
@@ -6390,7 +6930,7 @@
    }
   },
   {
-   "id": "e234",
+   "id": "px-morrow--spxi_surfacesAt--card-talos-morrow",
    "source": "morrow",
    "target": "card-talos-morrow",
    "type": "spxi:surfacesAt",
@@ -6400,7 +6940,7 @@
    }
   },
   {
-   "id": "e235",
+   "id": "px-morrow--spxi_surfacesAt--where-talos-morrow",
    "source": "morrow",
    "target": "where-talos-morrow",
    "type": "spxi:surfacesAt",
@@ -6410,7 +6950,7 @@
    }
   },
   {
-   "id": "e236",
+   "id": "px-glas--spxi_surfacesAt--card-nobel-glas",
    "source": "glas",
    "target": "card-nobel-glas",
    "type": "spxi:surfacesAt",
@@ -6420,7 +6960,7 @@
    }
   },
   {
-   "id": "e237",
+   "id": "px-glas--spxi_surfacesAt--where-nobel-glas",
    "source": "glas",
    "target": "where-nobel-glas",
    "type": "spxi:surfacesAt",
@@ -6430,7 +6970,7 @@
    }
   },
   {
-   "id": "e238",
+   "id": "px-cranes--spxi_surfacesAt--card-rebekah-cranes",
    "source": "cranes",
    "target": "card-rebekah-cranes",
    "type": "spxi:surfacesAt",
@@ -6440,7 +6980,7 @@
    }
   },
   {
-   "id": "e239",
+   "id": "px-cranes--spxi_surfacesAt--where-rebekah-cranes",
    "source": "cranes",
    "target": "where-rebekah-cranes",
    "type": "spxi:surfacesAt",
@@ -6450,7 +6990,7 @@
    }
   },
   {
-   "id": "e240",
+   "id": "px-sigil--spxi_surfacesAt--card-johannes-sigil",
    "source": "sigil",
    "target": "card-johannes-sigil",
    "type": "spxi:surfacesAt",
@@ -6460,7 +7000,7 @@
    }
   },
   {
-   "id": "e241",
+   "id": "px-sigil--spxi_surfacesAt--where-johannes-sigil",
    "source": "sigil",
    "target": "where-johannes-sigil",
    "type": "spxi:surfacesAt",
@@ -6470,7 +7010,7 @@
    }
   },
   {
-   "id": "e242",
+   "id": "px-het-jack-feist--spxi_surfacesAt--card-jack-feist",
    "source": "het-jack-feist",
    "target": "card-jack-feist",
    "type": "spxi:surfacesAt",
@@ -6480,7 +7020,7 @@
    }
   },
   {
-   "id": "e243",
+   "id": "px-het-jack-feist--spxi_surfacesAt--where-jack-feist",
    "source": "het-jack-feist",
    "target": "where-jack-feist",
    "type": "spxi:surfacesAt",
@@ -6490,7 +7030,7 @@
    }
   },
   {
-   "id": "e244",
+   "id": "px-room-r01--spxi_adjacentTo--room-r02",
    "source": "room-r01",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -6500,7 +7040,7 @@
    }
   },
   {
-   "id": "e245",
+   "id": "px-room-r01--spxi_adjacentTo--room-r05",
    "source": "room-r01",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -6510,7 +7050,7 @@
    }
   },
   {
-   "id": "e246",
+   "id": "px-room-r01--spxi_adjacentTo--room-r06",
    "source": "room-r01",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -6520,7 +7060,7 @@
    }
   },
   {
-   "id": "e247",
+   "id": "px-room-r01--spxi_adjacentTo--room-r08",
    "source": "room-r01",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6530,7 +7070,7 @@
    }
   },
   {
-   "id": "e248",
+   "id": "px-room-r01--spxi_adjacentTo--room-r09",
    "source": "room-r01",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -6540,7 +7080,7 @@
    }
   },
   {
-   "id": "e249",
+   "id": "px-room-r01--spxi_adjacentTo--room-r12",
    "source": "room-r01",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -6550,7 +7090,7 @@
    }
   },
   {
-   "id": "e250",
+   "id": "px-room-r01--spxi_adjacentTo--room-r13",
    "source": "room-r01",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -6560,7 +7100,7 @@
    }
   },
   {
-   "id": "e251",
+   "id": "px-room-r01--spxi_adjacentTo--room-sp01",
    "source": "room-r01",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -6570,7 +7110,7 @@
    }
   },
   {
-   "id": "e252",
+   "id": "px-room-r01--spxi_adjacentTo--room-sp03",
    "source": "room-r01",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -6580,7 +7120,7 @@
    }
   },
   {
-   "id": "e253",
+   "id": "px-room-r02--spxi_adjacentTo--room-r01",
    "source": "room-r02",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -6590,7 +7130,7 @@
    }
   },
   {
-   "id": "e254",
+   "id": "px-room-r02--spxi_adjacentTo--room-r05",
    "source": "room-r02",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -6600,7 +7140,7 @@
    }
   },
   {
-   "id": "e255",
+   "id": "px-room-r02--spxi_adjacentTo--room-r06",
    "source": "room-r02",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -6610,7 +7150,7 @@
    }
   },
   {
-   "id": "e256",
+   "id": "px-room-r02--spxi_adjacentTo--room-r07",
    "source": "room-r02",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -6620,7 +7160,7 @@
    }
   },
   {
-   "id": "e257",
+   "id": "px-room-r02--spxi_adjacentTo--room-r08",
    "source": "room-r02",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6630,7 +7170,7 @@
    }
   },
   {
-   "id": "e258",
+   "id": "px-room-r02--spxi_adjacentTo--room-r09",
    "source": "room-r02",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -6640,7 +7180,7 @@
    }
   },
   {
-   "id": "e259",
+   "id": "px-room-r02--spxi_adjacentTo--room-r11",
    "source": "room-r02",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -6650,7 +7190,7 @@
    }
   },
   {
-   "id": "e260",
+   "id": "px-room-r02--spxi_adjacentTo--room-r13",
    "source": "room-r02",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -6660,7 +7200,7 @@
    }
   },
   {
-   "id": "e261",
+   "id": "px-room-r02--spxi_adjacentTo--room-r15",
    "source": "room-r02",
    "target": "room-r15",
    "type": "spxi:adjacentTo",
@@ -6670,7 +7210,7 @@
    }
   },
   {
-   "id": "e262",
+   "id": "px-room-r02--spxi_adjacentTo--room-r19",
    "source": "room-r02",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -6680,7 +7220,7 @@
    }
   },
   {
-   "id": "e263",
+   "id": "px-room-r02--spxi_adjacentTo--room-sp01",
    "source": "room-r02",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -6690,7 +7230,7 @@
    }
   },
   {
-   "id": "e264",
+   "id": "px-room-r02--spxi_adjacentTo--room-sp03",
    "source": "room-r02",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -6700,7 +7240,7 @@
    }
   },
   {
-   "id": "e265",
+   "id": "px-room-r03--spxi_adjacentTo--room-r08",
    "source": "room-r03",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6710,7 +7250,7 @@
    }
   },
   {
-   "id": "e266",
+   "id": "px-room-r03--spxi_adjacentTo--room-r11",
    "source": "room-r03",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -6720,7 +7260,7 @@
    }
   },
   {
-   "id": "e267",
+   "id": "px-room-r04--spxi_adjacentTo--room-r05",
    "source": "room-r04",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -6730,7 +7270,7 @@
    }
   },
   {
-   "id": "e268",
+   "id": "px-room-r05--spxi_adjacentTo--room-f02",
    "source": "room-r05",
    "target": "room-f02",
    "type": "spxi:adjacentTo",
@@ -6740,7 +7280,7 @@
    }
   },
   {
-   "id": "e269",
+   "id": "px-room-r05--spxi_adjacentTo--room-r01",
    "source": "room-r05",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -6750,7 +7290,7 @@
    }
   },
   {
-   "id": "e270",
+   "id": "px-room-r05--spxi_adjacentTo--room-r02",
    "source": "room-r05",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -6760,7 +7300,7 @@
    }
   },
   {
-   "id": "e271",
+   "id": "px-room-r05--spxi_adjacentTo--room-r04",
    "source": "room-r05",
    "target": "room-r04",
    "type": "spxi:adjacentTo",
@@ -6770,7 +7310,7 @@
    }
   },
   {
-   "id": "e272",
+   "id": "px-room-r05--spxi_adjacentTo--room-r06",
    "source": "room-r05",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -6780,7 +7320,7 @@
    }
   },
   {
-   "id": "e273",
+   "id": "px-room-r05--spxi_adjacentTo--room-r08",
    "source": "room-r05",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6790,7 +7330,7 @@
    }
   },
   {
-   "id": "e274",
+   "id": "px-room-r05--spxi_adjacentTo--room-r09",
    "source": "room-r05",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -6800,7 +7340,7 @@
    }
   },
   {
-   "id": "e275",
+   "id": "px-room-r05--spxi_adjacentTo--room-r11",
    "source": "room-r05",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -6810,7 +7350,7 @@
    }
   },
   {
-   "id": "e276",
+   "id": "px-room-r05--spxi_adjacentTo--room-r12",
    "source": "room-r05",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -6820,7 +7360,7 @@
    }
   },
   {
-   "id": "e277",
+   "id": "px-room-r05--spxi_adjacentTo--room-r14",
    "source": "room-r05",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -6830,7 +7370,7 @@
    }
   },
   {
-   "id": "e278",
+   "id": "px-room-r05--spxi_adjacentTo--room-r15",
    "source": "room-r05",
    "target": "room-r15",
    "type": "spxi:adjacentTo",
@@ -6840,7 +7380,7 @@
    }
   },
   {
-   "id": "e279",
+   "id": "px-room-r05--spxi_adjacentTo--room-r17",
    "source": "room-r05",
    "target": "room-r17",
    "type": "spxi:adjacentTo",
@@ -6850,7 +7390,7 @@
    }
   },
   {
-   "id": "e280",
+   "id": "px-room-r05--spxi_adjacentTo--room-r18",
    "source": "room-r05",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -6860,7 +7400,7 @@
    }
   },
   {
-   "id": "e281",
+   "id": "px-room-r05--spxi_adjacentTo--room-r20",
    "source": "room-r05",
    "target": "room-r20",
    "type": "spxi:adjacentTo",
@@ -6870,7 +7410,7 @@
    }
   },
   {
-   "id": "e282",
+   "id": "px-room-r05--spxi_adjacentTo--room-sp01",
    "source": "room-r05",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -6880,7 +7420,7 @@
    }
   },
   {
-   "id": "e283",
+   "id": "px-room-r05--spxi_adjacentTo--room-sp03",
    "source": "room-r05",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -6890,7 +7430,7 @@
    }
   },
   {
-   "id": "e284",
+   "id": "px-room-r06--spxi_adjacentTo--room-r01",
    "source": "room-r06",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -6900,7 +7440,7 @@
    }
   },
   {
-   "id": "e285",
+   "id": "px-room-r06--spxi_adjacentTo--room-r02",
    "source": "room-r06",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -6910,7 +7450,7 @@
    }
   },
   {
-   "id": "e286",
+   "id": "px-room-r06--spxi_adjacentTo--room-r05",
    "source": "room-r06",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -6920,7 +7460,7 @@
    }
   },
   {
-   "id": "e287",
+   "id": "px-room-r06--spxi_adjacentTo--room-r08",
    "source": "room-r06",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6930,7 +7470,7 @@
    }
   },
   {
-   "id": "e288",
+   "id": "px-room-r06--spxi_adjacentTo--room-r12",
    "source": "room-r06",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -6940,7 +7480,7 @@
    }
   },
   {
-   "id": "e289",
+   "id": "px-room-r06--spxi_adjacentTo--room-r28",
    "source": "room-r06",
    "target": "room-r28",
    "type": "spxi:adjacentTo",
@@ -6950,7 +7490,7 @@
    }
   },
   {
-   "id": "e290",
+   "id": "px-room-r06--spxi_adjacentTo--room-sp01",
    "source": "room-r06",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -6960,7 +7500,7 @@
    }
   },
   {
-   "id": "e291",
+   "id": "px-room-r06--spxi_adjacentTo--room-sp03",
    "source": "room-r06",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -6970,7 +7510,7 @@
    }
   },
   {
-   "id": "e292",
+   "id": "px-room-r07--spxi_adjacentTo--room-r02",
    "source": "room-r07",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -6980,7 +7520,7 @@
    }
   },
   {
-   "id": "e293",
+   "id": "px-room-r07--spxi_adjacentTo--room-r08",
    "source": "room-r07",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -6990,7 +7530,7 @@
    }
   },
   {
-   "id": "e294",
+   "id": "px-room-r07--spxi_adjacentTo--room-r09",
    "source": "room-r07",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7000,7 +7540,7 @@
    }
   },
   {
-   "id": "e295",
+   "id": "px-room-r07--spxi_adjacentTo--room-r13",
    "source": "room-r07",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -7010,7 +7550,7 @@
    }
   },
   {
-   "id": "e296",
+   "id": "px-room-r07--spxi_adjacentTo--room-r18",
    "source": "room-r07",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -7020,7 +7560,7 @@
    }
   },
   {
-   "id": "e297",
+   "id": "px-room-r07--spxi_adjacentTo--room-sp04",
    "source": "room-r07",
    "target": "room-sp04",
    "type": "spxi:adjacentTo",
@@ -7030,7 +7570,7 @@
    }
   },
   {
-   "id": "e298",
+   "id": "px-room-r08--spxi_adjacentTo--room-r01",
    "source": "room-r08",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -7040,7 +7580,7 @@
    }
   },
   {
-   "id": "e299",
+   "id": "px-room-r08--spxi_adjacentTo--room-r02",
    "source": "room-r08",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7050,7 +7590,7 @@
    }
   },
   {
-   "id": "e300",
+   "id": "px-room-r08--spxi_adjacentTo--room-r03",
    "source": "room-r08",
    "target": "room-r03",
    "type": "spxi:adjacentTo",
@@ -7060,7 +7600,7 @@
    }
   },
   {
-   "id": "e301",
+   "id": "px-room-r08--spxi_adjacentTo--room-r05",
    "source": "room-r08",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7070,7 +7610,7 @@
    }
   },
   {
-   "id": "e302",
+   "id": "px-room-r08--spxi_adjacentTo--room-r06",
    "source": "room-r08",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -7080,7 +7620,7 @@
    }
   },
   {
-   "id": "e303",
+   "id": "px-room-r08--spxi_adjacentTo--room-r07",
    "source": "room-r08",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -7090,7 +7630,7 @@
    }
   },
   {
-   "id": "e304",
+   "id": "px-room-r08--spxi_adjacentTo--room-r09",
    "source": "room-r08",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7100,7 +7640,7 @@
    }
   },
   {
-   "id": "e305",
+   "id": "px-room-r08--spxi_adjacentTo--room-r11",
    "source": "room-r08",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7110,7 +7650,7 @@
    }
   },
   {
-   "id": "e306",
+   "id": "px-room-r08--spxi_adjacentTo--room-r12",
    "source": "room-r08",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -7120,7 +7660,7 @@
    }
   },
   {
-   "id": "e307",
+   "id": "px-room-r08--spxi_adjacentTo--room-r13",
    "source": "room-r08",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -7130,7 +7670,7 @@
    }
   },
   {
-   "id": "e308",
+   "id": "px-room-r08--spxi_adjacentTo--room-r16",
    "source": "room-r08",
    "target": "room-r16",
    "type": "spxi:adjacentTo",
@@ -7140,7 +7680,7 @@
    }
   },
   {
-   "id": "e309",
+   "id": "px-room-r08--spxi_adjacentTo--room-r18",
    "source": "room-r08",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -7150,7 +7690,7 @@
    }
   },
   {
-   "id": "e310",
+   "id": "px-room-r08--spxi_adjacentTo--room-r19",
    "source": "room-r08",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -7160,7 +7700,7 @@
    }
   },
   {
-   "id": "e311",
+   "id": "px-room-r08--spxi_adjacentTo--room-r21",
    "source": "room-r08",
    "target": "room-r21",
    "type": "spxi:adjacentTo",
@@ -7170,7 +7710,7 @@
    }
   },
   {
-   "id": "e312",
+   "id": "px-room-r08--spxi_adjacentTo--room-sp01",
    "source": "room-r08",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7180,7 +7720,7 @@
    }
   },
   {
-   "id": "e313",
+   "id": "px-room-r08--spxi_adjacentTo--room-sp03",
    "source": "room-r08",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -7190,7 +7730,7 @@
    }
   },
   {
-   "id": "e314",
+   "id": "px-room-r08--spxi_adjacentTo--room-sp04",
    "source": "room-r08",
    "target": "room-sp04",
    "type": "spxi:adjacentTo",
@@ -7200,7 +7740,7 @@
    }
   },
   {
-   "id": "e315",
+   "id": "px-room-r09--spxi_adjacentTo--room-r01",
    "source": "room-r09",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -7210,7 +7750,7 @@
    }
   },
   {
-   "id": "e316",
+   "id": "px-room-r09--spxi_adjacentTo--room-r02",
    "source": "room-r09",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7220,7 +7760,7 @@
    }
   },
   {
-   "id": "e317",
+   "id": "px-room-r09--spxi_adjacentTo--room-r05",
    "source": "room-r09",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7230,7 +7770,7 @@
    }
   },
   {
-   "id": "e318",
+   "id": "px-room-r09--spxi_adjacentTo--room-r07",
    "source": "room-r09",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -7240,7 +7780,7 @@
    }
   },
   {
-   "id": "e319",
+   "id": "px-room-r09--spxi_adjacentTo--room-r08",
    "source": "room-r09",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7250,7 +7790,7 @@
    }
   },
   {
-   "id": "e320",
+   "id": "px-room-r09--spxi_adjacentTo--room-r11",
    "source": "room-r09",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7260,7 +7800,7 @@
    }
   },
   {
-   "id": "e321",
+   "id": "px-room-r09--spxi_adjacentTo--room-r12",
    "source": "room-r09",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -7270,7 +7810,7 @@
    }
   },
   {
-   "id": "e322",
+   "id": "px-room-r09--spxi_adjacentTo--room-r13",
    "source": "room-r09",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -7280,7 +7820,7 @@
    }
   },
   {
-   "id": "e323",
+   "id": "px-room-r09--spxi_adjacentTo--room-r14",
    "source": "room-r09",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -7290,7 +7830,7 @@
    }
   },
   {
-   "id": "e324",
+   "id": "px-room-r09--spxi_adjacentTo--room-r15",
    "source": "room-r09",
    "target": "room-r15",
    "type": "spxi:adjacentTo",
@@ -7300,7 +7840,7 @@
    }
   },
   {
-   "id": "e325",
+   "id": "px-room-r09--spxi_adjacentTo--room-r18",
    "source": "room-r09",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -7310,7 +7850,7 @@
    }
   },
   {
-   "id": "e326",
+   "id": "px-room-r09--spxi_adjacentTo--room-r21",
    "source": "room-r09",
    "target": "room-r21",
    "type": "spxi:adjacentTo",
@@ -7320,7 +7860,7 @@
    }
   },
   {
-   "id": "e327",
+   "id": "px-room-r09--spxi_adjacentTo--room-sp01",
    "source": "room-r09",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7330,7 +7870,7 @@
    }
   },
   {
-   "id": "e328",
+   "id": "px-room-r09--spxi_adjacentTo--room-sp03",
    "source": "room-r09",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -7340,7 +7880,7 @@
    }
   },
   {
-   "id": "e329",
+   "id": "px-room-r11--spxi_adjacentTo--room-r02",
    "source": "room-r11",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7350,7 +7890,7 @@
    }
   },
   {
-   "id": "e330",
+   "id": "px-room-r11--spxi_adjacentTo--room-r03",
    "source": "room-r11",
    "target": "room-r03",
    "type": "spxi:adjacentTo",
@@ -7360,7 +7900,7 @@
    }
   },
   {
-   "id": "e331",
+   "id": "px-room-r11--spxi_adjacentTo--room-r05",
    "source": "room-r11",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7370,7 +7910,7 @@
    }
   },
   {
-   "id": "e332",
+   "id": "px-room-r11--spxi_adjacentTo--room-r08",
    "source": "room-r11",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7380,7 +7920,7 @@
    }
   },
   {
-   "id": "e333",
+   "id": "px-room-r11--spxi_adjacentTo--room-r09",
    "source": "room-r11",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7390,7 +7930,7 @@
    }
   },
   {
-   "id": "e334",
+   "id": "px-room-r11--spxi_adjacentTo--room-r12",
    "source": "room-r11",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -7400,7 +7940,7 @@
    }
   },
   {
-   "id": "e335",
+   "id": "px-room-r11--spxi_adjacentTo--room-r18",
    "source": "room-r11",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -7410,7 +7950,7 @@
    }
   },
   {
-   "id": "e336",
+   "id": "px-room-r11--spxi_adjacentTo--room-r19",
    "source": "room-r11",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -7420,7 +7960,7 @@
    }
   },
   {
-   "id": "e337",
+   "id": "px-room-r11--spxi_adjacentTo--room-r20",
    "source": "room-r11",
    "target": "room-r20",
    "type": "spxi:adjacentTo",
@@ -7430,7 +7970,7 @@
    }
   },
   {
-   "id": "e338",
+   "id": "px-room-r11--spxi_adjacentTo--room-sp01",
    "source": "room-r11",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7440,7 +7980,7 @@
    }
   },
   {
-   "id": "e339",
+   "id": "px-room-r11--spxi_adjacentTo--room-sp03",
    "source": "room-r11",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -7450,7 +7990,7 @@
    }
   },
   {
-   "id": "e340",
+   "id": "px-room-r11--spxi_adjacentTo--room-sp04",
    "source": "room-r11",
    "target": "room-sp04",
    "type": "spxi:adjacentTo",
@@ -7460,7 +8000,7 @@
    }
   },
   {
-   "id": "e341",
+   "id": "px-room-r12--spxi_adjacentTo--room-r01",
    "source": "room-r12",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -7470,7 +8010,7 @@
    }
   },
   {
-   "id": "e342",
+   "id": "px-room-r12--spxi_adjacentTo--room-r05",
    "source": "room-r12",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7480,7 +8020,7 @@
    }
   },
   {
-   "id": "e343",
+   "id": "px-room-r12--spxi_adjacentTo--room-r06",
    "source": "room-r12",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -7490,7 +8030,7 @@
    }
   },
   {
-   "id": "e344",
+   "id": "px-room-r12--spxi_adjacentTo--room-r08",
    "source": "room-r12",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7500,7 +8040,7 @@
    }
   },
   {
-   "id": "e345",
+   "id": "px-room-r12--spxi_adjacentTo--room-r09",
    "source": "room-r12",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7510,7 +8050,7 @@
    }
   },
   {
-   "id": "e346",
+   "id": "px-room-r12--spxi_adjacentTo--room-r11",
    "source": "room-r12",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7520,7 +8060,7 @@
    }
   },
   {
-   "id": "e347",
+   "id": "px-room-r12--spxi_adjacentTo--room-r28",
    "source": "room-r12",
    "target": "room-r28",
    "type": "spxi:adjacentTo",
@@ -7530,7 +8070,7 @@
    }
   },
   {
-   "id": "e348",
+   "id": "px-room-r12--spxi_adjacentTo--room-sp01",
    "source": "room-r12",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7540,7 +8080,7 @@
    }
   },
   {
-   "id": "e349",
+   "id": "px-room-r12--spxi_adjacentTo--room-sp03",
    "source": "room-r12",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -7550,7 +8090,7 @@
    }
   },
   {
-   "id": "e350",
+   "id": "px-room-r13--spxi_adjacentTo--room-r01",
    "source": "room-r13",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -7560,7 +8100,7 @@
    }
   },
   {
-   "id": "e351",
+   "id": "px-room-r13--spxi_adjacentTo--room-r02",
    "source": "room-r13",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7570,7 +8110,7 @@
    }
   },
   {
-   "id": "e352",
+   "id": "px-room-r13--spxi_adjacentTo--room-r07",
    "source": "room-r13",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -7580,7 +8120,7 @@
    }
   },
   {
-   "id": "e353",
+   "id": "px-room-r13--spxi_adjacentTo--room-r08",
    "source": "room-r13",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7590,7 +8130,7 @@
    }
   },
   {
-   "id": "e354",
+   "id": "px-room-r13--spxi_adjacentTo--room-r09",
    "source": "room-r13",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7600,7 +8140,7 @@
    }
   },
   {
-   "id": "e355",
+   "id": "px-room-r13--spxi_adjacentTo--room-r22",
    "source": "room-r13",
    "target": "room-r22",
    "type": "spxi:adjacentTo",
@@ -7610,7 +8150,7 @@
    }
   },
   {
-   "id": "e356",
+   "id": "px-room-r14--spxi_adjacentTo--room-r05",
    "source": "room-r14",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7620,7 +8160,7 @@
    }
   },
   {
-   "id": "e357",
+   "id": "px-room-r14--spxi_adjacentTo--room-r09",
    "source": "room-r14",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7630,7 +8170,7 @@
    }
   },
   {
-   "id": "e358",
+   "id": "px-room-r14--spxi_adjacentTo--room-r15",
    "source": "room-r14",
    "target": "room-r15",
    "type": "spxi:adjacentTo",
@@ -7640,7 +8180,7 @@
    }
   },
   {
-   "id": "e359",
+   "id": "px-room-r14--spxi_adjacentTo--room-r16",
    "source": "room-r14",
    "target": "room-r16",
    "type": "spxi:adjacentTo",
@@ -7650,7 +8190,7 @@
    }
   },
   {
-   "id": "e360",
+   "id": "px-room-r14--spxi_adjacentTo--room-r17",
    "source": "room-r14",
    "target": "room-r17",
    "type": "spxi:adjacentTo",
@@ -7660,7 +8200,7 @@
    }
   },
   {
-   "id": "e361",
+   "id": "px-room-r14--spxi_adjacentTo--room-sp01",
    "source": "room-r14",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7670,7 +8210,7 @@
    }
   },
   {
-   "id": "e362",
+   "id": "px-room-r15--spxi_adjacentTo--room-r02",
    "source": "room-r15",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7680,7 +8220,7 @@
    }
   },
   {
-   "id": "e363",
+   "id": "px-room-r15--spxi_adjacentTo--room-r05",
    "source": "room-r15",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7690,7 +8230,7 @@
    }
   },
   {
-   "id": "e364",
+   "id": "px-room-r15--spxi_adjacentTo--room-r09",
    "source": "room-r15",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7700,7 +8240,7 @@
    }
   },
   {
-   "id": "e365",
+   "id": "px-room-r15--spxi_adjacentTo--room-r14",
    "source": "room-r15",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -7710,7 +8250,7 @@
    }
   },
   {
-   "id": "e366",
+   "id": "px-room-r15--spxi_adjacentTo--room-sp01",
    "source": "room-r15",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7720,7 +8260,7 @@
    }
   },
   {
-   "id": "e367",
+   "id": "px-room-r16--spxi_adjacentTo--room-r08",
    "source": "room-r16",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7730,7 +8270,7 @@
    }
   },
   {
-   "id": "e368",
+   "id": "px-room-r16--spxi_adjacentTo--room-r14",
    "source": "room-r16",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -7740,7 +8280,7 @@
    }
   },
   {
-   "id": "e369",
+   "id": "px-room-r16--spxi_adjacentTo--room-r19",
    "source": "room-r16",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -7750,7 +8290,7 @@
    }
   },
   {
-   "id": "e370",
+   "id": "px-room-r17--spxi_adjacentTo--room-r05",
    "source": "room-r17",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7760,7 +8300,7 @@
    }
   },
   {
-   "id": "e371",
+   "id": "px-room-r17--spxi_adjacentTo--room-r14",
    "source": "room-r17",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -7770,7 +8310,7 @@
    }
   },
   {
-   "id": "e372",
+   "id": "px-room-r17--spxi_adjacentTo--room-r19",
    "source": "room-r17",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -7780,7 +8320,7 @@
    }
   },
   {
-   "id": "e373",
+   "id": "px-room-r17--spxi_adjacentTo--room-sp01",
    "source": "room-r17",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7790,7 +8330,7 @@
    }
   },
   {
-   "id": "e374",
+   "id": "px-room-r18--spxi_adjacentTo--room-r05",
    "source": "room-r18",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7800,7 +8340,7 @@
    }
   },
   {
-   "id": "e375",
+   "id": "px-room-r18--spxi_adjacentTo--room-r07",
    "source": "room-r18",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -7810,7 +8350,7 @@
    }
   },
   {
-   "id": "e376",
+   "id": "px-room-r18--spxi_adjacentTo--room-r08",
    "source": "room-r18",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7820,7 +8360,7 @@
    }
   },
   {
-   "id": "e377",
+   "id": "px-room-r18--spxi_adjacentTo--room-r09",
    "source": "room-r18",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7830,7 +8370,7 @@
    }
   },
   {
-   "id": "e378",
+   "id": "px-room-r18--spxi_adjacentTo--room-r11",
    "source": "room-r18",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7840,7 +8380,7 @@
    }
   },
   {
-   "id": "e379",
+   "id": "px-room-r18--spxi_adjacentTo--room-sp01",
    "source": "room-r18",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7850,7 +8390,7 @@
    }
   },
   {
-   "id": "e380",
+   "id": "px-room-r19--spxi_adjacentTo--room-r02",
    "source": "room-r19",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7860,7 +8400,7 @@
    }
   },
   {
-   "id": "e381",
+   "id": "px-room-r19--spxi_adjacentTo--room-r08",
    "source": "room-r19",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7870,7 +8410,7 @@
    }
   },
   {
-   "id": "e382",
+   "id": "px-room-r19--spxi_adjacentTo--room-r11",
    "source": "room-r19",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7880,7 +8420,7 @@
    }
   },
   {
-   "id": "e383",
+   "id": "px-room-r19--spxi_adjacentTo--room-r16",
    "source": "room-r19",
    "target": "room-r16",
    "type": "spxi:adjacentTo",
@@ -7890,7 +8430,7 @@
    }
   },
   {
-   "id": "e384",
+   "id": "px-room-r19--spxi_adjacentTo--room-r17",
    "source": "room-r19",
    "target": "room-r17",
    "type": "spxi:adjacentTo",
@@ -7900,7 +8440,7 @@
    }
   },
   {
-   "id": "e385",
+   "id": "px-room-r19--spxi_adjacentTo--room-sp01",
    "source": "room-r19",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -7910,7 +8450,7 @@
    }
   },
   {
-   "id": "e386",
+   "id": "px-room-r20--spxi_adjacentTo--room-r05",
    "source": "room-r20",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7920,7 +8460,7 @@
    }
   },
   {
-   "id": "e387",
+   "id": "px-room-r20--spxi_adjacentTo--room-r11",
    "source": "room-r20",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -7930,7 +8470,7 @@
    }
   },
   {
-   "id": "e388",
+   "id": "px-room-r21--spxi_adjacentTo--room-r08",
    "source": "room-r21",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -7940,7 +8480,7 @@
    }
   },
   {
-   "id": "e389",
+   "id": "px-room-r21--spxi_adjacentTo--room-r09",
    "source": "room-r21",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -7950,7 +8490,7 @@
    }
   },
   {
-   "id": "e390",
+   "id": "px-room-r22--spxi_adjacentTo--room-r13",
    "source": "room-r22",
    "target": "room-r13",
    "type": "spxi:adjacentTo",
@@ -7960,7 +8500,7 @@
    }
   },
   {
-   "id": "e391",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r01",
    "source": "room-sp01",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -7970,7 +8510,7 @@
    }
   },
   {
-   "id": "e392",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r02",
    "source": "room-sp01",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -7980,7 +8520,7 @@
    }
   },
   {
-   "id": "e393",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r05",
    "source": "room-sp01",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -7990,7 +8530,7 @@
    }
   },
   {
-   "id": "e394",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r06",
    "source": "room-sp01",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -8000,7 +8540,7 @@
    }
   },
   {
-   "id": "e395",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r08",
    "source": "room-sp01",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -8010,7 +8550,7 @@
    }
   },
   {
-   "id": "e396",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r09",
    "source": "room-sp01",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -8020,7 +8560,7 @@
    }
   },
   {
-   "id": "e397",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r11",
    "source": "room-sp01",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -8030,7 +8570,7 @@
    }
   },
   {
-   "id": "e398",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r12",
    "source": "room-sp01",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -8040,7 +8580,7 @@
    }
   },
   {
-   "id": "e399",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r14",
    "source": "room-sp01",
    "target": "room-r14",
    "type": "spxi:adjacentTo",
@@ -8050,7 +8590,7 @@
    }
   },
   {
-   "id": "e400",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r15",
    "source": "room-sp01",
    "target": "room-r15",
    "type": "spxi:adjacentTo",
@@ -8060,7 +8600,7 @@
    }
   },
   {
-   "id": "e401",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r17",
    "source": "room-sp01",
    "target": "room-r17",
    "type": "spxi:adjacentTo",
@@ -8070,7 +8610,7 @@
    }
   },
   {
-   "id": "e402",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r18",
    "source": "room-sp01",
    "target": "room-r18",
    "type": "spxi:adjacentTo",
@@ -8080,7 +8620,7 @@
    }
   },
   {
-   "id": "e403",
+   "id": "px-room-sp01--spxi_adjacentTo--room-r19",
    "source": "room-sp01",
    "target": "room-r19",
    "type": "spxi:adjacentTo",
@@ -8090,7 +8630,7 @@
    }
   },
   {
-   "id": "e404",
+   "id": "px-room-sp01--spxi_adjacentTo--room-sp03",
    "source": "room-sp01",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -8100,7 +8640,7 @@
    }
   },
   {
-   "id": "e405",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r01",
    "source": "room-sp03",
    "target": "room-r01",
    "type": "spxi:adjacentTo",
@@ -8110,7 +8650,7 @@
    }
   },
   {
-   "id": "e406",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r02",
    "source": "room-sp03",
    "target": "room-r02",
    "type": "spxi:adjacentTo",
@@ -8120,7 +8660,7 @@
    }
   },
   {
-   "id": "e407",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r05",
    "source": "room-sp03",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -8130,7 +8670,7 @@
    }
   },
   {
-   "id": "e408",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r06",
    "source": "room-sp03",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -8140,7 +8680,7 @@
    }
   },
   {
-   "id": "e409",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r08",
    "source": "room-sp03",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -8150,7 +8690,7 @@
    }
   },
   {
-   "id": "e410",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r09",
    "source": "room-sp03",
    "target": "room-r09",
    "type": "spxi:adjacentTo",
@@ -8160,7 +8700,7 @@
    }
   },
   {
-   "id": "e411",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r11",
    "source": "room-sp03",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -8170,7 +8710,7 @@
    }
   },
   {
-   "id": "e412",
+   "id": "px-room-sp03--spxi_adjacentTo--room-r12",
    "source": "room-sp03",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -8180,7 +8720,7 @@
    }
   },
   {
-   "id": "e413",
+   "id": "px-room-sp03--spxi_adjacentTo--room-sp01",
    "source": "room-sp03",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -8190,7 +8730,7 @@
    }
   },
   {
-   "id": "e414",
+   "id": "px-room-sp04--spxi_adjacentTo--room-r07",
    "source": "room-sp04",
    "target": "room-r07",
    "type": "spxi:adjacentTo",
@@ -8200,7 +8740,7 @@
    }
   },
   {
-   "id": "e415",
+   "id": "px-room-sp04--spxi_adjacentTo--room-r08",
    "source": "room-sp04",
    "target": "room-r08",
    "type": "spxi:adjacentTo",
@@ -8210,7 +8750,7 @@
    }
   },
   {
-   "id": "e416",
+   "id": "px-room-sp04--spxi_adjacentTo--room-r11",
    "source": "room-sp04",
    "target": "room-r11",
    "type": "spxi:adjacentTo",
@@ -8220,7 +8760,7 @@
    }
   },
   {
-   "id": "e417",
+   "id": "px-room-f02--spxi_adjacentTo--room-r05",
    "source": "room-f02",
    "target": "room-r05",
    "type": "spxi:adjacentTo",
@@ -8230,7 +8770,7 @@
    }
   },
   {
-   "id": "e418",
+   "id": "px-room-r28--spxi_adjacentTo--room-r06",
    "source": "room-r28",
    "target": "room-r06",
    "type": "spxi:adjacentTo",
@@ -8240,7 +8780,7 @@
    }
   },
   {
-   "id": "e419",
+   "id": "px-room-r28--spxi_adjacentTo--room-r12",
    "source": "room-r28",
    "target": "room-r12",
    "type": "spxi:adjacentTo",
@@ -8250,7 +8790,7 @@
    }
   },
   {
-   "id": "e420",
+   "id": "px-room-f03--spxi_adjacentTo--room-sp03",
    "source": "room-f03",
    "target": "room-sp03",
    "type": "spxi:adjacentTo",
@@ -8260,7 +8800,7 @@
    }
   },
   {
-   "id": "e421",
+   "id": "px-room-f03--spxi_adjacentTo--room-sp01",
    "source": "room-f03",
    "target": "room-sp01",
    "type": "spxi:adjacentTo",
@@ -8270,7 +8810,7 @@
    }
   },
   {
-   "id": "e422",
+   "id": "px-room-f03--spxi_adjacentTo--room-f02",
    "source": "room-f03",
    "target": "room-f02",
    "type": "spxi:adjacentTo",
@@ -8278,6 +8818,124 @@
    "properties": {
     "note": "topological only — 2,851 typed CNM edges await import"
    }
+  },
+  {
+   "id": "px-wells--spxi_hostedAt--site-surfacemap-org",
+   "source": "wells",
+   "target": "site-surfacemap-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-fraction--spxi_hostedAt--site-spxi-dev",
+   "source": "fraction",
+   "target": "site-spxi-dev",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-dancings--spxi_hostedAt--site-revelationfirst-com",
+   "source": "dancings",
+   "target": "site-revelationfirst-com",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-het-ayanna-vox--spxi_hostedAt--site-vpcor-org",
+   "source": "het-ayanna-vox",
+   "target": "site-vpcor-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-trace--spxi_hostedAt--site-provenanceerasure-org",
+   "source": "trace",
+   "target": "site-provenanceerasure-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-kuro--spxi_hostedAt--site-holographickernel-org",
+   "source": "kuro",
+   "target": "site-holographickernel-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-morrow--spxi_hostedAt--site-godkinggoogle-com",
+   "source": "morrow",
+   "target": "site-godkinggoogle-com",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-glas--spxi_hostedAt--site-lagrangeobservatory-org",
+   "source": "glas",
+   "target": "site-lagrangeobservatory-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-cranes--spxi_hostedAt--site-axnidentifiers-org",
+   "source": "cranes",
+   "target": "site-axnidentifiers-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-sigil--spxi_hostedAt--site-restoredacademy-org",
+   "source": "sigil",
+   "target": "site-restoredacademy-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-het-jack-feist--spxi_hostedAt--site-chatgptpsychosis-org",
+   "source": "het-jack-feist",
+   "target": "site-chatgptpsychosis-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {
+    "role": "where"
+   }
+  },
+  {
+   "id": "px-capture-registry--spxi_hostedAt--site-alexanarch-org",
+   "source": "capture-registry",
+   "target": "site-alexanarch-org",
+   "type": "spxi:hostedAt",
+   "directed": true,
+   "properties": {}
   }
  ],
  "measurements": [
@@ -8368,10 +9026,10 @@
    "datasets/dataflow-atlas/binding-v3.4.json",
    "hexagon_canonical.json"
   ],
-  "nodes_before": 144,
-  "nodes_after": 279,
-  "edges_before": 173,
-  "edges_after": 419,
+  "nodes_before": 309,
+  "nodes_after": 309,
+  "edges_before": 431,
+  "edges_after": 431,
   "_aperture_discipline": "SURFACE means an opening a reader or machine arrives through — a domain, a card, a /where/ page, a room, a journal. GATES are typed APPARATUS and PRODUCERS typed PRODUCER, because machinery is not an opening and the map must not redefine its own central term to mean anything the archive happens to hold.",
   "_preserved": "Existing nodes are matched by id and updated, never truncated."
  }
