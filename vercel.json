@@ -6,5 +6,18 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "surfacemap.org"
+        }
+      ],
+      "destination": "https://www.surfacemap.org/:path*",
+      "permanent": true
+    }
   ]
 }
